@@ -1005,35 +1005,12 @@
                         status.text = [NSString stringWithFormat:@"Fail"];
                     }
                 }
-                else if ((pullUpScore >= 15) && (crunchesScore >= 50) && (runtimeScore <= 39))
-                {
-                    status.text = [NSString stringWithFormat:@"Fail"];
-                }
-                else if ((pullUpScore >= 15) && (crunchesScore <= 49) && (runtimeScore >= 40))
-                {
-                    status.text = [NSString stringWithFormat:@"Fail"];
-                }
-                else if ((pullUpScore >= 15) && (crunchesScore <= 49) && (runtimeScore <= 39))
-                {
-                    status.text = [NSString stringWithFormat:@"Fail"];
-                }
-                else if ((pullUpScore <= 14) && (crunchesScore >= 50) && (runtimeScore >= 40))
-                {
-                    status.text = [NSString stringWithFormat:@"Fail"];
-                }
-                else if ((pullUpScore <= 14) && (crunchesScore >= 50) && (runtimeScore <= 39))
-                {
-                    status.text = [NSString stringWithFormat:@"Fail"];
-                }
-                else if ((pullUpScore <= 14) && (crunchesScore <= 49) && (runtimeScore >= 40))
-                {
-                    status.text = [NSString stringWithFormat:@"Fail"];
-                }
-                else if ((pullUpScore <= 14) && (crunchesScore <= 49) && (runtimeScore <= 39))
+                else if ((pullUpScore <= 14) || (crunchesScore <= 49) || (runtimeScore <= 39))
                 {
                     status.text = [NSString stringWithFormat:@"Fail"];
                 }
             }
+            
             //Calculate for ages between 27 & 39:
             else if ((ageValue >= 27) && (ageValue <= 39))
             {
@@ -1066,31 +1043,7 @@
                         status.text = [NSString stringWithFormat:@"Fail"];
                     }
                 }
-                else if ((pullUpScore >= 15) && (crunchesScore >= 45) && (runtimeScore <= 33))
-                {
-                    status.text = [NSString stringWithFormat:@"Fail"];
-                }
-                else if ((pullUpScore >= 15) && (crunchesScore <= 44) && (runtimeScore >= 34))
-                {
-                    status.text = [NSString stringWithFormat:@"Fail"];
-                }
-                else if ((pullUpScore >= 15) && (crunchesScore <= 44) && (runtimeScore <= 33))
-                {
-                    status.text = [NSString stringWithFormat:@"Fail"];
-                }
-                else if ((pullUpScore <= 14) && (crunchesScore >= 45) && (runtimeScore >= 34))
-                {
-                    status.text = [NSString stringWithFormat:@"Fail"];
-                }
-                else if ((pullUpScore <= 14) && (crunchesScore >= 45) && (runtimeScore <= 33))
-                {
-                    status.text = [NSString stringWithFormat:@"Fail"];
-                }
-                else if ((pullUpScore <= 14) && (crunchesScore <= 44) && (runtimeScore >= 34))
-                {
-                    status.text = [NSString stringWithFormat:@"Fail"];
-                }
-                else if ((pullUpScore <= 14) && (crunchesScore <= 44) && (runtimeScore <= 33))
+                else if ((pullUpScore <= 14) || (crunchesScore <= 44) || (runtimeScore <= 33))
                 {
                     status.text = [NSString stringWithFormat:@"Fail"];
                 }
@@ -1127,35 +1080,12 @@
                         status.text = [NSString stringWithFormat:@"Fail"];
                     }
                 }
-                else if ((pullUpScore >= 15) && (crunchesScore >= 45) && (runtimeScore <= 27))
-                {
-                    status.text = [NSString stringWithFormat:@"Fail"];
-                }
-                else if ((pullUpScore >= 15) && (crunchesScore <= 44) && (runtimeScore >= 28))
-                {
-                    status.text = [NSString stringWithFormat:@"Fail"];
-                }
-                else if ((pullUpScore >= 15) && (crunchesScore <= 44) && (runtimeScore <= 27))
-                {
-                    status.text = [NSString stringWithFormat:@"Fail"];
-                }
-                else if ((pullUpScore <= 14) && (crunchesScore >= 45) && (runtimeScore >= 28))
-                {
-                    status.text = [NSString stringWithFormat:@"Fail"];
-                }
-                else if ((pullUpScore <= 14) && (crunchesScore >= 45) && (runtimeScore <= 27))
-                {
-                    status.text = [NSString stringWithFormat:@"Fail"];
-                }
-                else if ((pullUpScore <= 14) && (crunchesScore <= 44) && (runtimeScore >= 28))
-                {
-                    status.text = [NSString stringWithFormat:@"Fail"];
-                }
-                else if ((pullUpScore <= 14) && (crunchesScore <= 44) && (runtimeScore <= 27))
+                else if ((pullUpScore <= 14) || (crunchesScore <= 44) || (runtimeScore <= 27))
                 {
                     status.text = [NSString stringWithFormat:@"Fail"];
                 }
             }
+            
             //Calculate for ages 46+:
             else if (ageValue >= 46)
             {
@@ -1188,31 +1118,7 @@
                         status.text = [NSString stringWithFormat:@"Pass"];
                     }
                 }
-                else if ((pullUpScore >= 15) && (crunchesScore >= 40) && (runtimeScore <= 9))
-                {
-                    status.text = [NSString stringWithFormat:@"Fail"];
-                }
-                else if ((pullUpScore >= 15) && (crunchesScore <= 39) && (runtimeScore >= 10))
-                {
-                    status.text = [NSString stringWithFormat:@"Fail"];
-                }
-                else if ((pullUpScore >= 15) && (crunchesScore <= 39) && (runtimeScore <= 9))
-                {
-                    status.text = [NSString stringWithFormat:@"Fail"];
-                }
-                else if ((pullUpScore <= 14) && (crunchesScore >= 40) && (runtimeScore >= 10))
-                {
-                    status.text = [NSString stringWithFormat:@"Fail"];
-                }
-                else if ((pullUpScore <= 14) && (crunchesScore >= 40) && (runtimeScore <= 9))
-                {
-                    status.text = [NSString stringWithFormat:@"Fail"];
-                }
-                else if ((pullUpScore <= 14) && (crunchesScore <= 39) && (runtimeScore >= 10))
-                {
-                    status.text = [NSString stringWithFormat:@"Fail"];
-                }
-                else if ((pullUpScore <= 14) && (crunchesScore <= 39) && (runtimeScore <= 9))
+                else if ((pullUpScore <= 14) || (crunchesScore <= 39) || (runtimeScore <= 9))
                 {
                     status.text = [NSString stringWithFormat:@"Fail"];
                 }
@@ -2170,31 +2076,7 @@
                         status.text = [NSString stringWithFormat:@"Fail"];
                     }
                 }
-                else if ((pullUpScore >= 15) && (crunchesScore >= 50) && (runtimeScore <= 39))
-                {
-                    status.text = [NSString stringWithFormat:@"Fail"];
-                }
-                else if ((pullUpScore >= 15) && (crunchesScore <= 49) && (runtimeScore >= 40))
-                {
-                    status.text = [NSString stringWithFormat:@"Fail"];
-                }
-                else if ((pullUpScore >= 15) && (crunchesScore <= 49) && (runtimeScore <= 39))
-                {
-                    status.text = [NSString stringWithFormat:@"Fail"];
-                }
-                else if ((pullUpScore <= 14) && (crunchesScore >= 50) && (runtimeScore >= 40))
-                {
-                    status.text = [NSString stringWithFormat:@"Fail"];
-                }
-                else if ((pullUpScore <= 14) && (crunchesScore >= 50) && (runtimeScore <= 39))
-                {
-                    status.text = [NSString stringWithFormat:@"Fail"];
-                }
-                else if ((pullUpScore <= 14) && (crunchesScore <= 49) && (runtimeScore >= 40))
-                {
-                    status.text = [NSString stringWithFormat:@"Fail"];
-                }
-                else if ((pullUpScore <= 14) && (crunchesScore <= 49) && (runtimeScore <= 39))
+                else if ((pullUpScore <= 14) || (crunchesScore <= 49) || (runtimeScore <= 39))
                 {
                     status.text = [NSString stringWithFormat:@"Fail"];
                 }
@@ -2231,31 +2113,7 @@
                         status.text = [NSString stringWithFormat:@"Fail"];
                     }
                 }
-                else if ((pullUpScore >= 15) && (crunchesScore >= 45) && (runtimeScore <= 33))
-                {
-                    status.text = [NSString stringWithFormat:@"Fail"];
-                }
-                else if ((pullUpScore >= 15) && (crunchesScore <= 44) && (runtimeScore >= 34))
-                {
-                    status.text = [NSString stringWithFormat:@"Fail"];
-                }
-                else if ((pullUpScore >= 15) && (crunchesScore <= 44) && (runtimeScore <= 33))
-                {
-                    status.text = [NSString stringWithFormat:@"Fail"];
-                }
-                else if ((pullUpScore <= 14) && (crunchesScore >= 45) && (runtimeScore >= 34))
-                {
-                    status.text = [NSString stringWithFormat:@"Fail"];
-                }
-                else if ((pullUpScore <= 14) && (crunchesScore >= 45) && (runtimeScore <= 33))
-                {
-                    status.text = [NSString stringWithFormat:@"Fail"];
-                }
-                else if ((pullUpScore <= 14) && (crunchesScore <= 44) && (runtimeScore >= 34))
-                {
-                    status.text = [NSString stringWithFormat:@"Fail"];
-                }
-                else if ((pullUpScore <= 14) && (crunchesScore <= 44) && (runtimeScore <= 33))
+                else if ((pullUpScore <= 14) || (crunchesScore <= 44) || (runtimeScore <= 33))
                 {
                     status.text = [NSString stringWithFormat:@"Fail"];
                 }
@@ -2292,31 +2150,7 @@
                         status.text = [NSString stringWithFormat:@"Fail"];
                     }
                 }
-                else if ((pullUpScore >= 15) && (crunchesScore >= 45) && (runtimeScore <= 27))
-                {
-                    status.text = [NSString stringWithFormat:@"Fail"];
-                }
-                else if ((pullUpScore >= 15) && (crunchesScore <= 44) && (runtimeScore >= 28))
-                {
-                    status.text = [NSString stringWithFormat:@"Fail"];
-                }
-                else if ((pullUpScore >= 15) && (crunchesScore <= 44) && (runtimeScore <= 27))
-                {
-                    status.text = [NSString stringWithFormat:@"Fail"];
-                }
-                else if ((pullUpScore <= 14) && (crunchesScore >= 45) && (runtimeScore >= 28))
-                {
-                    status.text = [NSString stringWithFormat:@"Fail"];
-                }
-                else if ((pullUpScore <= 14) && (crunchesScore >= 45) && (runtimeScore <= 27))
-                {
-                    status.text = [NSString stringWithFormat:@"Fail"];
-                }
-                else if ((pullUpScore <= 14) && (crunchesScore <= 44) && (runtimeScore >= 28))
-                {
-                    status.text = [NSString stringWithFormat:@"Fail"];
-                }
-                else if ((pullUpScore <= 14) && (crunchesScore <= 44) && (runtimeScore <= 27))
+                else if ((pullUpScore <= 14) || (crunchesScore <= 44) || (runtimeScore <= 27))
                 {
                     status.text = [NSString stringWithFormat:@"Fail"];
                 }
@@ -2353,31 +2187,7 @@
                         status.text = [NSString stringWithFormat:@"Pass"];
                     }
                 }
-                else if ((pullUpScore >= 15) && (crunchesScore >= 40) && (runtimeScore <= 9))
-                {
-                    status.text = [NSString stringWithFormat:@"Fail"];
-                }
-                else if ((pullUpScore >= 15) && (crunchesScore <= 39) && (runtimeScore >= 10))
-                {
-                    status.text = [NSString stringWithFormat:@"Fail"];
-                }
-                else if ((pullUpScore >= 15) && (crunchesScore <= 39) && (runtimeScore <= 9))
-                {
-                    status.text = [NSString stringWithFormat:@"Fail"];
-                }
-                else if ((pullUpScore <= 14) && (crunchesScore >= 40) && (runtimeScore >= 10))
-                {
-                    status.text = [NSString stringWithFormat:@"Fail"];
-                }
-                else if ((pullUpScore <= 14) && (crunchesScore >= 40) && (runtimeScore <= 9))
-                {
-                    status.text = [NSString stringWithFormat:@"Fail"];
-                }
-                else if ((pullUpScore <= 14) && (crunchesScore <= 39) && (runtimeScore >= 10))
-                {
-                    status.text = [NSString stringWithFormat:@"Fail"];
-                }
-                else if ((pullUpScore <= 14) && (crunchesScore <= 39) && (runtimeScore <= 9))
+                else if ((pullUpScore <= 14) || (crunchesScore <= 39) || (runtimeScore <= 9))
                 {
                     status.text = [NSString stringWithFormat:@"Fail"];
                 }
@@ -3539,31 +3349,7 @@
                         status.text = [NSString stringWithFormat:@"Fail"];
                     }
                 }
-                else if ((pullUpScore >= 15) && (crunchesScore >= 50) && (runtimeScore <= 39))
-                {
-                    status.text = [NSString stringWithFormat:@"Fail"];
-                }
-                else if ((pullUpScore >= 15) && (crunchesScore <= 49) && (runtimeScore >= 40))
-                {
-                    status.text = [NSString stringWithFormat:@"Fail"];
-                }
-                else if ((pullUpScore >= 15) && (crunchesScore <= 49) && (runtimeScore <= 39))
-                {
-                    status.text = [NSString stringWithFormat:@"Fail"];
-                }
-                else if ((pullUpScore <= 14) && (crunchesScore >= 50) && (runtimeScore >= 40))
-                {
-                    status.text = [NSString stringWithFormat:@"Fail"];
-                }
-                else if ((pullUpScore <= 14) && (crunchesScore >= 50) && (runtimeScore <= 39))
-                {
-                    status.text = [NSString stringWithFormat:@"Fail"];
-                }
-                else if ((pullUpScore <= 14) && (crunchesScore <= 49) && (runtimeScore >= 40))
-                {
-                    status.text = [NSString stringWithFormat:@"Fail"];
-                }
-                else if ((pullUpScore <= 14) && (crunchesScore <= 49) && (runtimeScore <= 39))
+                else if ((pullUpScore <= 14) || (crunchesScore <= 49) || (runtimeScore <= 39))
                 {
                     status.text = [NSString stringWithFormat:@"Fail"];
                 }
@@ -3600,31 +3386,7 @@
                         status.text = [NSString stringWithFormat:@"Fail"];
                     }
                 }
-                else if ((pullUpScore >= 15) && (crunchesScore >= 45) && (runtimeScore <= 33))
-                {
-                    status.text = [NSString stringWithFormat:@"Fail"];
-                }
-                else if ((pullUpScore >= 15) && (crunchesScore <= 44) && (runtimeScore >= 34))
-                {
-                    status.text = [NSString stringWithFormat:@"Fail"];
-                }
-                else if ((pullUpScore >= 15) && (crunchesScore <= 44) && (runtimeScore <= 33))
-                {
-                    status.text = [NSString stringWithFormat:@"Fail"];
-                }
-                else if ((pullUpScore <= 14) && (crunchesScore >= 45) && (runtimeScore >= 34))
-                {
-                    status.text = [NSString stringWithFormat:@"Fail"];
-                }
-                else if ((pullUpScore <= 14) && (crunchesScore >= 45) && (runtimeScore <= 33))
-                {
-                    status.text = [NSString stringWithFormat:@"Fail"];
-                }
-                else if ((pullUpScore <= 14) && (crunchesScore <= 44) && (runtimeScore >= 34))
-                {
-                    status.text = [NSString stringWithFormat:@"Fail"];
-                }
-                else if ((pullUpScore <= 14) && (crunchesScore <= 44) && (runtimeScore <= 33))
+                else if ((pullUpScore <= 14) || (crunchesScore <= 44) || (runtimeScore <= 33))
                 {
                     status.text = [NSString stringWithFormat:@"Fail"];
                 }
@@ -3661,31 +3423,7 @@
                         status.text = [NSString stringWithFormat:@"Fail"];
                     }
                 }
-                else if ((pullUpScore >= 15) && (crunchesScore >= 45) && (runtimeScore <= 27))
-                {
-                    status.text = [NSString stringWithFormat:@"Fail"];
-                }
-                else if ((pullUpScore >= 15) && (crunchesScore <= 44) && (runtimeScore >= 28))
-                {
-                    status.text = [NSString stringWithFormat:@"Fail"];
-                }
-                else if ((pullUpScore >= 15) && (crunchesScore <= 44) && (runtimeScore <= 27))
-                {
-                    status.text = [NSString stringWithFormat:@"Fail"];
-                }
-                else if ((pullUpScore <= 14) && (crunchesScore >= 45) && (runtimeScore >= 28))
-                {
-                    status.text = [NSString stringWithFormat:@"Fail"];
-                }
-                else if ((pullUpScore <= 14) && (crunchesScore >= 45) && (runtimeScore <= 27))
-                {
-                    status.text = [NSString stringWithFormat:@"Fail"];
-                }
-                else if ((pullUpScore <= 14) && (crunchesScore <= 44) && (runtimeScore >= 28))
-                {
-                    status.text = [NSString stringWithFormat:@"Fail"];
-                }
-                else if ((pullUpScore <= 14) && (crunchesScore <= 44) && (runtimeScore <= 27))
+                else if ((pullUpScore <= 14) || (crunchesScore <= 44) || (runtimeScore <= 27))
                 {
                     status.text = [NSString stringWithFormat:@"Fail"];
                 }
@@ -3722,31 +3460,7 @@
                         status.text = [NSString stringWithFormat:@"Pass"];
                     }
                 }
-                else if ((pullUpScore >= 15) && (crunchesScore >= 40) && (runtimeScore <= 9))
-                {
-                    status.text = [NSString stringWithFormat:@"Fail"];
-                }
-                else if ((pullUpScore >= 15) && (crunchesScore <= 39) && (runtimeScore >= 10))
-                {
-                    status.text = [NSString stringWithFormat:@"Fail"];
-                }
-                else if ((pullUpScore >= 15) && (crunchesScore <= 39) && (runtimeScore <= 9))
-                {
-                    status.text = [NSString stringWithFormat:@"Fail"];
-                }
-                else if ((pullUpScore <= 14) && (crunchesScore >= 40) && (runtimeScore >= 10))
-                {
-                    status.text = [NSString stringWithFormat:@"Fail"];
-                }
-                else if ((pullUpScore <= 14) && (crunchesScore >= 40) && (runtimeScore <= 9))
-                {
-                    status.text = [NSString stringWithFormat:@"Fail"];
-                }
-                else if ((pullUpScore <= 14) && (crunchesScore <= 39) && (runtimeScore >= 10))
-                {
-                    status.text = [NSString stringWithFormat:@"Fail"];
-                }
-                else if ((pullUpScore <= 14) && (crunchesScore <= 39) && (runtimeScore <= 9))
+                else if ((pullUpScore <= 14) || (crunchesScore <= 39) || (runtimeScore <= 9))
                 {
                     status.text = [NSString stringWithFormat:@"Fail"];
                 }
@@ -4904,31 +4618,7 @@
                         status.text = [NSString stringWithFormat:@"Fail"];
                     }
                 }
-                else if ((pullUpScore >= 15) && (crunchesScore >= 50) && (runtimeScore <= 39))
-                {
-                    status.text = [NSString stringWithFormat:@"Fail"];
-                }
-                else if ((pullUpScore >= 15) && (crunchesScore <= 49) && (runtimeScore >= 40))
-                {
-                    status.text = [NSString stringWithFormat:@"Fail"];
-                }
-                else if ((pullUpScore >= 15) && (crunchesScore <= 49) && (runtimeScore <= 39))
-                {
-                    status.text = [NSString stringWithFormat:@"Fail"];
-                }
-                else if ((pullUpScore <= 14) && (crunchesScore >= 50) && (runtimeScore >= 40))
-                {
-                    status.text = [NSString stringWithFormat:@"Fail"];
-                }
-                else if ((pullUpScore <= 14) && (crunchesScore >= 50) && (runtimeScore <= 39))
-                {
-                    status.text = [NSString stringWithFormat:@"Fail"];
-                }
-                else if ((pullUpScore <= 14) && (crunchesScore <= 49) && (runtimeScore >= 40))
-                {
-                    status.text = [NSString stringWithFormat:@"Fail"];
-                }
-                else if ((pullUpScore <= 14) && (crunchesScore <= 49) && (runtimeScore <= 39))
+                else if ((pullUpScore <= 14) || (crunchesScore <= 49) || (runtimeScore <= 39))
                 {
                     status.text = [NSString stringWithFormat:@"Fail"];
                 }
@@ -4965,31 +4655,7 @@
                         status.text = [NSString stringWithFormat:@"Fail"];
                     }
                 }
-                else if ((pullUpScore >= 15) && (crunchesScore >= 45) && (runtimeScore <= 33))
-                {
-                    status.text = [NSString stringWithFormat:@"Fail"];
-                }
-                else if ((pullUpScore >= 15) && (crunchesScore <= 44) && (runtimeScore >= 34))
-                {
-                    status.text = [NSString stringWithFormat:@"Fail"];
-                }
-                else if ((pullUpScore >= 15) && (crunchesScore <= 44) && (runtimeScore <= 33))
-                {
-                    status.text = [NSString stringWithFormat:@"Fail"];
-                }
-                else if ((pullUpScore <= 14) && (crunchesScore >= 45) && (runtimeScore >= 34))
-                {
-                    status.text = [NSString stringWithFormat:@"Fail"];
-                }
-                else if ((pullUpScore <= 14) && (crunchesScore >= 45) && (runtimeScore <= 33))
-                {
-                    status.text = [NSString stringWithFormat:@"Fail"];
-                }
-                else if ((pullUpScore <= 14) && (crunchesScore <= 44) && (runtimeScore >= 34))
-                {
-                    status.text = [NSString stringWithFormat:@"Fail"];
-                }
-                else if ((pullUpScore <= 14) && (crunchesScore <= 44) && (runtimeScore <= 33))
+                else if ((pullUpScore <= 14) || (crunchesScore <= 44) || (runtimeScore <= 33))
                 {
                     status.text = [NSString stringWithFormat:@"Fail"];
                 }
@@ -5026,31 +4692,7 @@
                         status.text = [NSString stringWithFormat:@"Fail"];
                     }
                 }
-                else if ((pullUpScore >= 15) && (crunchesScore >= 45) && (runtimeScore <= 27))
-                {
-                    status.text = [NSString stringWithFormat:@"Fail"];
-                }
-                else if ((pullUpScore >= 15) && (crunchesScore <= 44) && (runtimeScore >= 28))
-                {
-                    status.text = [NSString stringWithFormat:@"Fail"];
-                }
-                else if ((pullUpScore >= 15) && (crunchesScore <= 44) && (runtimeScore <= 27))
-                {
-                    status.text = [NSString stringWithFormat:@"Fail"];
-                }
-                else if ((pullUpScore <= 14) && (crunchesScore >= 45) && (runtimeScore >= 28))
-                {
-                    status.text = [NSString stringWithFormat:@"Fail"];
-                }
-                else if ((pullUpScore <= 14) && (crunchesScore >= 45) && (runtimeScore <= 27))
-                {
-                    status.text = [NSString stringWithFormat:@"Fail"];
-                }
-                else if ((pullUpScore <= 14) && (crunchesScore <= 44) && (runtimeScore >= 28))
-                {
-                    status.text = [NSString stringWithFormat:@"Fail"];
-                }
-                else if ((pullUpScore <= 14) && (crunchesScore <= 44) && (runtimeScore <= 27))
+                else if ((pullUpScore <= 14) || (crunchesScore <= 44) || (runtimeScore <= 27))
                 {
                     status.text = [NSString stringWithFormat:@"Fail"];
                 }
@@ -5087,31 +4729,7 @@
                         status.text = [NSString stringWithFormat:@"Pass"];
                     }
                 }
-                else if ((pullUpScore >= 15) && (crunchesScore >= 40) && (runtimeScore <= 9))
-                {
-                    status.text = [NSString stringWithFormat:@"Fail"];
-                }
-                else if ((pullUpScore >= 15) && (crunchesScore <= 39) && (runtimeScore >= 10))
-                {
-                    status.text = [NSString stringWithFormat:@"Fail"];
-                }
-                else if ((pullUpScore >= 15) && (crunchesScore <= 39) && (runtimeScore <= 9))
-                {
-                    status.text = [NSString stringWithFormat:@"Fail"];
-                }
-                else if ((pullUpScore <= 14) && (crunchesScore >= 40) && (runtimeScore >= 10))
-                {
-                    status.text = [NSString stringWithFormat:@"Fail"];
-                }
-                else if ((pullUpScore <= 14) && (crunchesScore >= 40) && (runtimeScore <= 9))
-                {
-                    status.text = [NSString stringWithFormat:@"Fail"];
-                }
-                else if ((pullUpScore <= 14) && (crunchesScore <= 39) && (runtimeScore >= 10))
-                {
-                    status.text = [NSString stringWithFormat:@"Fail"];
-                }
-                else if ((pullUpScore <= 14) && (crunchesScore <= 39) && (runtimeScore <= 9))
+                else if ((pullUpScore <= 14) || (crunchesScore <= 39) || (runtimeScore <= 9))
                 {
                     status.text = [NSString stringWithFormat:@"Fail"];
                 }

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		DD08F70518FAEED6000F528D /* PFTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD08F70418FAEED6000F528D /* PFTViewController.m */; };
+		DD08F71318FC9985000F528D /* CFTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD08F71218FC9985000F528D /* CFTViewController.m */; };
 		DD29BF9F18F1AF2100DB33AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD29BF9E18F1AF2100DB33AD /* Foundation.framework */; };
 		DD29BFA118F1AF2100DB33AD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD29BFA018F1AF2100DB33AD /* CoreGraphics.framework */; };
 		DD29BFA318F1AF2100DB33AD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD29BFA218F1AF2100DB33AD /* UIKit.framework */; };
@@ -258,6 +259,8 @@
 /* Begin PBXFileReference section */
 		DD08F70318FAEED6000F528D /* PFTViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFTViewController.h; sourceTree = "<group>"; };
 		DD08F70418FAEED6000F528D /* PFTViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFTViewController.m; sourceTree = "<group>"; };
+		DD08F71118FC9985000F528D /* CFTViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFTViewController.h; sourceTree = "<group>"; };
+		DD08F71218FC9985000F528D /* CFTViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFTViewController.m; sourceTree = "<group>"; };
 		DD29BF9B18F1AF2100DB33AD /* testApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD29BF9E18F1AF2100DB33AD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DD29BFA018F1AF2100DB33AD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -554,6 +557,15 @@
 			name = PFT;
 			sourceTree = "<group>";
 		};
+		DD08F71018FC996D000F528D /* CFT */ = {
+			isa = PBXGroup;
+			children = (
+				DD08F71118FC9985000F528D /* CFTViewController.h */,
+				DD08F71218FC9985000F528D /* CFTViewController.m */,
+			);
+			name = CFT;
+			sourceTree = "<group>";
+		};
 		DD29BF9218F1AF2100DB33AD = {
 			isa = PBXGroup;
 			children = (
@@ -593,6 +605,7 @@
 		DD29BFA418F1AF2100DB33AD /* testApp */ = {
 			isa = PBXGroup;
 			children = (
+				DD08F71018FC996D000F528D /* CFT */,
 				DD08F70218FAEEB0000F528D /* PFT */,
 				DD29BFAD18F1AF2100DB33AD /* AppDelegate.h */,
 				DD29BFAE18F1AF2100DB33AD /* AppDelegate.m */,
@@ -1299,6 +1312,7 @@
 				DD8E4F6718F32C6800EB3046 /* RibbonViewController.m in Sources */,
 				DDB55BCC18F38DA000496925 /* RankTableViewController.m in Sources */,
 				DDB55C7618F62FD400496925 /* OrdersInfo.m in Sources */,
+				DD08F71318FC9985000F528D /* CFTViewController.m in Sources */,
 				DDB55C4E18F4ED0500496925 /* DeviceCell.m in Sources */,
 				DDB55C5718F4F05B00496925 /* DeviceList.m in Sources */,
 				DDB55C5418F4EE4A00496925 /* DeviceDetailViewController.m in Sources */,
