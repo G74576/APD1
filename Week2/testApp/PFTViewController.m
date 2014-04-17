@@ -154,399 +154,399 @@
             {
                 crunchesScore = 100;
             }
-            if (crunchesValue == 99)
+            else if (crunchesValue == 99)
             {
                 crunchesScore = 99;
             }
-            if (crunchesValue == 98)
+            else if (crunchesValue == 98)
             {
                 crunchesScore = 98;
             }
-            if (crunchesValue == 97)
+            else if (crunchesValue == 97)
             {
                 crunchesScore = 97;
             }
-            if (crunchesValue == 96)
+            else if (crunchesValue == 96)
             {
                 crunchesScore = 96;
             }
-            if (crunchesValue == 95)
+            else if (crunchesValue == 95)
             {
                 crunchesScore = 95;
             }
-            if (crunchesValue == 94)
+            else if (crunchesValue == 94)
             {
                 crunchesScore = 94;
             }
-            if (crunchesValue == 93)
+            else if (crunchesValue == 93)
             {
                 crunchesScore = 93;
             }
-            if (crunchesValue == 92)
+            else if (crunchesValue == 92)
             {
                 crunchesScore = 92;
             }
-            if (crunchesValue == 91)
+            else if (crunchesValue == 91)
             {
                 crunchesScore = 91;
             }
-            if (crunchesValue == 90)
+            else if (crunchesValue == 90)
             {
                 crunchesScore = 90;
             }
-            if (crunchesValue == 89)
+            else if (crunchesValue == 89)
             {
                 crunchesScore = 89;
             }
-            if (crunchesValue == 88)
+            else if (crunchesValue == 88)
             {
                 crunchesScore = 88;
             }
-            if (crunchesValue == 87)
+            else if (crunchesValue == 87)
             {
                 crunchesScore = 87;
             }
-            if (crunchesValue == 86)
+            else if (crunchesValue == 86)
             {
                 crunchesScore = 86;
             }
-            if (crunchesValue == 85)
+            else if (crunchesValue == 85)
             {
                 crunchesScore = 85;
             }
-            if (crunchesValue == 84)
+            else if (crunchesValue == 84)
             {
                 crunchesScore = 84;
             }
-            if (crunchesValue == 83)
+            else if (crunchesValue == 83)
             {
                 crunchesScore = 83;
             }
-            if (crunchesValue == 82)
+            else if (crunchesValue == 82)
             {
                 crunchesScore = 82;
             }
-            if (crunchesValue == 81)
+            else if (crunchesValue == 81)
             {
                 crunchesScore = 81;
             }
-            if (crunchesValue == 80)
+            else if (crunchesValue == 80)
             {
                 crunchesScore = 80;
             }
-            if (crunchesValue == 79)
+            else if (crunchesValue == 79)
             {
                 crunchesScore = 79;
             }
-            if (crunchesValue == 78)
+            else if (crunchesValue == 78)
             {
                 crunchesScore = 78;
             }
-            if (crunchesValue == 77)
+            else if (crunchesValue == 77)
             {
                 crunchesScore = 77;
             }
-            if (crunchesValue == 76)
+            else if (crunchesValue == 76)
             {
                 crunchesScore = 76;
             }
-            if (crunchesValue == 75)
+            else if (crunchesValue == 75)
             {
                 crunchesScore = 75;
             }
-            if (crunchesValue == 74)
+            else if (crunchesValue == 74)
             {
                 crunchesScore = 74;
             }
-            if (crunchesValue == 73)
+            else if (crunchesValue == 73)
             {
                 crunchesScore = 73;
             }
-            if (crunchesValue == 72)
+            else if (crunchesValue == 72)
             {
                 crunchesScore = 72;
             }
-            if (crunchesValue == 71)
+            else if (crunchesValue == 71)
             {
                 crunchesScore = 71;
             }
-            if (crunchesValue == 70)
+            else if (crunchesValue == 70)
             {
                 crunchesScore = 70;
             }
-            if (crunchesValue == 69)
+            else if (crunchesValue == 69)
             {
                 crunchesScore = 69;
             }
-            if (crunchesValue == 68)
+            else if (crunchesValue == 68)
             {
                 crunchesScore = 68;
             }
-            if (crunchesValue == 67)
+            else if (crunchesValue == 67)
             {
                 crunchesScore = 67;
             }
-            if (crunchesValue == 66)
+            else if (crunchesValue == 66)
             {
                 crunchesScore = 66;
             }
-            if (crunchesValue == 65)
+            else if (crunchesValue == 65)
             {
                 crunchesScore = 65;
             }
-            if (crunchesValue == 64)
+            else if (crunchesValue == 64)
             {
                 crunchesScore = 64;
             }
-            if (crunchesValue == 63)
+            else if (crunchesValue == 63)
             {
                 crunchesScore = 63;
             }
-            if (crunchesValue == 62)
+            else if (crunchesValue == 62)
             {
                 crunchesScore = 62;
             }
-            if (crunchesValue == 61)
+            else if (crunchesValue == 61)
             {
                 crunchesScore = 61;
             }
-            if (crunchesValue == 60)
+            else if (crunchesValue == 60)
             {
                 crunchesScore = 60;
             }
-            if (crunchesValue == 59)
+            else if (crunchesValue == 59)
             {
                 crunchesScore = 59;
             }
-            if (crunchesValue == 58)
+            else if (crunchesValue == 58)
             {
                 crunchesScore = 58;
             }
-            if (crunchesValue == 57)
+            else if (crunchesValue == 57)
             {
                 crunchesScore = 57;
             }
-            if (crunchesValue == 56)
+            else if (crunchesValue == 56)
             {
                 crunchesScore = 56;
             }
-            if (crunchesValue == 55)
+            else if (crunchesValue == 55)
             {
                 crunchesScore = 55;
             }
-            if (crunchesValue == 54)
+            else if (crunchesValue == 54)
             {
                 crunchesScore = 54;
             }
-            if (crunchesValue == 53)
+            else if (crunchesValue == 53)
             {
                 crunchesScore = 53;
             }
-            if (crunchesValue == 52)
+            else if (crunchesValue == 52)
             {
                 crunchesScore = 52;
             }
-            if (crunchesValue == 51)
+            else if (crunchesValue == 51)
             {
                 crunchesScore = 51;
             }
-            if (crunchesValue == 50)
+            else if (crunchesValue == 50)
             {
                 crunchesScore = 50;
             }
-            if (crunchesValue == 49)
+            else if (crunchesValue == 49)
             {
                 crunchesScore = 49;
             }
-            if (crunchesValue == 48)
+            else if (crunchesValue == 48)
             {
                 crunchesScore = 48;
             }
-            if (crunchesValue == 47)
+            else if (crunchesValue == 47)
             {
                 crunchesScore = 47;
             }
-            if (crunchesValue == 46)
+            else if (crunchesValue == 46)
             {
                 crunchesScore = 46;
             }
-            if (crunchesValue == 45)
+            else if (crunchesValue == 45)
             {
                 crunchesScore = 45;
             }
-            if (crunchesValue == 44)
+            else if (crunchesValue == 44)
             {
                 crunchesScore = 44;
             }
-            if (crunchesValue == 43)
+            else if (crunchesValue == 43)
             {
                 crunchesScore = 43;
             }
-            if (crunchesValue == 42)
+            else if (crunchesValue == 42)
             {
                 crunchesScore = 42;
             }
-            if (crunchesValue == 41)
+            else if (crunchesValue == 41)
             {
                 crunchesScore = 41;
             }
-            if (crunchesValue == 40)
+            else if (crunchesValue == 40)
             {
                 crunchesScore = 40;
             }
-            if (crunchesValue == 39)
+            else if (crunchesValue == 39)
             {
                 crunchesScore = 39;
             }
-            if (crunchesValue == 38)
+            else if (crunchesValue == 38)
             {
                 crunchesScore = 38;
             }
-            if (crunchesValue == 37)
+            else if (crunchesValue == 37)
             {
                 crunchesScore = 37;
             }
-            if (crunchesValue == 36)
+            else if (crunchesValue == 36)
             {
                 crunchesScore = 36;
             }
-            if (crunchesValue == 35)
+            else if (crunchesValue == 35)
             {
                 crunchesScore = 35;
             }
-            if (crunchesValue == 34)
+            else if (crunchesValue == 34)
             {
                 crunchesScore = 34;
             }
-            if (crunchesValue == 33)
+            else if (crunchesValue == 33)
             {
                 crunchesScore = 33;
             }
-            if (crunchesValue == 32)
+            else if (crunchesValue == 32)
             {
                 crunchesScore = 32;
             }
-            if (crunchesValue == 31)
+            else if (crunchesValue == 31)
             {
                 crunchesScore = 31;
             }
-            if (crunchesValue == 30)
+            else if (crunchesValue == 30)
             {
                 crunchesScore = 30;
             }
-            if (crunchesValue == 29)
+            else if (crunchesValue == 29)
             {
                 crunchesScore = 29;
             }
-            if (crunchesValue == 28)
+            else if (crunchesValue == 28)
             {
                 crunchesScore = 28;
             }
-            if (crunchesValue == 27)
+            else if (crunchesValue == 27)
             {
                 crunchesScore = 27;
             }
-            if (crunchesValue == 26)
+            else if (crunchesValue == 26)
             {
                 crunchesScore = 26;
             }
-            if (crunchesValue == 25)
+            else if (crunchesValue == 25)
             {
                 crunchesScore = 25;
             }
-            if (crunchesValue == 24)
+            else if (crunchesValue == 24)
             {
                 crunchesScore = 24;
             }
-            if (crunchesValue == 23)
+            else if (crunchesValue == 23)
             {
                 crunchesScore = 23;
             }
-            if (crunchesValue == 22)
+            else if (crunchesValue == 22)
             {
                 crunchesScore = 22;
             }
-            if (crunchesValue == 21)
+            else if (crunchesValue == 21)
             {
                 crunchesScore = 21;
             }
-            if (crunchesValue == 20)
+            else if (crunchesValue == 20)
             {
                 crunchesScore = 20;
             }
-            if (crunchesValue == 19)
+            else if (crunchesValue == 19)
             {
                 crunchesScore = 19;
             }
-            if (crunchesValue == 18)
+            else if (crunchesValue == 18)
             {
                 crunchesScore = 18;
             }
-            if (crunchesValue == 17)
+            else if (crunchesValue == 17)
             {
                 crunchesScore = 17;
             }
-            if (crunchesValue == 16)
+            else if (crunchesValue == 16)
             {
                 crunchesScore = 16;
             }
-            if (crunchesValue == 15)
+            else if (crunchesValue == 15)
             {
                 crunchesScore = 15;
             }
-            if (crunchesValue == 14)
+            else if (crunchesValue == 14)
             {
                 crunchesScore = 14;
             }
-            if (crunchesValue == 13)
+            else if (crunchesValue == 13)
             {
                 crunchesScore = 13;
             }
-            if (crunchesValue == 12)
+            else if (crunchesValue == 12)
             {
                 crunchesScore = 12;
             }
-            if (crunchesValue == 11)
+            else if (crunchesValue == 11)
             {
                 crunchesScore = 11;
             }
-            if (crunchesValue == 10)
+            else if (crunchesValue == 10)
             {
                 crunchesScore = 10;
             }
-            if (crunchesValue == 9)
+            else if (crunchesValue == 9)
             {
                 crunchesScore = 9;
             }
-            if (crunchesValue == 8)
+            else if (crunchesValue == 8)
             {
                 crunchesScore = 8;
             }
-            if (crunchesValue == 7)
+            else if (crunchesValue == 7)
             {
                 crunchesScore = 7;
             }
-            if (crunchesValue == 6)
+            else if (crunchesValue == 6)
             {
                 crunchesScore = 6;
             }
-            if (crunchesValue == 5)
+            else if (crunchesValue == 5)
             {
                 crunchesScore = 5;
             }
-            if (crunchesValue == 4)
+            else if (crunchesValue == 4)
             {
                 crunchesScore = 4;
             }
-            if (crunchesValue == 3)
+            else if (crunchesValue == 3)
             {
                 crunchesScore = 3;
             }
-            if (crunchesValue == 2)
+            else if (crunchesValue == 2)
             {
                 crunchesScore = 2;
             }
-            if (crunchesValue == 1)
+            else if (crunchesValue == 1)
             {
                 crunchesScore = 1;
             }
@@ -560,403 +560,403 @@
             {
                 runtimeScore = 100;
             }
-            if ((runtimeValue >= 1801) && (runtimeValue <= 1810))
+            else if ((runtimeValue >= 1801) && (runtimeValue <= 1810))
             {
                 runtimeScore = 99;
             }
-            if ((runtimeValue >= 1811) && (runtimeValue <= 1820))
+            else if ((runtimeValue >= 1811) && (runtimeValue <= 1820))
             {
                 runtimeScore = 98;
             }
-            if ((runtimeValue >= 1821) && (runtimeValue <= 1830))
+            else if ((runtimeValue >= 1821) && (runtimeValue <= 1830))
             {
                 runtimeScore = 97;
             }
-            if ((runtimeValue >= 1831) && (runtimeValue <= 1840))
+            else if ((runtimeValue >= 1831) && (runtimeValue <= 1840))
             {
                 runtimeScore = 96;
             }
-            if ((runtimeValue >= 1841) && (runtimeValue <= 1850))
+            else if ((runtimeValue >= 1841) && (runtimeValue <= 1850))
             {
                 runtimeScore = 95;
             }
-            if ((runtimeValue >= 1851) && (runtimeValue <= 1900))
+            else if ((runtimeValue >= 1851) && (runtimeValue <= 1900))
             {
                 runtimeScore = 94;
             }
-            if ((runtimeValue >= 1901) && (runtimeValue <= 1910))
+            else if ((runtimeValue >= 1901) && (runtimeValue <= 1910))
             {
                 runtimeScore = 93;
             }
-            if ((runtimeValue >= 1911) && (runtimeValue <= 1920))
+            else if ((runtimeValue >= 1911) && (runtimeValue <= 1920))
             {
                 runtimeScore = 92;
             }
-            if ((runtimeValue >= 1921) && (runtimeValue <= 1930))
+            else if ((runtimeValue >= 1921) && (runtimeValue <= 1930))
             {
                 runtimeScore = 91;
             }
-            if ((runtimeValue >= 1931) && (runtimeValue <= 1940))
+            else if ((runtimeValue >= 1931) && (runtimeValue <= 1940))
             {
                 runtimeScore = 90;
             }
-            if ((runtimeValue >= 1941) && (runtimeValue <= 1950))
+            else if ((runtimeValue >= 1941) && (runtimeValue <= 1950))
             {
                 runtimeScore = 89;
             }
-            if ((runtimeValue >= 1951) && (runtimeValue <= 2000))
+            else if ((runtimeValue >= 1951) && (runtimeValue <= 2000))
             {
                 runtimeScore = 88;
             }
-            if ((runtimeValue >= 2001) && (runtimeValue <= 2010))
+            else if ((runtimeValue >= 2001) && (runtimeValue <= 2010))
             {
                 runtimeScore = 87;
             }
-            if ((runtimeValue >= 2011) && (runtimeValue <= 2020))
+            else if ((runtimeValue >= 2011) && (runtimeValue <= 2020))
             {
                 runtimeScore = 86;
             }
-            if ((runtimeValue >= 2021) && (runtimeValue <= 2030))
+            else if ((runtimeValue >= 2021) && (runtimeValue <= 2030))
             {
                 runtimeScore = 85;
             }
-            if ((runtimeValue >= 2031) && (runtimeValue <= 2040))
+            else if ((runtimeValue >= 2031) && (runtimeValue <= 2040))
             {
                 runtimeScore = 84;
             }
-            if ((runtimeValue >= 2041) && (runtimeValue <= 2050))
+            else if ((runtimeValue >= 2041) && (runtimeValue <= 2050))
             {
                 runtimeScore = 83;
             }
-            if ((runtimeValue >= 2051) && (runtimeValue <= 2100))
+            else if ((runtimeValue >= 2051) && (runtimeValue <= 2100))
             {
                 runtimeScore = 82;
             }
-            if ((runtimeValue >= 2101) && (runtimeValue <= 2110))
+            else if ((runtimeValue >= 2101) && (runtimeValue <= 2110))
             {
                 runtimeScore = 81;
             }
-            if ((runtimeValue >= 2111) && (runtimeValue <= 2120))
+            else if ((runtimeValue >= 2111) && (runtimeValue <= 2120))
             {
                 runtimeScore = 80;
             }
-            if ((runtimeValue >= 2121) && (runtimeValue <= 2130))
+            else if ((runtimeValue >= 2121) && (runtimeValue <= 2130))
             {
                 runtimeScore = 79;
             }
-            if ((runtimeValue >= 2131) && (runtimeValue <= 2140))
+            else if ((runtimeValue >= 2131) && (runtimeValue <= 2140))
             {
                 runtimeScore = 78;
             }
-            if ((runtimeValue >= 2141) && (runtimeValue <= 2150))
+            else if ((runtimeValue >= 2141) && (runtimeValue <= 2150))
             {
                 runtimeScore = 77;
             }
-            if ((runtimeValue >= 2151) && (runtimeValue <= 2200))
+            else if ((runtimeValue >= 2151) && (runtimeValue <= 2200))
             {
                 runtimeScore = 76;
             }
-            if ((runtimeValue >= 2201) && (runtimeValue <= 2210))
+            else if ((runtimeValue >= 2201) && (runtimeValue <= 2210))
             {
                 runtimeScore = 75;
             }
-            if ((runtimeValue >= 2211) && (runtimeValue <= 2220))
+            else if ((runtimeValue >= 2211) && (runtimeValue <= 2220))
             {
                 runtimeScore = 74;
             }
-            if ((runtimeValue >= 2221) && (runtimeValue <= 2230))
+            else if ((runtimeValue >= 2221) && (runtimeValue <= 2230))
             {
                 runtimeScore = 73;
             }
-            if ((runtimeValue >= 2231) && (runtimeValue <= 2240))
+            else if ((runtimeValue >= 2231) && (runtimeValue <= 2240))
             {
                 runtimeScore = 72;
             }
-            if ((runtimeValue >= 2241) && (runtimeValue <= 2250))
+            else if ((runtimeValue >= 2241) && (runtimeValue <= 2250))
             {
                 runtimeScore = 71;
             }
-            if ((runtimeValue >= 2251) && (runtimeValue <= 2300))
+            else if ((runtimeValue >= 2251) && (runtimeValue <= 2300))
             {
                 runtimeScore = 70;
             }
-            if ((runtimeValue >= 2301) && (runtimeValue <= 2310))
+            else if ((runtimeValue >= 2301) && (runtimeValue <= 2310))
             {
                 runtimeScore = 69;
             }
-            if ((runtimeValue >= 2311) && (runtimeValue <= 2320))
+            else if ((runtimeValue >= 2311) && (runtimeValue <= 2320))
             {
                 runtimeScore = 68;
             }
-            if ((runtimeValue >= 2321) && (runtimeValue <= 2330))
+            else if ((runtimeValue >= 2321) && (runtimeValue <= 2330))
             {
                 runtimeScore = 67;
             }
-            if ((runtimeValue >= 2331) && (runtimeValue <= 2340))
+            else if ((runtimeValue >= 2331) && (runtimeValue <= 2340))
             {
                 runtimeScore = 66;
             }
-            if ((runtimeValue >= 2341) && (runtimeValue <= 2350))
+            else if ((runtimeValue >= 2341) && (runtimeValue <= 2350))
             {
                 runtimeScore = 65;
             }
-            if ((runtimeValue >= 2351) && (runtimeValue <= 2400))
+            else if ((runtimeValue >= 2351) && (runtimeValue <= 2400))
             {
                 runtimeScore = 64;
             }
-            if ((runtimeValue >= 2401) && (runtimeValue <= 2410))
+            else if ((runtimeValue >= 2401) && (runtimeValue <= 2410))
             {
                 runtimeScore = 63;
             }
-            if ((runtimeValue >= 2411) && (runtimeValue <= 2420))
+            else if ((runtimeValue >= 2411) && (runtimeValue <= 2420))
             {
                 runtimeScore = 62;
             }
-            if ((runtimeValue >= 2421) && (runtimeValue <= 2430))
+            else if ((runtimeValue >= 2421) && (runtimeValue <= 2430))
             {
                 runtimeScore = 61;
             }
-            if ((runtimeValue >= 2431) && (runtimeValue <= 2440))
+            else if ((runtimeValue >= 2431) && (runtimeValue <= 2440))
             {
                 runtimeScore = 60;
             }
-            if ((runtimeValue >= 2441) && (runtimeValue <= 2450))
+            else if ((runtimeValue >= 2441) && (runtimeValue <= 2450))
             {
                 runtimeScore = 59;
             }
-            if ((runtimeValue >= 2451) && (runtimeValue <= 2500))
+            else if ((runtimeValue >= 2451) && (runtimeValue <= 2500))
             {
                 runtimeScore = 58;
             }
-            if ((runtimeValue >= 2501) && (runtimeValue <= 2510))
+            else if ((runtimeValue >= 2501) && (runtimeValue <= 2510))
             {
                 runtimeScore = 57;
             }
-            if ((runtimeValue >= 2511) && (runtimeValue <= 2520))
+            else if ((runtimeValue >= 2511) && (runtimeValue <= 2520))
             {
                 runtimeScore = 56;
             }
-            if ((runtimeValue >= 2521) && (runtimeValue <= 2530))
+            else if ((runtimeValue >= 2521) && (runtimeValue <= 2530))
             {
                 runtimeScore = 55;
             }
-            if ((runtimeValue >= 2531) && (runtimeValue <= 2540))
+            else if ((runtimeValue >= 2531) && (runtimeValue <= 2540))
             {
                 runtimeScore = 54;
             }
-            if ((runtimeValue >= 2541) && (runtimeValue <= 2550))
+            else if ((runtimeValue >= 2541) && (runtimeValue <= 2550))
             {
                 runtimeScore = 53;
             }
-            if ((runtimeValue >= 2551) && (runtimeValue <= 2600))
+            else if ((runtimeValue >= 2551) && (runtimeValue <= 2600))
             {
                 runtimeScore = 52;
             }
-            if ((runtimeValue >= 2601) && (runtimeValue <= 2610))
+            else if ((runtimeValue >= 2601) && (runtimeValue <= 2610))
             {
                 runtimeScore = 51;
             }
-            if ((runtimeValue >= 2611) && (runtimeValue <= 2620))
+            else if ((runtimeValue >= 2611) && (runtimeValue <= 2620))
             {
                 runtimeScore = 50;
             }
-            if ((runtimeValue >= 2621) && (runtimeValue <= 2630))
+            else if ((runtimeValue >= 2621) && (runtimeValue <= 2630))
             {
                 runtimeScore = 49;
             }
-            if ((runtimeValue >= 2631) && (runtimeValue <= 2640))
+            else if ((runtimeValue >= 2631) && (runtimeValue <= 2640))
             {
                 runtimeScore = 48;
             }
-            if ((runtimeValue >= 2641) && (runtimeValue <= 2650))
+            else if ((runtimeValue >= 2641) && (runtimeValue <= 2650))
             {
                 runtimeScore = 47;
             }
-            if ((runtimeValue >= 2651) && (runtimeValue <= 2700))
+            else if ((runtimeValue >= 2651) && (runtimeValue <= 2700))
             {
                 runtimeScore = 46;
             }
-            if ((runtimeValue >= 2701) && (runtimeValue <= 2710))
+            else if ((runtimeValue >= 2701) && (runtimeValue <= 2710))
             {
                 runtimeScore = 45;
             }
-            if ((runtimeValue >= 2711) && (runtimeValue <= 2720))
+            else if ((runtimeValue >= 2711) && (runtimeValue <= 2720))
             {
                 runtimeScore = 44;
             }
-            if ((runtimeValue >= 2721) && (runtimeValue <= 2730))
+            else if ((runtimeValue >= 2721) && (runtimeValue <= 2730))
             {
                 runtimeScore = 43;
             }
-            if ((runtimeValue >= 2731) && (runtimeValue <= 2740))
+            else if ((runtimeValue >= 2731) && (runtimeValue <= 2740))
             {
                 runtimeScore = 42;
             }
-            if ((runtimeValue >= 2741) && (runtimeValue <= 2750))
+            else if ((runtimeValue >= 2741) && (runtimeValue <= 2750))
             {
                 runtimeScore = 41;
             }
-            if ((runtimeValue >= 2751) && (runtimeValue <= 2800))
+            else if ((runtimeValue >= 2751) && (runtimeValue <= 2800))
             {
                 runtimeScore = 40;
             }
-            if ((runtimeValue >= 2801) && (runtimeValue <= 2810))
+            else if ((runtimeValue >= 2801) && (runtimeValue <= 2810))
             {
                 runtimeScore = 39;
             }
-            if ((runtimeValue >= 2811) && (runtimeValue <= 2820))
+            else if ((runtimeValue >= 2811) && (runtimeValue <= 2820))
             {
                 runtimeScore = 38;
             }
-            if ((runtimeValue >= 2821) && (runtimeValue <= 2830))
+            else if ((runtimeValue >= 2821) && (runtimeValue <= 2830))
             {
                 runtimeScore = 37;
             }
-            if ((runtimeValue >= 2831) && (runtimeValue <= 2840))
+            else if ((runtimeValue >= 2831) && (runtimeValue <= 2840))
             {
                 runtimeScore = 36;
             }
-            if ((runtimeValue >= 2841) && (runtimeValue <= 2850))
+            else if ((runtimeValue >= 2841) && (runtimeValue <= 2850))
             {
                 runtimeScore = 35;
             }
-            if ((runtimeValue >= 2851) && (runtimeValue <= 2900))
+            else if ((runtimeValue >= 2851) && (runtimeValue <= 2900))
             {
                 runtimeScore = 34;
             }
-            if ((runtimeValue >= 2901) && (runtimeValue <= 2910))
+            else if ((runtimeValue >= 2901) && (runtimeValue <= 2910))
             {
                 runtimeScore = 33;
             }
-            if ((runtimeValue >= 2911) && (runtimeValue <= 2920))
+            else if ((runtimeValue >= 2911) && (runtimeValue <= 2920))
             {
                 runtimeScore = 32;
             }
-            if ((runtimeValue >= 2921) && (runtimeValue <= 2930))
+            else if ((runtimeValue >= 2921) && (runtimeValue <= 2930))
             {
                 runtimeScore = 31;
             }
-            if ((runtimeValue >= 2931) && (runtimeValue <= 2940))
+            else if ((runtimeValue >= 2931) && (runtimeValue <= 2940))
             {
                 runtimeScore = 30;
             }
-            if ((runtimeValue >= 2941) && (runtimeValue <= 2950))
+            else if ((runtimeValue >= 2941) && (runtimeValue <= 2950))
             {
                 runtimeScore = 29;
             }
-            if ((runtimeValue >= 2951) && (runtimeValue <= 3000))
+            else if ((runtimeValue >= 2951) && (runtimeValue <= 3000))
             {
                 runtimeScore = 28;
             }
-            if ((runtimeValue >= 3001) && (runtimeValue <= 3010))
+            else if ((runtimeValue >= 3001) && (runtimeValue <= 3010))
             {
                 runtimeScore = 27;
             }
-            if ((runtimeValue >= 3011) && (runtimeValue <= 3020))
+            else if ((runtimeValue >= 3011) && (runtimeValue <= 3020))
             {
                 runtimeScore = 26;
             }
-            if ((runtimeValue >= 3021) && (runtimeValue <= 3030))
+            else if ((runtimeValue >= 3021) && (runtimeValue <= 3030))
             {
                 runtimeScore = 25;
             }
-            if ((runtimeValue >= 3031) && (runtimeValue <= 3040))
+            else if ((runtimeValue >= 3031) && (runtimeValue <= 3040))
             {
                 runtimeScore = 24;
             }
-            if ((runtimeValue >= 3041) && (runtimeValue <= 3050))
+            else if ((runtimeValue >= 3041) && (runtimeValue <= 3050))
             {
                 runtimeScore = 23;
             }
-            if ((runtimeValue >= 3051) && (runtimeValue <= 3100))
+            else if ((runtimeValue >= 3051) && (runtimeValue <= 3100))
             {
                 runtimeScore = 22;
             }
-            if ((runtimeValue >= 3101) && (runtimeValue <= 3110))
+            else if ((runtimeValue >= 3101) && (runtimeValue <= 3110))
             {
                 runtimeScore = 21;
             }
-            if ((runtimeValue >= 3111) && (runtimeValue <= 3120))
+            else if ((runtimeValue >= 3111) && (runtimeValue <= 3120))
             {
                 runtimeScore = 20;
             }
-            if ((runtimeValue >= 3121) && (runtimeValue <= 3130))
+            else if ((runtimeValue >= 3121) && (runtimeValue <= 3130))
             {
                 runtimeScore = 19;
             }
-            if ((runtimeValue >= 3131) && (runtimeValue <= 3140))
+            else if ((runtimeValue >= 3131) && (runtimeValue <= 3140))
             {
                 runtimeScore = 18;
             }
-            if ((runtimeValue >= 3141) && (runtimeValue <= 3150))
+            else if ((runtimeValue >= 3141) && (runtimeValue <= 3150))
             {
                 runtimeScore = 17;
             }
-            if ((runtimeValue >= 3151) && (runtimeValue <= 3200))
+            else if ((runtimeValue >= 3151) && (runtimeValue <= 3200))
             {
                 runtimeScore = 16;
             }
-            if ((runtimeValue >= 3201) && (runtimeValue <= 3210))
+            else if ((runtimeValue >= 3201) && (runtimeValue <= 3210))
             {
                 runtimeScore = 15;
             }
-            if ((runtimeValue >= 3211) && (runtimeValue <= 3220))
+            else if ((runtimeValue >= 3211) && (runtimeValue <= 3220))
             {
                 runtimeScore = 14;
             }
-            if ((runtimeValue >= 3221) && (runtimeValue <= 3230))
+            else if ((runtimeValue >= 3221) && (runtimeValue <= 3230))
             {
                 runtimeScore = 13;
             }
-            if ((runtimeValue >= 3231) && (runtimeValue <= 3240))
+            else if ((runtimeValue >= 3231) && (runtimeValue <= 3240))
             {
                 runtimeScore = 12;
             }
-            if ((runtimeValue >= 3241) && (runtimeValue <= 3250))
+            else if ((runtimeValue >= 3241) && (runtimeValue <= 3250))
             {
                 runtimeScore = 11;
             }
-            if ((runtimeValue >= 3251) && (runtimeValue <= 3300))
+            else if ((runtimeValue >= 3251) && (runtimeValue <= 3300))
             {
                 runtimeScore = 10;
             }
-            if ((runtimeValue >= 3301) && (runtimeValue <= 3310))
+            else if ((runtimeValue >= 3301) && (runtimeValue <= 3310))
             {
                 runtimeScore = 9;
             }
-            if ((runtimeValue >= 3311) && (runtimeValue <= 3320))
+            else if ((runtimeValue >= 3311) && (runtimeValue <= 3320))
             {
                 runtimeScore = 8;
             }
-            if ((runtimeValue >= 3321) && (runtimeValue <= 3330))
+            else if ((runtimeValue >= 3321) && (runtimeValue <= 3330))
             {
                 runtimeScore = 7;
             }
-            if ((runtimeValue >= 3331) && (runtimeValue <= 3340))
+            else if ((runtimeValue >= 3331) && (runtimeValue <= 3340))
             {
                 runtimeScore = 6;
             }
-            if ((runtimeValue >= 3341) && (runtimeValue <= 3350))
+            else if ((runtimeValue >= 3341) && (runtimeValue <= 3350))
             {
                 runtimeScore = 5;
             }
-            if ((runtimeValue >= 3351) && (runtimeValue <= 3400))
+            else if ((runtimeValue >= 3351) && (runtimeValue <= 3400))
             {
                 runtimeScore = 4;
             }
-            if ((runtimeValue >= 3401) && (runtimeValue <= 3410))
+            else if ((runtimeValue >= 3401) && (runtimeValue <= 3410))
             {
                 runtimeScore = 3;
             }
-            if ((runtimeValue >= 3411) && (runtimeValue <= 3420))
+            else if ((runtimeValue >= 3411) && (runtimeValue <= 3420))
             {
                 runtimeScore = 2;
             }
-            if ((runtimeValue >= 3421) && (runtimeValue <= 3430))
+            else if ((runtimeValue >= 3421) && (runtimeValue <= 3430))
             {
                 runtimeScore = 1;
             }
-            if (runtimeValue >= 3431)
+            else if (runtimeValue >= 3431)
             {
                 runtimeScore = 0;
             }
@@ -964,7 +964,7 @@
             
             //Calculate PFT Score:
             pftscore = (pullUpScore + crunchesScore + runtimeScore);
-            NSString *pftScoreString = [NSString stringWithFormat:@"%ld", pftscore];
+            NSString *pftScoreString = [NSString stringWithFormat:@"%ld", (long)pftscore];
             score.text = pftScoreString;
             
             //Calculate pass or fail:
@@ -1225,399 +1225,399 @@
             {
                 crunchesScore = 100;
             }
-            if (crunchesValue == 99)
+            else if (crunchesValue == 99)
             {
                 crunchesScore = 99;
             }
-            if (crunchesValue == 98)
+            else if (crunchesValue == 98)
             {
                 crunchesScore = 98;
             }
-            if (crunchesValue == 97)
+            else if (crunchesValue == 97)
             {
                 crunchesScore = 97;
             }
-            if (crunchesValue == 96)
+            else if (crunchesValue == 96)
             {
                 crunchesScore = 96;
             }
-            if (crunchesValue == 95)
+            else if (crunchesValue == 95)
             {
                 crunchesScore = 95;
             }
-            if (crunchesValue == 94)
+            else if (crunchesValue == 94)
             {
                 crunchesScore = 94;
             }
-            if (crunchesValue == 93)
+            else if (crunchesValue == 93)
             {
                 crunchesScore = 93;
             }
-            if (crunchesValue == 92)
+            else if (crunchesValue == 92)
             {
                 crunchesScore = 92;
             }
-            if (crunchesValue == 91)
+            else if (crunchesValue == 91)
             {
                 crunchesScore = 91;
             }
-            if (crunchesValue == 90)
+            else if (crunchesValue == 90)
             {
                 crunchesScore = 90;
             }
-            if (crunchesValue == 89)
+            else if (crunchesValue == 89)
             {
                 crunchesScore = 89;
             }
-            if (crunchesValue == 88)
+            else if (crunchesValue == 88)
             {
                 crunchesScore = 88;
             }
-            if (crunchesValue == 87)
+            else if (crunchesValue == 87)
             {
                 crunchesScore = 87;
             }
-            if (crunchesValue == 86)
+            else if (crunchesValue == 86)
             {
                 crunchesScore = 86;
             }
-            if (crunchesValue == 85)
+            else if (crunchesValue == 85)
             {
                 crunchesScore = 85;
             }
-            if (crunchesValue == 84)
+            else if (crunchesValue == 84)
             {
                 crunchesScore = 84;
             }
-            if (crunchesValue == 83)
+            else if (crunchesValue == 83)
             {
                 crunchesScore = 83;
             }
-            if (crunchesValue == 82)
+            else if (crunchesValue == 82)
             {
                 crunchesScore = 82;
             }
-            if (crunchesValue == 81)
+            else if (crunchesValue == 81)
             {
                 crunchesScore = 81;
             }
-            if (crunchesValue == 80)
+            else if (crunchesValue == 80)
             {
                 crunchesScore = 80;
             }
-            if (crunchesValue == 79)
+            else if (crunchesValue == 79)
             {
                 crunchesScore = 79;
             }
-            if (crunchesValue == 78)
+            else if (crunchesValue == 78)
             {
                 crunchesScore = 78;
             }
-            if (crunchesValue == 77)
+            else if (crunchesValue == 77)
             {
                 crunchesScore = 77;
             }
-            if (crunchesValue == 76)
+            else if (crunchesValue == 76)
             {
                 crunchesScore = 76;
             }
-            if (crunchesValue == 75)
+            else if (crunchesValue == 75)
             {
                 crunchesScore = 75;
             }
-            if (crunchesValue == 74)
+            else if (crunchesValue == 74)
             {
                 crunchesScore = 74;
             }
-            if (crunchesValue == 73)
+            else if (crunchesValue == 73)
             {
                 crunchesScore = 73;
             }
-            if (crunchesValue == 72)
+            else if (crunchesValue == 72)
             {
                 crunchesScore = 72;
             }
-            if (crunchesValue == 71)
+            else if (crunchesValue == 71)
             {
                 crunchesScore = 71;
             }
-            if (crunchesValue == 70)
+            else if (crunchesValue == 70)
             {
                 crunchesScore = 70;
             }
-            if (crunchesValue == 69)
+            else if (crunchesValue == 69)
             {
                 crunchesScore = 69;
             }
-            if (crunchesValue == 68)
+            else if (crunchesValue == 68)
             {
                 crunchesScore = 68;
             }
-            if (crunchesValue == 67)
+            else if (crunchesValue == 67)
             {
                 crunchesScore = 67;
             }
-            if (crunchesValue == 66)
+            else if (crunchesValue == 66)
             {
                 crunchesScore = 66;
             }
-            if (crunchesValue == 65)
+            else if (crunchesValue == 65)
             {
                 crunchesScore = 65;
             }
-            if (crunchesValue == 64)
+            else if (crunchesValue == 64)
             {
                 crunchesScore = 64;
             }
-            if (crunchesValue == 63)
+            else if (crunchesValue == 63)
             {
                 crunchesScore = 63;
             }
-            if (crunchesValue == 62)
+            else if (crunchesValue == 62)
             {
                 crunchesScore = 62;
             }
-            if (crunchesValue == 61)
+            else if (crunchesValue == 61)
             {
                 crunchesScore = 61;
             }
-            if (crunchesValue == 60)
+            else if (crunchesValue == 60)
             {
                 crunchesScore = 60;
             }
-            if (crunchesValue == 59)
+            else if (crunchesValue == 59)
             {
                 crunchesScore = 59;
             }
-            if (crunchesValue == 58)
+            else if (crunchesValue == 58)
             {
                 crunchesScore = 58;
             }
-            if (crunchesValue == 57)
+            else if (crunchesValue == 57)
             {
                 crunchesScore = 57;
             }
-            if (crunchesValue == 56)
+            else if (crunchesValue == 56)
             {
                 crunchesScore = 56;
             }
-            if (crunchesValue == 55)
+            else if (crunchesValue == 55)
             {
                 crunchesScore = 55;
             }
-            if (crunchesValue == 54)
+            else if (crunchesValue == 54)
             {
                 crunchesScore = 54;
             }
-            if (crunchesValue == 53)
+            else if (crunchesValue == 53)
             {
                 crunchesScore = 53;
             }
-            if (crunchesValue == 52)
+            else if (crunchesValue == 52)
             {
                 crunchesScore = 52;
             }
-            if (crunchesValue == 51)
+            else if (crunchesValue == 51)
             {
                 crunchesScore = 51;
             }
-            if (crunchesValue == 50)
+            else if (crunchesValue == 50)
             {
                 crunchesScore = 50;
             }
-            if (crunchesValue == 49)
+            else if (crunchesValue == 49)
             {
                 crunchesScore = 49;
             }
-            if (crunchesValue == 48)
+            else if (crunchesValue == 48)
             {
                 crunchesScore = 48;
             }
-            if (crunchesValue == 47)
+            else if (crunchesValue == 47)
             {
                 crunchesScore = 47;
             }
-            if (crunchesValue == 46)
+            else if (crunchesValue == 46)
             {
                 crunchesScore = 46;
             }
-            if (crunchesValue == 45)
+            else if (crunchesValue == 45)
             {
                 crunchesScore = 45;
             }
-            if (crunchesValue == 44)
+            else if (crunchesValue == 44)
             {
                 crunchesScore = 44;
             }
-            if (crunchesValue == 43)
+            else if (crunchesValue == 43)
             {
                 crunchesScore = 43;
             }
-            if (crunchesValue == 42)
+            else if (crunchesValue == 42)
             {
                 crunchesScore = 42;
             }
-            if (crunchesValue == 41)
+            else if (crunchesValue == 41)
             {
                 crunchesScore = 41;
             }
-            if (crunchesValue == 40)
+            else if (crunchesValue == 40)
             {
                 crunchesScore = 40;
             }
-            if (crunchesValue == 39)
+            else if (crunchesValue == 39)
             {
                 crunchesScore = 39;
             }
-            if (crunchesValue == 38)
+            else if (crunchesValue == 38)
             {
                 crunchesScore = 38;
             }
-            if (crunchesValue == 37)
+            else if (crunchesValue == 37)
             {
                 crunchesScore = 37;
             }
-            if (crunchesValue == 36)
+            else if (crunchesValue == 36)
             {
                 crunchesScore = 36;
             }
-            if (crunchesValue == 35)
+            else if (crunchesValue == 35)
             {
                 crunchesScore = 35;
             }
-            if (crunchesValue == 34)
+            else if (crunchesValue == 34)
             {
                 crunchesScore = 34;
             }
-            if (crunchesValue == 33)
+            else if (crunchesValue == 33)
             {
                 crunchesScore = 33;
             }
-            if (crunchesValue == 32)
+            else if (crunchesValue == 32)
             {
                 crunchesScore = 32;
             }
-            if (crunchesValue == 31)
+            else if (crunchesValue == 31)
             {
                 crunchesScore = 31;
             }
-            if (crunchesValue == 30)
+            else if (crunchesValue == 30)
             {
                 crunchesScore = 30;
             }
-            if (crunchesValue == 29)
+            else if (crunchesValue == 29)
             {
                 crunchesScore = 29;
             }
-            if (crunchesValue == 28)
+            else if (crunchesValue == 28)
             {
                 crunchesScore = 28;
             }
-            if (crunchesValue == 27)
+            else if (crunchesValue == 27)
             {
                 crunchesScore = 27;
             }
-            if (crunchesValue == 26)
+            else if (crunchesValue == 26)
             {
                 crunchesScore = 26;
             }
-            if (crunchesValue == 25)
+            else if (crunchesValue == 25)
             {
                 crunchesScore = 25;
             }
-            if (crunchesValue == 24)
+            else if (crunchesValue == 24)
             {
                 crunchesScore = 24;
             }
-            if (crunchesValue == 23)
+            else if (crunchesValue == 23)
             {
                 crunchesScore = 23;
             }
-            if (crunchesValue == 22)
+            else if (crunchesValue == 22)
             {
                 crunchesScore = 22;
             }
-            if (crunchesValue == 21)
+            else if (crunchesValue == 21)
             {
                 crunchesScore = 21;
             }
-            if (crunchesValue == 20)
+            else if (crunchesValue == 20)
             {
                 crunchesScore = 20;
             }
-            if (crunchesValue == 19)
+            else if (crunchesValue == 19)
             {
                 crunchesScore = 19;
             }
-            if (crunchesValue == 18)
+            else if (crunchesValue == 18)
             {
                 crunchesScore = 18;
             }
-            if (crunchesValue == 17)
+            else if (crunchesValue == 17)
             {
                 crunchesScore = 17;
             }
-            if (crunchesValue == 16)
+            else if (crunchesValue == 16)
             {
                 crunchesScore = 16;
             }
-            if (crunchesValue == 15)
+            else if (crunchesValue == 15)
             {
                 crunchesScore = 15;
             }
-            if (crunchesValue == 14)
+            else if (crunchesValue == 14)
             {
                 crunchesScore = 14;
             }
-            if (crunchesValue == 13)
+            else if (crunchesValue == 13)
             {
                 crunchesScore = 13;
             }
-            if (crunchesValue == 12)
+            else if (crunchesValue == 12)
             {
                 crunchesScore = 12;
             }
-            if (crunchesValue == 11)
+            else if (crunchesValue == 11)
             {
                 crunchesScore = 11;
             }
-            if (crunchesValue == 10)
+            else if (crunchesValue == 10)
             {
                 crunchesScore = 10;
             }
-            if (crunchesValue == 9)
+            else if (crunchesValue == 9)
             {
                 crunchesScore = 9;
             }
-            if (crunchesValue == 8)
+            else if (crunchesValue == 8)
             {
                 crunchesScore = 8;
             }
-            if (crunchesValue == 7)
+            else if (crunchesValue == 7)
             {
                 crunchesScore = 7;
             }
-            if (crunchesValue == 6)
+            else if (crunchesValue == 6)
             {
                 crunchesScore = 6;
             }
-            if (crunchesValue == 5)
+            else if (crunchesValue == 5)
             {
                 crunchesScore = 5;
             }
-            if (crunchesValue == 4)
+            else if (crunchesValue == 4)
             {
                 crunchesScore = 4;
             }
-            if (crunchesValue == 3)
+            else if (crunchesValue == 3)
             {
                 crunchesScore = 3;
             }
-            if (crunchesValue == 2)
+            else if (crunchesValue == 2)
             {
                 crunchesScore = 2;
             }
-            if (crunchesValue == 1)
+            else if (crunchesValue == 1)
             {
                 crunchesScore = 1;
             }
@@ -1631,403 +1631,403 @@
             {
                 runtimeScore = 100;
             }
-            if ((runtimeValue >= 1931) && (runtimeValue <= 1940))
+            else if ((runtimeValue >= 1931) && (runtimeValue <= 1940))
             {
                 runtimeScore = 99;
             }
-            if ((runtimeValue >= 1941) && (runtimeValue <= 1950))
+            else if ((runtimeValue >= 1941) && (runtimeValue <= 1950))
             {
                 runtimeScore = 98;
             }
-            if ((runtimeValue >= 1951) && (runtimeValue <= 2000))
+            else if ((runtimeValue >= 1951) && (runtimeValue <= 2000))
             {
                 runtimeScore = 97;
             }
-            if ((runtimeValue >= 2001) && (runtimeValue <= 2010))
+            else if ((runtimeValue >= 2001) && (runtimeValue <= 2010))
             {
                 runtimeScore = 96;
             }
-            if ((runtimeValue >= 2011) && (runtimeValue <= 2020))
+            else if ((runtimeValue >= 2011) && (runtimeValue <= 2020))
             {
                 runtimeScore = 95;
             }
-            if ((runtimeValue >= 2021) && (runtimeValue <= 2030))
+            else if ((runtimeValue >= 2021) && (runtimeValue <= 2030))
             {
                 runtimeScore = 94;
             }
-            if ((runtimeValue >= 2031) && (runtimeValue <= 2040))
+            else if ((runtimeValue >= 2031) && (runtimeValue <= 2040))
             {
                 runtimeScore = 93;
             }
-            if ((runtimeValue >= 2041) && (runtimeValue <= 2050))
+            else if ((runtimeValue >= 2041) && (runtimeValue <= 2050))
             {
                 runtimeScore = 92;
             }
-            if ((runtimeValue >= 2051) && (runtimeValue <= 2100))
+            else if ((runtimeValue >= 2051) && (runtimeValue <= 2100))
             {
                 runtimeScore = 91;
             }
-            if ((runtimeValue >= 2101) && (runtimeValue <= 2110))
+            else if ((runtimeValue >= 2101) && (runtimeValue <= 2110))
             {
                 runtimeScore = 90;
             }
-            if ((runtimeValue >= 2111) && (runtimeValue <= 2120))
+            else if ((runtimeValue >= 2111) && (runtimeValue <= 2120))
             {
                 runtimeScore = 89;
             }
-            if ((runtimeValue >= 2121) && (runtimeValue <= 2130))
+            else if ((runtimeValue >= 2121) && (runtimeValue <= 2130))
             {
                 runtimeScore = 88;
             }
-            if ((runtimeValue >= 2131) && (runtimeValue <= 2140))
+            else if ((runtimeValue >= 2131) && (runtimeValue <= 2140))
             {
                 runtimeScore = 87;
             }
-            if ((runtimeValue >= 2141) && (runtimeValue <= 2150))
+            else if ((runtimeValue >= 2141) && (runtimeValue <= 2150))
             {
                 runtimeScore = 86;
             }
-            if ((runtimeValue >= 2151) && (runtimeValue <= 2200))
+            else if ((runtimeValue >= 2151) && (runtimeValue <= 2200))
             {
                 runtimeScore = 85;
             }
-            if ((runtimeValue >= 2201) && (runtimeValue <= 2210))
+            else if ((runtimeValue >= 2201) && (runtimeValue <= 2210))
             {
                 runtimeScore = 84;
             }
-            if ((runtimeValue >= 2211) && (runtimeValue <= 2220))
+            else if ((runtimeValue >= 2211) && (runtimeValue <= 2220))
             {
                 runtimeScore = 83;
             }
-            if ((runtimeValue >= 2221) && (runtimeValue <= 2230))
+            else if ((runtimeValue >= 2221) && (runtimeValue <= 2230))
             {
                 runtimeScore = 82;
             }
-            if ((runtimeValue >= 2231) && (runtimeValue <= 2240))
+            else if ((runtimeValue >= 2231) && (runtimeValue <= 2240))
             {
                 runtimeScore = 81;
             }
-            if ((runtimeValue >= 2241) && (runtimeValue <= 2250))
+            else if ((runtimeValue >= 2241) && (runtimeValue <= 2250))
             {
                 runtimeScore = 80;
             }
-            if ((runtimeValue >= 2251) && (runtimeValue <= 2300))
+            else if ((runtimeValue >= 2251) && (runtimeValue <= 2300))
             {
                 runtimeScore = 79;
             }
-            if ((runtimeValue >= 2301) && (runtimeValue <= 2310))
+            else if ((runtimeValue >= 2301) && (runtimeValue <= 2310))
             {
                 runtimeScore = 78;
             }
-            if ((runtimeValue >= 2311) && (runtimeValue <= 2320))
+            else if ((runtimeValue >= 2311) && (runtimeValue <= 2320))
             {
                 runtimeScore = 77;
             }
-            if ((runtimeValue >= 2321) && (runtimeValue <= 2330))
+            else if ((runtimeValue >= 2321) && (runtimeValue <= 2330))
             {
                 runtimeScore = 76;
             }
-            if ((runtimeValue >= 2331) && (runtimeValue <= 2340))
+            else if ((runtimeValue >= 2331) && (runtimeValue <= 2340))
             {
                 runtimeScore = 75;
             }
-            if ((runtimeValue >= 2341) && (runtimeValue <= 2350))
+            else if ((runtimeValue >= 2341) && (runtimeValue <= 2350))
             {
                 runtimeScore = 74;
             }
-            if ((runtimeValue >= 2351) && (runtimeValue <= 2400))
+            else if ((runtimeValue >= 2351) && (runtimeValue <= 2400))
             {
                 runtimeScore = 73;
             }
-            if ((runtimeValue >= 2401) && (runtimeValue <= 2410))
+            else if ((runtimeValue >= 2401) && (runtimeValue <= 2410))
             {
                 runtimeScore = 72;
             }
-            if ((runtimeValue >= 2411) && (runtimeValue <= 2420))
+            else if ((runtimeValue >= 2411) && (runtimeValue <= 2420))
             {
                 runtimeScore = 71;
             }
-            if ((runtimeValue >= 2421) && (runtimeValue <= 2430))
+            else if ((runtimeValue >= 2421) && (runtimeValue <= 2430))
             {
                 runtimeScore = 70;
             }
-            if ((runtimeValue >= 2431) && (runtimeValue <= 2440))
+            else if ((runtimeValue >= 2431) && (runtimeValue <= 2440))
             {
                 runtimeScore = 69;
             }
-            if ((runtimeValue >= 2441) && (runtimeValue <= 2450))
+            else if ((runtimeValue >= 2441) && (runtimeValue <= 2450))
             {
                 runtimeScore = 68;
             }
-            if ((runtimeValue >= 2451) && (runtimeValue <= 2500))
+            else if ((runtimeValue >= 2451) && (runtimeValue <= 2500))
             {
                 runtimeScore = 67;
             }
-            if ((runtimeValue >= 2501) && (runtimeValue <= 2510))
+            else if ((runtimeValue >= 2501) && (runtimeValue <= 2510))
             {
                 runtimeScore = 66;
             }
-            if ((runtimeValue >= 2511) && (runtimeValue <= 2520))
+            else if ((runtimeValue >= 2511) && (runtimeValue <= 2520))
             {
                 runtimeScore = 65;
             }
-            if ((runtimeValue >= 2521) && (runtimeValue <= 2530))
+            else if ((runtimeValue >= 2521) && (runtimeValue <= 2530))
             {
                 runtimeScore = 64;
             }
-            if ((runtimeValue >= 2531) && (runtimeValue <= 2540))
+            else if ((runtimeValue >= 2531) && (runtimeValue <= 2540))
             {
                 runtimeScore = 63;
             }
-            if ((runtimeValue >= 2541) && (runtimeValue <= 2550))
+            else if ((runtimeValue >= 2541) && (runtimeValue <= 2550))
             {
                 runtimeScore = 62;
             }
-            if ((runtimeValue >= 2551) && (runtimeValue <= 2600))
+            else if ((runtimeValue >= 2551) && (runtimeValue <= 2600))
             {
                 runtimeScore = 61;
             }
-            if ((runtimeValue >= 2601) && (runtimeValue <= 2610))
+            else if ((runtimeValue >= 2601) && (runtimeValue <= 2610))
             {
                 runtimeScore = 60;
             }
-            if ((runtimeValue >= 2611) && (runtimeValue <= 2620))
+            else if ((runtimeValue >= 2611) && (runtimeValue <= 2620))
             {
                 runtimeScore = 59;
             }
-            if ((runtimeValue >= 2621) && (runtimeValue <= 2630))
+            else if ((runtimeValue >= 2621) && (runtimeValue <= 2630))
             {
                 runtimeScore = 58;
             }
-            if ((runtimeValue >= 2631) && (runtimeValue <= 2640))
+            else if ((runtimeValue >= 2631) && (runtimeValue <= 2640))
             {
                 runtimeScore = 57;
             }
-            if ((runtimeValue >= 2641) && (runtimeValue <= 2650))
+            else if ((runtimeValue >= 2641) && (runtimeValue <= 2650))
             {
                 runtimeScore = 56;
             }
-            if ((runtimeValue >= 2651) && (runtimeValue <= 2700))
+            else if ((runtimeValue >= 2651) && (runtimeValue <= 2700))
             {
                 runtimeScore = 55;
             }
-            if ((runtimeValue >= 2701) && (runtimeValue <= 2710))
+            else if ((runtimeValue >= 2701) && (runtimeValue <= 2710))
             {
                 runtimeScore = 54;
             }
-            if ((runtimeValue >= 2711) && (runtimeValue <= 2720))
+            else if ((runtimeValue >= 2711) && (runtimeValue <= 2720))
             {
                 runtimeScore = 53;
             }
-            if ((runtimeValue >= 2721) && (runtimeValue <= 2730))
+            else if ((runtimeValue >= 2721) && (runtimeValue <= 2730))
             {
                 runtimeScore = 52;
             }
-            if ((runtimeValue >= 2731) && (runtimeValue <= 2740))
+            else if ((runtimeValue >= 2731) && (runtimeValue <= 2740))
             {
                 runtimeScore = 51;
             }
-            if ((runtimeValue >= 2741) && (runtimeValue <= 2750))
+            else if ((runtimeValue >= 2741) && (runtimeValue <= 2750))
             {
                 runtimeScore = 50;
             }
-            if ((runtimeValue >= 2751) && (runtimeValue <= 2800))
+            else if ((runtimeValue >= 2751) && (runtimeValue <= 2800))
             {
                 runtimeScore = 49;
             }
-            if ((runtimeValue >= 2801) && (runtimeValue <= 2810))
+            else if ((runtimeValue >= 2801) && (runtimeValue <= 2810))
             {
                 runtimeScore = 48;
             }
-            if ((runtimeValue >= 2811) && (runtimeValue <= 2820))
+            else if ((runtimeValue >= 2811) && (runtimeValue <= 2820))
             {
                 runtimeScore = 47;
             }
-            if ((runtimeValue >= 2821) && (runtimeValue <= 2830))
+            else if ((runtimeValue >= 2821) && (runtimeValue <= 2830))
             {
                 runtimeScore = 46;
             }
-            if ((runtimeValue >= 2831) && (runtimeValue <= 2840))
+            else if ((runtimeValue >= 2831) && (runtimeValue <= 2840))
             {
                 runtimeScore = 45;
             }
-            if ((runtimeValue >= 2841) && (runtimeValue <= 2850))
+            else if ((runtimeValue >= 2841) && (runtimeValue <= 2850))
             {
                 runtimeScore = 44;
             }
-            if ((runtimeValue >= 2851) && (runtimeValue <= 2900))
+            else if ((runtimeValue >= 2851) && (runtimeValue <= 2900))
             {
                 runtimeScore = 43;
             }
-            if ((runtimeValue >= 2901) && (runtimeValue <= 2910))
+            else if ((runtimeValue >= 2901) && (runtimeValue <= 2910))
             {
                 runtimeScore = 42;
             }
-            if ((runtimeValue >= 2911) && (runtimeValue <= 2920))
+            else if ((runtimeValue >= 2911) && (runtimeValue <= 2920))
             {
                 runtimeScore = 41;
             }
-            if ((runtimeValue >= 2921) && (runtimeValue <= 2930))
+            else if ((runtimeValue >= 2921) && (runtimeValue <= 2930))
             {
                 runtimeScore = 40;
             }
-            if ((runtimeValue >= 2931) && (runtimeValue <= 2940))
+            else if ((runtimeValue >= 2931) && (runtimeValue <= 2940))
             {
                 runtimeScore = 39;
             }
-            if ((runtimeValue >= 2941) && (runtimeValue <= 2950))
+            else if ((runtimeValue >= 2941) && (runtimeValue <= 2950))
             {
                 runtimeScore = 38;
             }
-            if ((runtimeValue >= 2951) && (runtimeValue <= 3000))
+            else if ((runtimeValue >= 2951) && (runtimeValue <= 3000))
             {
                 runtimeScore = 37;
             }
-            if ((runtimeValue >= 3001) && (runtimeValue <= 3010))
+            else if ((runtimeValue >= 3001) && (runtimeValue <= 3010))
             {
                 runtimeScore = 36;
             }
-            if ((runtimeValue >= 3011) && (runtimeValue <= 3020))
+            else if ((runtimeValue >= 3011) && (runtimeValue <= 3020))
             {
                 runtimeScore = 35;
             }
-            if ((runtimeValue >= 3021) && (runtimeValue <= 3030))
+            else if ((runtimeValue >= 3021) && (runtimeValue <= 3030))
             {
                 runtimeScore = 34;
             }
-            if ((runtimeValue >= 3031) && (runtimeValue <= 3040))
+            else if ((runtimeValue >= 3031) && (runtimeValue <= 3040))
             {
                 runtimeScore = 33;
             }
-            if ((runtimeValue >= 3041) && (runtimeValue <= 3050))
+            else if ((runtimeValue >= 3041) && (runtimeValue <= 3050))
             {
                 runtimeScore = 32;
             }
-            if ((runtimeValue >= 3051) && (runtimeValue <= 3100))
+            else if ((runtimeValue >= 3051) && (runtimeValue <= 3100))
             {
                 runtimeScore = 31;
             }
-            if ((runtimeValue >= 3101) && (runtimeValue <= 3110))
+            else if ((runtimeValue >= 3101) && (runtimeValue <= 3110))
             {
                 runtimeScore = 30;
             }
-            if ((runtimeValue >= 3111) && (runtimeValue <= 3120))
+            else if ((runtimeValue >= 3111) && (runtimeValue <= 3120))
             {
                 runtimeScore = 29;
             }
-            if ((runtimeValue >= 3121) && (runtimeValue <= 3130))
+            else if ((runtimeValue >= 3121) && (runtimeValue <= 3130))
             {
                 runtimeScore = 28;
             }
-            if ((runtimeValue >= 3131) && (runtimeValue <= 3140))
+            else if ((runtimeValue >= 3131) && (runtimeValue <= 3140))
             {
                 runtimeScore = 27;
             }
-            if ((runtimeValue >= 3141) && (runtimeValue <= 3150))
+            else if ((runtimeValue >= 3141) && (runtimeValue <= 3150))
             {
                 runtimeScore = 26;
             }
-            if ((runtimeValue >= 3151) && (runtimeValue <= 3200))
+            else if ((runtimeValue >= 3151) && (runtimeValue <= 3200))
             {
                 runtimeScore = 25;
             }
-            if ((runtimeValue >= 3201) && (runtimeValue <= 3210))
+            else if ((runtimeValue >= 3201) && (runtimeValue <= 3210))
             {
                 runtimeScore = 24;
             }
-            if ((runtimeValue >= 3211) && (runtimeValue <= 3220))
+            else if ((runtimeValue >= 3211) && (runtimeValue <= 3220))
             {
                 runtimeScore = 23;
             }
-            if ((runtimeValue >= 3221) && (runtimeValue <= 3230))
+            else if ((runtimeValue >= 3221) && (runtimeValue <= 3230))
             {
                 runtimeScore = 22;
             }
-            if ((runtimeValue >= 3231) && (runtimeValue <= 3240))
+            else if ((runtimeValue >= 3231) && (runtimeValue <= 3240))
             {
                 runtimeScore = 21;
             }
-            if ((runtimeValue >= 3241) && (runtimeValue <= 3250))
+            else if ((runtimeValue >= 3241) && (runtimeValue <= 3250))
             {
                 runtimeScore = 20;
             }
-            if ((runtimeValue >= 3251) && (runtimeValue <= 3300))
+            else if ((runtimeValue >= 3251) && (runtimeValue <= 3300))
             {
                 runtimeScore = 19;
             }
-            if ((runtimeValue >= 3301) && (runtimeValue <= 3310))
+            else if ((runtimeValue >= 3301) && (runtimeValue <= 3310))
             {
                 runtimeScore = 18;
             }
-            if ((runtimeValue >= 3311) && (runtimeValue <= 3320))
+            else if ((runtimeValue >= 3311) && (runtimeValue <= 3320))
             {
                 runtimeScore = 17;
             }
-            if ((runtimeValue >= 3321) && (runtimeValue <= 3330))
+            else if ((runtimeValue >= 3321) && (runtimeValue <= 3330))
             {
                 runtimeScore = 16;
             }
-            if ((runtimeValue >= 3331) && (runtimeValue <= 3340))
+            else if ((runtimeValue >= 3331) && (runtimeValue <= 3340))
             {
                 runtimeScore = 15;
             }
-            if ((runtimeValue >= 3341) && (runtimeValue <= 3350))
+            else if ((runtimeValue >= 3341) && (runtimeValue <= 3350))
             {
                 runtimeScore = 14;
             }
-            if ((runtimeValue >= 3351) && (runtimeValue <= 3400))
+            else if ((runtimeValue >= 3351) && (runtimeValue <= 3400))
             {
                 runtimeScore = 13;
             }
-            if ((runtimeValue >= 3401) && (runtimeValue <= 3410))
+            else if ((runtimeValue >= 3401) && (runtimeValue <= 3410))
             {
                 runtimeScore = 12;
             }
-            if ((runtimeValue >= 3411) && (runtimeValue <= 3420))
+            else if ((runtimeValue >= 3411) && (runtimeValue <= 3420))
             {
                 runtimeScore = 11;
             }
-            if ((runtimeValue >= 3421) && (runtimeValue <= 3430))
+            else if ((runtimeValue >= 3421) && (runtimeValue <= 3430))
             {
                 runtimeScore = 10;
             }
-            if ((runtimeValue >= 3431) && (runtimeValue <= 3440))
+            else if ((runtimeValue >= 3431) && (runtimeValue <= 3440))
             {
                 runtimeScore = 9;
             }
-            if ((runtimeValue >= 3441) && (runtimeValue <= 3450))
+            else if ((runtimeValue >= 3441) && (runtimeValue <= 3450))
             {
                 runtimeScore = 8;
             }
-            if ((runtimeValue >= 3451) && (runtimeValue <= 3500))
+            else if ((runtimeValue >= 3451) && (runtimeValue <= 3500))
             {
                 runtimeScore = 7;
             }
-            if ((runtimeValue >= 3501) && (runtimeValue <= 3510))
+            else if ((runtimeValue >= 3501) && (runtimeValue <= 3510))
             {
                 runtimeScore = 6;
             }
-            if ((runtimeValue >= 3511) && (runtimeValue <= 3520))
+            else if ((runtimeValue >= 3511) && (runtimeValue <= 3520))
             {
                 runtimeScore = 5;
             }
-            if ((runtimeValue >= 3521) && (runtimeValue <= 3530))
+            else if ((runtimeValue >= 3521) && (runtimeValue <= 3530))
             {
                 runtimeScore = 4;
             }
-            if ((runtimeValue >= 3531) && (runtimeValue <= 3540))
+            else if ((runtimeValue >= 3531) && (runtimeValue <= 3540))
             {
                 runtimeScore = 3;
             }
-            if ((runtimeValue >= 3541) && (runtimeValue <= 3550))
+            else if ((runtimeValue >= 3541) && (runtimeValue <= 3550))
             {
                 runtimeScore = 2;
             }
-            if ((runtimeValue >= 3551) && (runtimeValue <= 3600))
+            else if ((runtimeValue >= 3551) && (runtimeValue <= 3600))
             {
                 runtimeScore = 1;
             }
-            if (runtimeValue >= 3601)
+            else if (runtimeValue >= 3601)
             {
                 runtimeScore = 0;
             }
@@ -2035,7 +2035,7 @@
             
             //Calculate PFT Score:
             pftscore = (pullUpScore + crunchesScore + runtimeScore);
-            NSString *pftScoreString = [NSString stringWithFormat:@"%ld", pftscore];
+            NSString *pftScoreString = [NSString stringWithFormat:@"%ld", (long)pftscore];
             score.text = pftScoreString;
             
             //Calculate pass or fail:
@@ -3308,7 +3308,7 @@
             
             //Calculate PFT Score:
             pftscore = (pullUpScore + crunchesScore + runtimeScore);
-            NSString *pftScoreString = [NSString stringWithFormat:@"%ld", pftscore];
+            NSString *pftScoreString = [NSString stringWithFormat:@"%ld", (long)pftscore];
             score.text = pftScoreString;
             
             //Calculate pass or fail:
@@ -4577,7 +4577,7 @@
             
             //Calculate PFT Score:
             pftscore = (pullUpScore + crunchesScore + runtimeScore);
-            NSString *pftScoreString = [NSString stringWithFormat:@"%ld", pftscore];
+            NSString *pftScoreString = [NSString stringWithFormat:@"%ld", (long)pftscore];
             score.text = pftScoreString;
             
             //Calculate pass or fail:
@@ -4737,6 +4737,11 @@
             [age resignFirstResponder];
         }
     }
+}
+
+-(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
+{
+    [self.view endEditing:YES];
 }
 
 /*

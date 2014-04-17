@@ -573,7 +573,7 @@
                 [muf resignFirstResponder];
                 
                 cftScore = (mtcScore + amoScore + mufScore);
-                NSString *cftScoreString = [NSString stringWithFormat:@"%ld", cftScore];
+                NSString *cftScoreString = [NSString stringWithFormat:@"%ld", (long)cftScore];
                 score.text = cftScoreString;
                 
                 //Calculate 1st/2nd/3rd class:
@@ -1129,7 +1129,7 @@
                 [muf resignFirstResponder];
                 
                 cftScore = (mtcScore + amoScore + mufScore);
-                NSString *cftScoreString = [NSString stringWithFormat:@"%ld", cftScore];
+                NSString *cftScoreString = [NSString stringWithFormat:@"%ld", (long)cftScore];
                 score.text = cftScoreString;
                 
                 //Calculate 1st/2nd/3rd class:
@@ -1686,7 +1686,7 @@
                 [muf resignFirstResponder];
                 
                 cftScore = (mtcScore + amoScore + mufScore);
-                NSString *cftScoreString = [NSString stringWithFormat:@"%ld", cftScore];
+                NSString *cftScoreString = [NSString stringWithFormat:@"%ld", (long)cftScore];
                 score.text = cftScoreString;
                 
                 //Calculate 1st/2nd/3rd class:
@@ -2243,7 +2243,7 @@
                 [muf resignFirstResponder];
                 
                 cftScore = (mtcScore + amoScore + mufScore);
-                NSString *cftScoreString = [NSString stringWithFormat:@"%ld", cftScore];
+                NSString *cftScoreString = [NSString stringWithFormat:@"%ld", (long)cftScore];
                 score.text = cftScoreString;
                 
                 //Calculate 1st/2nd/3rd class:
@@ -2817,7 +2817,7 @@
                 [muf resignFirstResponder];
                 
                 cftScore = (mtcScore + amoScore + mufScore);
-                NSString *cftScoreString = [NSString stringWithFormat:@"%ld", cftScore];
+                NSString *cftScoreString = [NSString stringWithFormat:@"%ld", (long)cftScore];
                 score.text = cftScoreString;
                 
                 //Calculate 1st/2nd/3rd class:
@@ -3373,7 +3373,7 @@
                 [muf resignFirstResponder];
                 
                 cftScore = (mtcScore + amoScore + mufScore);
-                NSString *cftScoreString = [NSString stringWithFormat:@"%ld", cftScore];
+                NSString *cftScoreString = [NSString stringWithFormat:@"%ld", (long)cftScore];
                 score.text = cftScoreString;
                 
                 //Calculate 1st/2nd/3rd class:
@@ -3930,7 +3930,7 @@
                 [muf resignFirstResponder];
                 
                 cftScore = (mtcScore + amoScore + mufScore);
-                NSString *cftScoreString = [NSString stringWithFormat:@"%ld", cftScore];
+                NSString *cftScoreString = [NSString stringWithFormat:@"%ld", (long)cftScore];
                 score.text = cftScoreString;
                 
                 //Calculate 1st/2nd/3rd class:
@@ -4487,7 +4487,7 @@
                 [muf resignFirstResponder];
                 
                 cftScore = (mtcScore + amoScore + mufScore);
-                NSString *cftScoreString = [NSString stringWithFormat:@"%ld", cftScore];
+                NSString *cftScoreString = [NSString stringWithFormat:@"%ld", (long)cftScore];
                 score.text = cftScoreString;
                 
                 //Calculate 1st/2nd/3rd class:
@@ -5064,7 +5064,7 @@
                 [muf resignFirstResponder];
                 
                 cftScore = (mtcScore + amoScore + mufScore);
-                NSString *cftScoreString = [NSString stringWithFormat:@"%ld", cftScore];
+                NSString *cftScoreString = [NSString stringWithFormat:@"%ld", (long)cftScore];
                 score.text = cftScoreString;
                 
                 //Calculate 1st/2nd/3rd class:
@@ -5620,7 +5620,7 @@
                 [muf resignFirstResponder];
                 
                 cftScore = (mtcScore + amoScore + mufScore);
-                NSString *cftScoreString = [NSString stringWithFormat:@"%ld", cftScore];
+                NSString *cftScoreString = [NSString stringWithFormat:@"%ld", (long)cftScore];
                 score.text = cftScoreString;
                 
                 //Calculate 1st/2nd/3rd class:
@@ -6169,7 +6169,7 @@
                 [muf resignFirstResponder];
                 
                 cftScore = (mtcScore + amoScore + mufScore);
-                NSString *cftScoreString = [NSString stringWithFormat:@"%ld", cftScore];
+                NSString *cftScoreString = [NSString stringWithFormat:@"%ld", (long)cftScore];
                 score.text = cftScoreString;
                 
                 //Calculate 1st/2nd/3rd class:
@@ -6706,7 +6706,7 @@
                 [muf resignFirstResponder];
                 
                 cftScore = (mtcScore + amoScore + mufScore);
-                NSString *cftScoreString = [NSString stringWithFormat:@"%ld", cftScore];
+                NSString *cftScoreString = [NSString stringWithFormat:@"%ld", (long)cftScore];
                 score.text = cftScoreString;
                 
                 //Calculate 1st/2nd/3rd class:
@@ -7279,7 +7279,7 @@
                 [muf resignFirstResponder];
                 
                 cftScore = (mtcScore + amoScore + mufScore);
-                NSString *cftScoreString = [NSString stringWithFormat:@"%ld", cftScore];
+                NSString *cftScoreString = [NSString stringWithFormat:@"%ld", (long)cftScore];
                 score.text = cftScoreString;
                 
                 //Calculate 1st/2nd/3rd class:
@@ -7835,7 +7835,7 @@
                 [muf resignFirstResponder];
                 
                 cftScore = (mtcScore + amoScore + mufScore);
-                NSString *cftScoreString = [NSString stringWithFormat:@"%ld", cftScore];
+                NSString *cftScoreString = [NSString stringWithFormat:@"%ld", (long)cftScore];
                 score.text = cftScoreString;
                 
                 //Calculate 1st/2nd/3rd class:
@@ -8384,7 +8384,7 @@
                 [muf resignFirstResponder];
                 
                 cftScore = (mtcScore + amoScore + mufScore);
-                NSString *cftScoreString = [NSString stringWithFormat:@"%ld", cftScore];
+                NSString *cftScoreString = [NSString stringWithFormat:@"%ld", (long)cftScore];
                 score.text = cftScoreString;
                 
                 //Calculate 1st/2nd/3rd class:
@@ -8921,7 +8921,7 @@
                 [muf resignFirstResponder];
                 
                 cftScore = (mtcScore + amoScore + mufScore);
-                NSString *cftScoreString = [NSString stringWithFormat:@"%ld", cftScore];
+                NSString *cftScoreString = [NSString stringWithFormat:@"%ld", (long)cftScore];
                 score.text = cftScoreString;
                 
                 //Calculate 1st/2nd/3rd class:
@@ -8963,6 +8963,11 @@
             [age resignFirstResponder];
         }
     }
+}
+
+-(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
+{
+    [self.view endEditing:YES];
 }
 
 /*
