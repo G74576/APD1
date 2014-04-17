@@ -4529,20 +4529,4440 @@
             [age resignFirstResponder];
         }
     }
-//    //If gender is Female:
-//    else if (gender.selectedSegmentIndex == 1)
-//    {
-//        //If not at high altitude:
-//        if (altitude.selectedSegmentIndex == 0)
-//        {
-//            
-//        }
-//        //if at high altitude:
-//        else if (altitude.selectedSegmentIndex == 1)
-//        {
-//            
-//        }
-//    }
+////////If gender is Female:
+    else if (gender.selectedSegmentIndex == 1)
+    {
+        //If not at high altitude:
+        if (altitude.selectedSegmentIndex == 0)
+        {
+            //Convert age string to integer:
+            NSString *ageText = age.text;
+            NSInteger ageValue = [[ageText stringByReplacingOccurrencesOfString:@" " withString:@" "]intValue];
+            //Convert mtc string to integer:
+            NSString *mtcText = mtc.text;
+            NSInteger mtcValue = [[mtcText stringByReplacingOccurrencesOfString:@" " withString:@" "]intValue];
+            //Convert ammo string to integer:
+            NSString *amoText = amo.text;
+            NSInteger amoValue = [[amoText stringByReplacingOccurrencesOfString:@" " withString:@" "]intValue];
+            //Convert muf string to integer:
+            NSString *mufText = muf.text;
+            NSInteger mufValue = [[mufText stringByReplacingOccurrencesOfString:@" " withString:@" "]intValue];
+            //Calculate between ages 17 & 26:
+            if ((ageValue >= 17) && (ageValue <= 26))
+            {
+                //Calculate MTC
+                if (mtcValue <= 323)
+                {
+                    mtcScore = 100;
+                }
+                else if ((mtcValue == 324) || (mtcValue == 325))
+                {
+                    mtcScore = 99;
+                }
+                else if ((mtcValue >= 326) && (mtcValue <= 328))
+                {
+                    mtcScore = 98;
+                }
+                else if ((mtcValue >= 329) && (mtcValue <= 331))
+                {
+                    mtcScore = 97;
+                }
+                else if ((mtcValue >= 332) && (mtcValue <= 335))
+                {
+                    mtcScore = 96;
+                }
+                else if ((mtcValue >= 336) && (mtcValue <= 338))
+                {
+                    mtcScore = 95;
+                }
+                else if ((mtcValue >= 339) && (mtcValue <= 342))
+                {
+                    mtcScore = 94;
+                }
+                else if ((mtcValue >= 342) && (mtcValue <= 344))
+                {
+                    mtcScore = 93;
+                }
+                else if ((mtcValue >= 345) && (mtcValue <= 347))
+                {
+                    mtcScore = 92;
+                }
+                else if ((mtcValue >= 348) && (mtcValue <= 350))
+                {
+                    mtcScore = 91;
+                }
+                else if ((mtcValue >= 352) && (mtcValue <= 354))
+                {
+                    mtcScore = 90;
+                }
+                else if ((mtcValue >= 355) && (mtcValue <= 357))
+                {
+                    mtcScore = 89;
+                }
+                else if ((mtcValue >= 358) && (mtcValue <= 400))
+                {
+                    mtcScore = 88;
+                }
+                else if ((mtcValue >= 401) && (mtcValue <= 403))
+                {
+                    mtcScore = 87;
+                }
+                else if ((mtcValue >= 404) && (mtcValue <= 406))
+                {
+                    mtcScore = 86;
+                }
+                else if ((mtcValue >= 407) && (mtcValue <= 410))
+                {
+                    mtcScore = 85;
+                }
+                else if ((mtcValue >= 411) && (mtcValue <= 413))
+                {
+                    mtcScore = 84;
+                }
+                else if ((mtcValue >= 414) && (mtcValue <= 416))
+                {
+                    mtcScore = 83;
+                }
+                else if ((mtcValue >= 417) && (mtcValue <= 419))
+                {
+                    mtcScore = 82;
+                }
+                else if ((mtcValue >= 420) && (mtcValue <= 422))
+                {
+                    mtcScore = 81;
+                }
+                else if ((mtcValue >= 423) && (mtcValue <= 425))
+                {
+                    mtcScore = 80;
+                }
+                else if ((mtcValue >= 426) && (mtcValue <= 429))
+                {
+                    mtcScore = 79;
+                }
+                else if ((mtcValue >= 430) && (mtcValue <= 432))
+                {
+                    mtcScore = 78;
+                }
+                else if ((mtcValue >= 433) && (mtcValue <= 435))
+                {
+                    mtcScore = 77;
+                }
+                else if ((mtcValue >= 436) && (mtcValue <= 438))
+                {
+                    mtcScore = 76;
+                }
+                else if ((mtcValue >= 439) && (mtcValue <= 441))
+                {
+                    mtcScore = 75;
+                }
+                else if ((mtcValue >= 442) && (mtcValue <= 444))
+                {
+                    mtcScore = 74;
+                }
+                else if ((mtcValue >= 445) && (mtcValue <= 448))
+                {
+                    mtcScore = 73;
+                }
+                else if ((mtcValue >= 449) && (mtcValue <= 451))
+                {
+                    mtcScore = 72;
+                }
+                else if ((mtcValue >= 452) && (mtcValue <= 454))
+                {
+                    mtcScore = 71;
+                }
+                else if ((mtcValue >= 455) && (mtcValue <= 457))
+                {
+                    mtcScore = 70;
+                }
+                else if ((mtcValue >= 458) && (mtcValue <= 500))
+                {
+                    mtcScore = 69;
+                }
+                else if ((mtcValue >= 501) && (mtcValue <= 504))
+                {
+                    mtcScore = 68;
+                }
+                else if ((mtcValue >= 505) && (mtcValue <= 507))
+                {
+                    mtcScore = 67;
+                }
+                else if ((mtcValue >= 508) && (mtcValue <= 510))
+                {
+                    mtcScore = 66;
+                }
+                else if ((mtcValue >= 511) && (mtcValue <= 513))
+                {
+                    mtcScore = 65;
+                }
+                else if ((mtcValue >= 514) && (mtcValue <= 516))
+                {
+                    mtcScore = 64;
+                }
+                else if ((mtcValue >= 517) && (mtcValue <= 519))
+                {
+                    mtcScore = 63;
+                }
+                else if ((mtcValue >= 520) && (mtcValue <= 523))
+                {
+                    mtcScore = 62;
+                }
+                else if ((mtcValue >= 523) && (mtcValue <= 526))
+                {
+                    mtcScore = 61;
+                }
+                else if (mtcValue == 527)
+                {
+                    mtcScore = 60;
+                }
+                else if (mtcValue >= 528)
+                {
+                    mtcScore = 0;
+                }
+                [mtc resignFirstResponder];
+
+                //Calculate ammo can lift:
+                if (amoValue >= 60)
+                {
+                    amoScore = 100;
+                }
+                else if (amoValue == 59)
+                {
+                    amoScore = 99;
+                }
+                else if (amoValue == 58)
+                {
+                    amoScore = 98;
+                }
+                else if (amoValue == 57)
+                {
+                    amoScore = 97;
+                }
+                else if (amoValue == 56)
+                {
+                    amoScore = 96;
+                }
+                else if (amoValue == 55)
+                {
+                    amoScore = 95;
+                }
+                else if (amoValue == 54)
+                {
+                    amoScore = 94;
+                }
+                else if ((amoValue == 53) || (amoValue == 52))
+                {
+                    amoScore = 93;
+                }
+                else if (amoValue == 51)
+                {
+                    amoScore = 92;
+                }
+                else if (amoValue == 50)
+                {
+                    amoScore = 91;
+                }
+                else if (amoValue == 49)
+                {
+                    amoScore = 90;
+                }
+                else if (amoValue == 48)
+                {
+                    amoScore = 89;
+                }
+                else if (amoValue == 47)
+                {
+                    amoScore = 88;
+                }
+                else if (amoValue == 46)
+                {
+                    amoScore = 87;
+                }
+                else if (amoValue == 45)
+                {
+                    amoScore = 86;
+                }
+                else if (amoValue == 44)
+                {
+                    amoScore = 85;
+                }
+                else if (amoValue == 43)
+                {
+                    amoScore = 84;
+                }
+                else if (amoValue == 42)
+                {
+                    amoScore = 83;
+                }
+                else if (amoValue == 41)
+                {
+                    amoScore = 82;
+                }
+                else if (amoValue == 40)
+                {
+                    amoScore = 81;
+                }
+                else if ((amoValue == 39) || (amoValue == 38))
+                {
+                    amoScore = 80;
+                }
+                else if (amoValue == 37)
+                {
+                    amoScore = 79;
+                }
+                else if (amoValue == 36)
+                {
+                    amoScore = 78;
+                }
+                else if ((amoValue == 35) || (amoValue == 57))
+                {
+                    amoScore = 77;
+                }
+                else if (amoValue == 34)
+                {
+                    amoScore = 76;
+                }
+                else if (amoValue == 33)
+                {
+                    amoScore = 75;
+                }
+                else if (amoValue == 32)
+                {
+                    amoScore = 74;
+                }
+                else if (amoValue == 31)
+                {
+                    amoScore = 73;
+                }
+                else if (amoValue == 30)
+                {
+                    amoScore = 72;
+                }
+                else if (amoValue == 29)
+                {
+                    amoScore = 71;
+                }
+                else if (amoValue == 28)
+                {
+                    amoScore = 70;
+                }
+                else if (amoValue == 27)
+                {
+                    amoScore = 69;
+                }
+                else if (amoValue == 26)
+                {
+                    amoScore = 68;
+                }
+                else if ((amoValue == 25) || (amoValue == 24))
+                {
+                    amoScore = 67;
+                }
+                else if (amoValue == 23)
+                {
+                    amoScore = 66;
+                }
+                else if (amoValue == 22)
+                {
+                    amoScore = 65;
+                }
+                else if (amoValue == 21)
+                {
+                    amoScore = 64;
+                }
+                else if (amoValue == 20)
+                {
+                    amoScore = 63;
+                }
+                else if (amoValue == 19)
+                {
+                    amoScore = 62;
+                }
+                else if (amoValue == 18)
+                {
+                    amoScore = 61;
+                }
+                else if (amoValue == 17)
+                {
+                    amoScore = 60;
+                }
+                else if (amoValue <= 16)
+                {
+                    amoScore = 0;
+                }
+                [amo resignFirstResponder];
+                
+                //Calculate MUF:
+                if (mufValue <= 301)
+                {
+                    mufScore = 100;
+                }
+                else if ((mufValue >= 302) && (mufValue <= 307))
+                {
+                    mufScore = 99;
+                }
+                else if ((mufValue >= 308) && (mufValue <= 312))
+                {
+                    mufScore = 98;
+                }
+                else if ((mufValue >= 313) && (mufValue <= 316))
+                {
+                    mufScore = 97;
+                }
+                else if ((mufValue >= 317) && (mufValue <= 321))
+                {
+                    mufScore = 96;
+                }
+                else if ((mufValue >= 322) && (mufValue <= 326))
+                {
+                    mufScore = 95;
+                }
+                else if ((mufValue >= 327) && (mufValue <= 330))
+                {
+                    mufScore = 94;
+                }
+                else if ((mufValue >= 331) && (mufValue <= 335))
+                {
+                    mufScore = 93;
+                }
+                else if ((mufValue >= 336) && (mufValue <= 339))
+                {
+                    mufScore = 92;
+                }
+                else if ((mufValue >= 340) && (mufValue <= 344))
+                {
+                    mufScore = 91;
+                }
+                else if ((mufValue >= 345) && (mufValue <= 348))
+                {
+                    mufScore = 90;
+                }
+                else if ((mufValue >= 349) && (mufValue <= 353))
+                {
+                    mufScore = 89;
+                }
+                else if ((mufValue >= 354) && (mufValue <= 358))
+                {
+                    mufScore = 88;
+                }
+                else if ((mufValue >= 359) && (mufValue <= 402))
+                {
+                    mufScore = 87;
+                }
+                else if ((mufValue >= 403) && (mufValue <= 407))
+                {
+                    mufScore = 86;
+                }
+                else if ((mufValue >= 408) && (mufValue <= 411))
+                {
+                    mufScore = 85;
+                }
+                else if ((mufValue >= 412) && (mufValue <= 416))
+                {
+                    mufScore = 84;
+                }
+                else if ((mufValue >= 417) && (mufValue <= 420))
+                {
+                    mufScore = 83;
+                }
+                else if ((mufValue >= 421) && (mufValue <= 425))
+                {
+                    mufScore = 82;
+                }
+                else if ((mufValue >= 426) && (mufValue <= 430))
+                {
+                    mufScore = 81;
+                }
+                else if ((mufValue >= 431) && (mufValue <= 434))
+                {
+                    mufScore = 80;
+                }
+                else if ((mufValue >= 435) && (mufValue <= 439))
+                {
+                    mufScore = 79;
+                }
+                else if ((mufValue >= 440) && (mufValue <= 443))
+                {
+                    mufScore = 78;
+                }
+                else if ((mufValue >= 444) && (mufValue <= 448))
+                {
+                    mufScore = 77;
+                }
+                else if ((mufValue >= 449) && (mufValue <= 452))
+                {
+                    mufScore = 76;
+                }
+                else if ((mufValue >= 453) && (mufValue <= 457))
+                {
+                    mufScore = 75;
+                }
+                else if ((mufValue >= 458) && (mufValue <= 502))
+                {
+                    mufScore = 74;
+                }
+                else if ((mufValue >= 503) && (mufValue <= 506))
+                {
+                    mufScore = 73;
+                }
+                else if ((mufValue >= 507) && (mufValue <= 511))
+                {
+                    mufScore = 72;
+                }
+                else if ((mufValue >= 512) && (mufValue <= 515))
+                {
+                    mufScore = 71;
+                }
+                else if ((mufValue >= 516) && (mufValue <= 520))
+                {
+                    mufScore = 70;
+                }
+                else if ((mufValue >= 521) && (mufValue <= 524))
+                {
+                    mufScore = 69;
+                }
+                else if ((mufValue >= 525) && (mufValue <= 529))
+                {
+                    mufScore = 68;
+                }
+                else if ((mufValue >= 530) && (mufValue <= 533))
+                {
+                    mufScore = 67;
+                }
+                else if ((mufValue >= 534) && (mufValue <= 538))
+                {
+                    mufScore = 66;
+                }
+                else if ((mufValue >= 539) && (mufValue <= 543))
+                {
+                    mufScore = 65;
+                }
+                else if ((mufValue >= 544) && (mufValue <= 547))
+                {
+                    mufScore = 64;
+                }
+                else if ((mufValue >= 548) && (mufValue <= 552))
+                {
+                    mufScore = 63;
+                }
+                else if ((mufValue >= 553) && (mufValue <= 556))
+                {
+                    mufScore = 62;
+                }
+                else if ((mufValue >= 557) && (mufValue <= 601))
+                {
+                    mufScore = 61;
+                }
+                else if (mufValue == 602)
+                {
+                    mufScore = 60;
+                }
+                else if (mufValue >= 603)
+                {
+                    mufScore = 0;
+                }
+                [muf resignFirstResponder];
+                
+                cftScore = (mtcScore + amoScore + mufScore);
+                NSString *cftScoreString = [NSString stringWithFormat:@"%ld", cftScore];
+                score.text = cftScoreString;
+                
+                //Calculate 1st/2nd/3rd class:
+                if (cftScore >= 270)
+                {
+                    cftclass.text = [NSString stringWithFormat:@"1st Class"];
+                }
+                else if ((cftScore >= 225) && (cftScore <= 269))
+                {
+                    cftclass.text = [NSString stringWithFormat:@"2nd Class"];
+                }
+                else if ((cftScore >= 190) && (cftScore <= 224))
+                {
+                    cftclass.text = [NSString stringWithFormat:@"3rd Class"];
+                }
+                else if (cftScore <= 189)
+                {
+                    cftclass.text = [NSString stringWithFormat:@"No Class"];
+                }
+                
+                //Calculate Pass/Fail:
+                if ((mtcScore >= 60) && (amoScore >= 60) && (mufScore >= 60))
+                {
+                    if (cftScore >= 190)
+                    {
+                        status.text = [NSString stringWithFormat:@"Pass"];
+                    }
+                    else
+                    {
+                        status.text = [NSString stringWithFormat:@"Fail"];
+                    }
+                }
+                else if ((mtcScore <=59) || (amoScore <=59) || (mufScore <=59))
+                {
+                    status.text = [NSString stringWithFormat:@"Fail"];
+                }
+            }
+            
+            //Calculate between ages 27 & 39:
+            if ((ageValue >= 27) && (ageValue <= 39))
+            {
+                //Calculate MTC:
+                if (mtcValue <= 330)
+                {
+                    mtcScore = 100;
+                }
+                else if ((mtcValue == 331) || (mtcValue == 332))
+                {
+                    mtcScore = 99;
+                }
+                else if ((mtcValue >= 333) && (mtcValue <= 335))
+                {
+                    mtcScore = 98;
+                }
+                else if ((mtcValue >= 336) && (mtcValue <= 338))
+                {
+                    mtcScore = 97;
+                }
+                else if ((mtcValue >= 339) && (mtcValue <= 341))
+                {
+                    mtcScore = 96;
+                }
+                else if ((mtcValue >= 342) && (mtcValue <= 344))
+                {
+                    mtcScore = 95;
+                }
+                else if ((mtcValue >= 345) && (mtcValue <= 347))
+                {
+                    mtcScore = 94;
+                }
+                else if ((mtcValue >= 348) && (mtcValue <= 350))
+                {
+                    mtcScore = 93;
+                }
+                else if ((mtcValue >= 351) && (mtcValue <= 353))
+                {
+                    mtcScore = 92;
+                }
+                else if ((mtcValue >= 354) && (mtcValue <= 356))
+                {
+                    mtcScore = 91;
+                }
+                else if ((mtcValue >= 357) && (mtcValue <= 359))
+                {
+                    mtcScore = 90;
+                }
+                else if ((mtcValue >= 400) && (mtcValue <= 402))
+                {
+                    mtcScore = 89;
+                }
+                else if ((mtcValue >= 403) && (mtcValue <= 305))
+                {
+                    mtcScore = 88;
+                }
+                else if ((mtcValue >= 406) && (mtcValue <= 408))
+                {
+                    mtcScore = 87;
+                }
+                else if ((mtcValue >= 409) && (mtcValue <= 411))
+                {
+                    mtcScore = 86;
+                }
+                else if ((mtcValue >= 412) && (mtcValue <= 414))
+                {
+                    mtcScore = 85;
+                }
+                else if ((mtcValue >= 415) && (mtcValue <= 417))
+                {
+                    mtcScore = 84;
+                }
+                else if ((mtcValue >= 418) && (mtcValue <= 421))
+                {
+                    mtcScore = 83;
+                }
+                else if ((mtcValue >= 422) && (mtcValue <= 424))
+                {
+                    mtcScore = 82;
+                }
+                else if ((mtcValue >= 425) && (mtcValue <= 427))
+                {
+                    mtcScore = 81;
+                }
+                else if ((mtcValue >= 428) && (mtcValue <= 430))
+                {
+                    mtcScore = 80;
+                }
+                else if ((mtcValue >= 431) && (mtcValue <= 433))
+                {
+                    mtcScore = 79;
+                }
+                else if ((mtcValue >= 434) && (mtcValue <= 436))
+                {
+                    mtcScore = 78;
+                }
+                else if ((mtcValue >= 437) && (mtcValue <= 439))
+                {
+                    mtcScore = 77;
+                }
+                else if ((mtcValue >= 440) && (mtcValue <= 442))
+                {
+                    mtcScore = 76;
+                }
+                else if ((mtcValue >= 443) && (mtcValue <= 445))
+                {
+                    mtcScore = 75;
+                }
+                else if ((mtcValue >= 446) && (mtcValue <= 448))
+                {
+                    mtcScore = 74;
+                }
+                else if ((mtcValue >= 449) && (mtcValue <= 451))
+                {
+                    mtcScore = 73;
+                }
+                else if ((mtcValue >= 452) && (mtcValue <= 454))
+                {
+                    mtcScore = 72;
+                }
+                else if ((mtcValue >= 455) && (mtcValue <= 457))
+                {
+                    mtcScore = 71;
+                }
+                else if ((mtcValue >= 458) && (mtcValue <= 500))
+                {
+                    mtcScore = 70;
+                }
+                else if ((mtcValue >= 501) && (mtcValue <= 503))
+                {
+                    mtcScore = 69;
+                }
+                else if ((mtcValue >= 504) && (mtcValue <= 506))
+                {
+                    mtcScore = 68;
+                }
+                else if ((mtcValue >= 507) && (mtcValue <= 509))
+                {
+                    mtcScore = 67;
+                }
+                else if ((mtcValue >= 510) && (mtcValue <= 512))
+                {
+                    mtcScore = 66;
+                }
+                else if ((mtcValue >= 513) && (mtcValue <= 515))
+                {
+                    mtcScore = 65;
+                }
+                else if ((mtcValue >= 516) && (mtcValue <= 518))
+                {
+                    mtcScore = 64;
+                }
+                else if ((mtcValue >= 519) && (mtcValue <= 521))
+                {
+                    mtcScore = 63;
+                }
+                else if ((mtcValue >= 522) && (mtcValue <= 524))
+                {
+                    mtcScore = 62;
+                }
+                else if ((mtcValue >= 525) && (mtcValue <= 527))
+                {
+                    mtcScore = 61;
+                }
+                else if (mtcValue == 528)
+                {
+                    mtcScore = 60;
+                }
+                else if (mtcValue >= 529)
+                {
+                    mtcScore = 0;
+                }
+                [mtc resignFirstResponder];
+                
+                //Calculate ammo can lift:
+                if (amoValue >= 63)
+                {
+                    amoScore = 100;
+                }
+                else if (amoValue == 62)
+                {
+                    amoScore = 99;
+                }
+                else if ((amoValue == 61) || (amoValue == 60))
+                {
+                    amoScore = 98;
+                }
+                else if (amoValue == 59)
+                {
+                    amoScore = 97;
+                }
+                else if (amoValue == 58)
+                {
+                    amoScore = 96;
+                }
+                else if (amoValue == 57)
+                {
+                    amoScore = 95;
+                }
+                else if ((amoValue == 56) || (amoValue == 55))
+                {
+                    amoScore = 94;
+                }
+                else if (amoValue == 54)
+                {
+                    amoScore = 93;
+                }
+                else if (amoValue == 53)
+                {
+                    amoScore = 92;
+                }
+                else if (amoValue == 52)
+                {
+                    amoScore = 91;
+                }
+                else if ((amoValue == 51) || (amoValue == 50))
+                {
+                    amoScore = 90;
+                }
+                else if (amoValue == 49)
+                {
+                    amoScore = 89;
+                }
+                else if (amoValue == 48)
+                {
+                    amoScore = 88;
+                }
+                else if (amoValue == 47)
+                {
+                    amoScore = 87;
+                }
+                else if ((amoValue == 46) || (amoValue == 45))
+                {
+                    amoScore = 86;
+                }
+                else if (amoValue == 44)
+                {
+                    amoScore = 85;
+                }
+                else if (amoValue == 43)
+                {
+                    amoScore = 84;
+                }
+                else if (amoValue == 42)
+                {
+                    amoScore = 83;
+                }
+                else if ((amoValue == 41) || (amoValue == 40))
+                {
+                    amoScore = 82;
+                }
+                else if (amoValue == 39)
+                {
+                    amoScore = 81;
+                }
+                else if (amoValue == 38)
+                {
+                    amoScore = 80;
+                }
+                else if (amoValue == 37)
+                {
+                    amoScore = 79;
+                }
+                else if ((amoValue == 36) || (amoValue == 35))
+                {
+                    amoScore = 78;
+                }
+                else if (amoValue == 34)
+                {
+                    amoScore = 77;
+                }
+                else if (amoValue == 33)
+                {
+                    amoScore = 76;
+                }
+                else if (amoValue == 32)
+                {
+                    amoScore = 75;
+                }
+                else if ((amoValue == 31) || (amoValue == 30))
+                {
+                    amoScore = 74;
+                }
+                else if (amoValue == 29)
+                {
+                    amoScore = 73;
+                }
+                else if (amoValue == 28)
+                {
+                    amoScore = 72;
+                }
+                else if (amoValue == 27)
+                {
+                    amoScore = 71;
+                }
+                else if ((amoValue == 26) || (amoValue == 25))
+                {
+                    amoScore = 70;
+                }
+                else if (amoValue == 24)
+                {
+                    amoScore = 69;
+                }
+                else if (amoValue == 23)
+                {
+                    amoScore = 68;
+                }
+                else if (amoValue == 22)
+                {
+                    amoScore = 67;
+                }
+                else if ((amoValue == 21) || (amoValue == 20))
+                {
+                    amoScore = 66;
+                }
+                else if (amoValue == 19)
+                {
+                    amoScore = 65;
+                }
+                else if (amoValue == 18)
+                {
+                    amoScore = 64;
+                }
+                else if (amoValue == 17)
+                {
+                    amoScore = 63;
+                }
+                else if ((amoValue == 16) || (amoValue == 15))
+                {
+                    amoScore = 62;
+                }
+                else if (amoValue == 14)
+                {
+                    amoScore = 61;
+                }
+                else if (amoValue == 13)
+                {
+                    amoScore = 60;
+                }
+                else if (amoValue <= 12)
+                {
+                    amoScore = 0;
+                }
+                [amo resignFirstResponder];
+                
+                //Calculate MUF:
+                if (mufValue <= 307)
+                {
+                    mufScore = 100;
+                }
+                else if ((mufValue >= 308) && (mufValue <= 311))
+                {
+                    mufScore = 99;
+                }
+                else if ((mufValue >= 312) && (mufValue <= 315))
+                {
+                    mufScore = 98;
+                }
+                else if ((mufValue >= 316) && (mufValue <= 320))
+                {
+                    mufScore = 97;
+                }
+                else if ((mufValue >= 321) && (mufValue <= 324))
+                {
+                    mufScore = 96;
+                }
+                else if ((mufValue >= 325) && (mufValue <= 329))
+                {
+                    mufScore = 95;
+                }
+                else if ((mufValue >= 330) && (mufValue <= 333))
+                {
+                    mufScore = 94;
+                }
+                else if ((mufValue >= 334) && (mufValue <= 338))
+                {
+                    mufScore = 93;
+                }
+                else if ((mufValue >= 339) && (mufValue <= 342))
+                {
+                    mufScore = 92;
+                }
+                else if ((mufValue >= 343) && (mufValue <= 347))
+                {
+                    mufScore = 91;
+                }
+                else if ((mufValue >= 348) && (mufValue <= 351))
+                {
+                    mufScore = 90;
+                }
+                else if ((mufValue >= 352) && (mufValue <= 356))
+                {
+                    mufScore = 89;
+                }
+                else if ((mufValue >= 357) && (mufValue <= 401))
+                {
+                    mufScore = 88;
+                }
+                else if ((mufValue >= 402) && (mufValue <= 405))
+                {
+                    mufScore = 87;
+                }
+                else if ((mufValue >= 406) && (mufValue <= 410))
+                {
+                    mufScore = 86;
+                }
+                else if ((mufValue >= 411) && (mufValue <= 414))
+                {
+                    mufScore = 85;
+                }
+                else if ((mufValue >= 415) && (mufValue <= 419))
+                {
+                    mufScore = 84;
+                }
+                else if ((mufValue >= 420) && (mufValue <= 423))
+                {
+                    mufScore = 83;
+                }
+                else if ((mufValue >= 424) && (mufValue <= 428))
+                {
+                    mufScore = 82;
+                }
+                else if ((mufValue >= 429) && (mufValue <= 432))
+                {
+                    mufScore = 81;
+                }
+                else if ((mufValue >= 433) && (mufValue <= 437))
+                {
+                    mufScore = 80;
+                }
+                else if ((mufValue >= 438) && (mufValue <= 441))
+                {
+                    mufScore = 79;
+                }
+                else if ((mufValue >= 442) && (mufValue <= 446))
+                {
+                    mufScore = 78;
+                }
+                else if ((mufValue >= 447) && (mufValue <= 450))
+                {
+                    mufScore = 77;
+                }
+                else if ((mufValue >= 451) && (mufValue <= 455))
+                {
+                    mufScore = 76;
+                }
+                else if ((mufValue >= 456) && (mufValue <= 459))
+                {
+                    mufScore = 75;
+                }
+                else if ((mufValue >= 500) && (mufValue <= 504))
+                {
+                    mufScore = 74;
+                }
+                else if ((mufValue >= 505) && (mufValue <= 508))
+                {
+                    mufScore = 73;
+                }
+                else if ((mufValue >= 509) && (mufValue <= 513))
+                {
+                    mufScore = 72;
+                }
+                else if ((mufValue >= 514) && (mufValue <= 517))
+                {
+                    mufScore = 71;
+                }
+                else if ((mufValue >= 518) && (mufValue <= 522))
+                {
+                    mufScore = 70;
+                }
+                else if ((mufValue >= 523) && (mufValue <= 527))
+                {
+                    mufScore = 69;
+                }
+                else if ((mufValue >= 528) && (mufValue <= 531))
+                {
+                    mufScore = 68;
+                }
+                else if ((mufValue >= 532) && (mufValue <= 536))
+                {
+                    mufScore = 67;
+                }
+                else if ((mufValue >= 537) && (mufValue <= 540))
+                {
+                    mufScore = 66;
+                }
+                else if ((mufValue >= 541) && (mufValue <= 545))
+                {
+                    mufScore = 65;
+                }
+                else if ((mufValue >= 546) && (mufValue <= 549))
+                {
+                    mufScore = 64;
+                }
+                else if ((mufValue >= 550) && (mufValue <= 553))
+                {
+                    mufScore = 63;
+                }
+                else if ((mufValue >= 554) && (mufValue <= 558))
+                {
+                    mufScore = 62;
+                }
+                else if ((mufValue >= 559) && (mufValue <= 603))
+                {
+                    mufScore = 61;
+                }
+                else if (mufValue == 604)
+                {
+                    mufScore = 60;
+                }
+                else if (mufValue >= 605)
+                {
+                    mufScore = 0;
+                }
+                [muf resignFirstResponder];
+                
+                cftScore = (mtcScore + amoScore + mufScore);
+                NSString *cftScoreString = [NSString stringWithFormat:@"%ld", cftScore];
+                score.text = cftScoreString;
+                
+                //Calculate 1st/2nd/3rd class:
+                if (cftScore >= 270)
+                {
+                    cftclass.text = [NSString stringWithFormat:@"1st Class"];
+                }
+                else if ((cftScore >= 225) && (cftScore <= 269))
+                {
+                    cftclass.text = [NSString stringWithFormat:@"2nd Class"];
+                }
+                else if ((cftScore >= 190) && (cftScore <= 224))
+                {
+                    cftclass.text = [NSString stringWithFormat:@"3rd Class"];
+                }
+                else if (cftScore <= 189)
+                {
+                    cftclass.text = [NSString stringWithFormat:@"No Class"];
+                }
+                
+                //Calculate Pass/Fail:
+                if ((mtcScore >= 60) && (amoScore >= 60) && (mufScore >= 60))
+                {
+                    if (cftScore >= 190)
+                    {
+                        status.text = [NSString stringWithFormat:@"Pass"];
+                    }
+                    else
+                    {
+                        status.text = [NSString stringWithFormat:@"Fail"];
+                    }
+                }
+                else if ((mtcScore <=59) || (amoScore <=59) || (mufScore <=59))
+                {
+                    status.text = [NSString stringWithFormat:@"Fail"];
+                }
+                
+            }
+            
+            //Calculate between ages 40 & 45:
+            if ((ageValue >= 40) && (ageValue <= 45))
+            {
+                //Calculate MTC:
+                if (mtcValue <= 349)
+                {
+                    mtcScore = 100;
+                }
+                else if ((mtcValue == 350) || (mtcValue == 351))
+                {
+                    mtcScore = 99;
+                }
+                else if ((mtcValue >= 352) && (mtcValue <= 354))
+                {
+                    mtcScore = 98;
+                }
+                else if ((mtcValue >= 355) && (mtcValue <= 356))
+                {
+                    mtcScore = 97;
+                }
+                else if ((mtcValue >= 357) && (mtcValue <= 359))
+                {
+                    mtcScore = 96;
+                }
+                else if ((mtcValue >= 400) && (mtcValue <= 402))
+                {
+                    mtcScore = 95;
+                }
+                else if ((mtcValue >= 403) && (mtcValue <= 404))
+                {
+                    mtcScore = 94;
+                }
+                else if ((mtcValue >= 405) && (mtcValue <= 407))
+                {
+                    mtcScore = 93;
+                }
+                else if ((mtcValue >= 408) && (mtcValue <= 410))
+                {
+                    mtcScore = 92;
+                }
+                else if ((mtcValue >= 411) && (mtcValue <= 412))
+                {
+                    mtcScore = 91;
+                }
+                else if ((mtcValue >= 413) && (mtcValue <= 415))
+                {
+                    mtcScore = 90;
+                }
+                else if ((mtcValue >= 416) && (mtcValue <= 418))
+                {
+                    mtcScore = 89;
+                }
+                else if ((mtcValue >= 419) && (mtcValue <= 421))
+                {
+                    mtcScore = 88;
+                }
+                else if ((mtcValue >= 422) && (mtcValue <= 423))
+                {
+                    mtcScore = 87;
+                }
+                else if ((mtcValue >= 424) && (mtcValue <= 426))
+                {
+                    mtcScore = 86;
+                }
+                else if ((mtcValue >= 427) && (mtcValue <= 429))
+                {
+                    mtcScore = 85;
+                }
+                else if ((mtcValue >= 430) && (mtcValue <= 431))
+                {
+                    mtcScore = 84;
+                }
+                else if ((mtcValue >= 432) && (mtcValue <= 434))
+                {
+                    mtcScore = 83;
+                }
+                else if ((mtcValue >= 435) && (mtcValue <= 437))
+                {
+                    mtcScore = 82;
+                }
+                else if ((mtcValue >= 438) && (mtcValue <= 439))
+                {
+                    mtcScore = 81;
+                }
+                else if ((mtcValue >= 440) && (mtcValue <= 442))
+                {
+                    mtcScore = 80;
+                }
+                else if ((mtcValue >= 443) && (mtcValue <= 445))
+                {
+                    mtcScore = 79;
+                }
+                else if ((mtcValue >= 446) && (mtcValue <= 448))
+                {
+                    mtcScore = 78;
+                }
+                else if ((mtcValue >= 449) && (mtcValue <= 450))
+                {
+                    mtcScore = 77;
+                }
+                else if ((mtcValue >= 451) && (mtcValue <= 453))
+                {
+                    mtcScore = 76;
+                }
+                else if ((mtcValue >= 454) && (mtcValue <= 456))
+                {
+                    mtcScore = 75;
+                }
+                else if ((mtcValue >= 457) && (mtcValue <= 458))
+                {
+                    mtcScore = 74;
+                }
+                else if ((mtcValue >= 459) && (mtcValue <= 501))
+                {
+                    mtcScore = 73;
+                }
+                else if ((mtcValue >= 502) && (mtcValue <= 504))
+                {
+                    mtcScore = 72;
+                }
+                else if ((mtcValue >= 505) && (mtcValue <= 507))
+                {
+                    mtcScore = 71;
+                }
+                else if ((mtcValue >= 508) && (mtcValue <= 509))
+                {
+                    mtcScore = 70;
+                }
+                else if ((mtcValue >= 510) && (mtcValue <= 512))
+                {
+                    mtcScore = 69;
+                }
+                else if ((mtcValue >= 513) && (mtcValue <= 515))
+                {
+                    mtcScore = 68;
+                }
+                else if ((mtcValue >= 516) && (mtcValue <= 517))
+                {
+                    mtcScore = 67;
+                }
+                else if ((mtcValue >= 518) && (mtcValue <= 520))
+                {
+                    mtcScore = 66;
+                }
+                else if ((mtcValue >= 521) && (mtcValue <= 523))
+                {
+                    mtcScore = 65;
+                }
+                else if ((mtcValue >= 524) && (mtcValue <= 525))
+                {
+                    mtcScore = 64;
+                }
+                else if ((mtcValue >= 526) && (mtcValue <= 528))
+                {
+                    mtcScore = 63;
+                }
+                else if ((mtcValue >= 529) && (mtcValue <= 531))
+                {
+                    mtcScore = 62;
+                }
+                else if ((mtcValue >= 532) && (mtcValue <= 534))
+                {
+                    mtcScore = 61;
+                }
+                else if ((mtcValue == 535) || (mtcValue == 536))
+                {
+                    mtcScore = 60;
+                }
+                else if (mtcValue >= 537)
+                {
+                    mtcScore = 0;
+                }
+                [mtc resignFirstResponder];
+                
+                //Calculate ammo can lift:
+                if (amoValue >= 45)
+                {
+                    amoScore = 100;
+                }
+                else if (amoValue == 44)
+                {
+                    amoScore = 99;
+                }
+                else if (amoValue == 43)
+                {
+                    amoScore = 98;
+                }
+                else if (amoValue == 42)
+                {
+                    amoScore = 97;
+                }
+                else if (amoValue == 41)
+                {
+                    amoScore = 96;
+                }
+                else if (amoValue == 40)
+                {
+                    amoScore = 95;
+                }
+                else if (amoValue == 39)
+                {
+                    amoScore = 94;
+                }
+                else if (amoValue == 38)
+                {
+                    amoScore = 93;
+                }
+                else if (amoValue == 37)
+                {
+                    amoScore = 92;
+                }
+                else if (amoValue == 36)
+                {
+                    amoScore = 91;
+                }
+                else if (amoValue == 35)
+                {
+                    amoScore = 90;
+                }
+                else if (amoValue == 34)
+                {
+                    amoScore = 89;
+                }
+                else if (amoValue == 33)
+                {
+                    amoScore = 88;
+                }
+                else if (amoValue == 32)
+                {
+                    amoScore = 87;
+                }
+                else if (amoValue == 31)
+                {
+                    amoScore = 86;
+                }
+                else if (amoValue == 30)
+                {
+                    amoScore = 85;
+                }
+                else if (amoValue == 29)
+                {
+                    amoScore = 84;
+                }
+                else if (amoValue == 28)
+                {
+                    amoScore = 83;
+                }
+                else if (amoValue == 27)
+                {
+                    amoScore = 82;
+                }
+                else if (amoValue == 26)
+                {
+                    amoScore = 81;
+                }
+                else if (amoValue == 25)
+                {
+                    amoScore = 80;
+                }
+                else if (amoValue == 24)
+                {
+                    amoScore = 79;
+                }
+                else if (amoValue == 23)
+                {
+                    amoScore = 78;
+                }
+                else if (amoValue == 22)
+                {
+                    amoScore = 77;
+                }
+                else if (amoValue == 21)
+                {
+                    amoScore = 76;
+                }
+                else if (amoValue == 20)
+                {
+                    amoScore = 75;
+                }
+                else if (amoValue == 19)
+                {
+                    amoScore = 74;
+                }
+                else if (amoValue == 18)
+                {
+                    amoScore = 73;
+                }
+                else if (amoValue == 17)
+                {
+                    amoScore = 72;
+                }
+                else if (amoValue == 16)
+                {
+                    amoScore = 71;
+                }
+                else if (amoValue == 15)
+                {
+                    amoScore = 70;
+                }
+                else if (amoValue == 14)
+                {
+                    amoScore = 69;
+                }
+                else if (amoValue == 13)
+                {
+                    amoScore = 68;
+                }
+                else if (amoValue == 12)
+                {
+                    amoScore = 66;
+                }
+                else if (amoValue == 11)
+                {
+                    amoScore = 65;
+                }
+                else if (amoValue == 10)
+                {
+                    amoScore = 64;
+                }
+                else if (amoValue == 9)
+                {
+                    amoScore = 63;
+                }
+                else if (amoValue == 8)
+                {
+                    amoScore = 61;
+                }
+                else if (amoValue == 7)
+                {
+                    amoScore = 60;
+                }
+                else if (amoValue <= 6)
+                {
+                    amoScore = 0;
+                }
+                [amo resignFirstResponder];
+                
+                //Calculate MUF:
+                if (mufValue <= 321)
+                {
+                    mufScore = 100;
+                }
+                else if ((mufValue >= 322) && (mufValue <= 325))
+                {
+                    mufScore = 99;
+                }
+                else if ((mufValue >= 326) && (mufValue <= 330))
+                {
+                    mufScore = 98;
+                }
+                else if ((mufValue >= 331) && (mufValue <= 334))
+                {
+                    mufScore = 97;
+                }
+                else if ((mufValue >= 335) && (mufValue <= 339))
+                {
+                    mufScore = 96;
+                }
+                else if ((mufValue >= 340) && (mufValue <= 344))
+                {
+                    mufScore = 95;
+                }
+                else if ((mufValue >= 345) && (mufValue <= 348))
+                {
+                    mufScore = 94;
+                }
+                else if ((mufValue >= 349) && (mufValue <= 353))
+                {
+                    mufScore = 93;
+                }
+                else if ((mufValue >= 354) && (mufValue <= 358))
+                {
+                    mufScore = 92;
+                }
+                else if ((mufValue >= 359) && (mufValue <= 403))
+                {
+                    mufScore = 91;
+                }
+                else if ((mufValue >= 404) && (mufValue <= 407))
+                {
+                    mufScore = 90;
+                }
+                else if ((mufValue >= 408) && (mufValue <= 412))
+                {
+                    mufScore = 89;
+                }
+                else if ((mufValue >= 413) && (mufValue <= 417))
+                {
+                    mufScore = 88;
+                }
+                else if ((mufValue >= 418) && (mufValue <= 421))
+                {
+                    mufScore = 87;
+                }
+                else if ((mufValue >= 422) && (mufValue <= 426))
+                {
+                    mufScore = 86;
+                }
+                else if ((mufValue >= 427) && (mufValue <= 431))
+                {
+                    mufScore = 85;
+                }
+                else if ((mufValue >= 432) && (mufValue <= 436))
+                {
+                    mufScore = 84;
+                }
+                else if ((mufValue >= 437) && (mufValue <= 440))
+                {
+                    mufScore = 83;
+                }
+                else if ((mufValue >= 441) && (mufValue <= 445))
+                {
+                    mufScore = 82;
+                }
+                else if ((mufValue >= 446) && (mufValue <= 450))
+                {
+                    mufScore = 81;
+                }
+                else if ((mufValue >= 451) && (mufValue <= 454))
+                {
+                    mufScore = 80;
+                }
+                else if ((mufValue >= 455) && (mufValue <= 459))
+                {
+                    mufScore = 79;
+                }
+                else if ((mufValue >= 500) && (mufValue <= 504))
+                {
+                    mufScore = 78;
+                }
+                else if ((mufValue >= 505) && (mufValue <= 509))
+                {
+                    mufScore = 77;
+                }
+                else if ((mufValue >= 510) && (mufValue <= 513))
+                {
+                    mufScore = 76;
+                }
+                else if ((mufValue >= 514) && (mufValue <= 518))
+                {
+                    mufScore = 75;
+                }
+                else if ((mufValue >= 519) && (mufValue <= 523))
+                {
+                    mufScore = 74;
+                }
+                else if ((mufValue >= 524) && (mufValue <= 527))
+                {
+                    mufScore = 73;
+                }
+                else if ((mufValue >= 528) && (mufValue <= 532))
+                {
+                    mufScore = 72;
+                }
+                else if ((mufValue >= 533) && (mufValue <= 537))
+                {
+                    mufScore = 71;
+                }
+                else if ((mufValue >= 538) && (mufValue <= 542))
+                {
+                    mufScore = 70;
+                }
+                else if ((mufValue >= 543) && (mufValue <= 546))
+                {
+                    mufScore = 69;
+                }
+                else if ((mufValue >= 547) && (mufValue <= 551))
+                {
+                    mufScore = 68;
+                }
+                else if ((mufValue >= 552) && (mufValue <= 556))
+                {
+                    mufScore = 67;
+                }
+                else if ((mufValue >= 557) && (mufValue <= 601))
+                {
+                    mufScore = 66;
+                }
+                else if ((mufValue >= 602) && (mufValue <= 605))
+                {
+                    mufScore = 65;
+                }
+                else if ((mufValue >= 606) && (mufValue <= 610))
+                {
+                    mufScore = 64;
+                }
+                else if ((mufValue >= 611) && (mufValue <= 615))
+                {
+                    mufScore = 63;
+                }
+                else if ((mufValue >= 616) && (mufValue <= 619))
+                {
+                    mufScore = 62;
+                }
+                else if ((mufValue >= 620) && (mufValue <= 624))
+                {
+                    mufScore = 61;
+                }
+                else if (mufValue == 625)
+                {
+                    mufScore = 60;
+                }
+                else if (mufValue >= 626)
+                {
+                    mufScore = 0;
+                }
+                [muf resignFirstResponder];
+                
+                cftScore = (mtcScore + amoScore + mufScore);
+                NSString *cftScoreString = [NSString stringWithFormat:@"%ld", cftScore];
+                score.text = cftScoreString;
+                
+                //Calculate 1st/2nd/3rd class:
+                if (cftScore >= 270)
+                {
+                    cftclass.text = [NSString stringWithFormat:@"1st Class"];
+                }
+                else if ((cftScore >= 225) && (cftScore <= 269))
+                {
+                    cftclass.text = [NSString stringWithFormat:@"2nd Class"];
+                }
+                else if ((cftScore >= 190) && (cftScore <= 224))
+                {
+                    cftclass.text = [NSString stringWithFormat:@"3rd Class"];
+                }
+                else if (cftScore <= 189)
+                {
+                    cftclass.text = [NSString stringWithFormat:@"No Class"];
+                }
+                
+                //Calculate Pass/Fail:
+                if ((mtcScore >= 60) && (amoScore >= 60) && (mufScore >= 60))
+                {
+                    if (cftScore >= 190)
+                    {
+                        status.text = [NSString stringWithFormat:@"Pass"];
+                    }
+                    else
+                    {
+                        status.text = [NSString stringWithFormat:@"Fail"];
+                    }
+                }
+                else if ((mtcScore <=59) || (amoScore <=59) || (mufScore <=59))
+                {
+                    status.text = [NSString stringWithFormat:@"Fail"];
+                }
+                
+            }
+            
+            //Calculate ages 46+:
+            if (ageValue >= 46)
+            {
+                //Calculate MTC:
+                if (mtcValue <= 355)
+                {
+                    mtcScore = 100;
+                }
+                else if ((mtcValue >= 356) && (mtcValue <= 359))
+                {
+                    mtcScore = 99;
+                }
+                else if ((mtcValue >= 400) && (mtcValue <= 402))
+                {
+                    mtcScore = 98;
+                }
+                else if ((mtcValue >= 403) && (mtcValue <= 405))
+                {
+                    mtcScore = 97;
+                }
+                else if ((mtcValue >= 406) && (mtcValue <= 408))
+                {
+                    mtcScore = 96;
+                }
+                else if ((mtcValue >= 409) && (mtcValue <= 411))
+                {
+                    mtcScore = 95;
+                }
+                else if ((mtcValue >= 412) && (mtcValue <= 414))
+                {
+                    mtcScore = 94;
+                }
+                else if ((mtcValue >= 415) && (mtcValue <= 417))
+                {
+                    mtcScore = 93;
+                }
+                else if ((mtcValue >= 418) && (mtcValue <= 420))
+                {
+                    mtcScore = 92;
+                }
+                else if ((mtcValue >= 421) && (mtcValue <= 423))
+                {
+                    mtcScore = 91;
+                }
+                else if ((mtcValue >= 424) && (mtcValue <= 425))
+                {
+                    mtcScore = 90;
+                }
+                else if ((mtcValue >= 426) && (mtcValue <= 428))
+                {
+                    mtcScore = 89;
+                }
+                else if ((mtcValue >= 429) && (mtcValue <= 431))
+                {
+                    mtcScore = 88;
+                }
+                else if ((mtcValue >= 432) && (mtcValue <= 434))
+                {
+                    mtcScore = 87;
+                }
+                else if ((mtcValue >= 435) && (mtcValue <= 437))
+                {
+                    mtcScore = 86;
+                }
+                else if ((mtcValue >= 438) && (mtcValue <= 440))
+                {
+                    mtcScore = 85;
+                }
+                else if ((mtcValue >= 441) && (mtcValue <= 443))
+                {
+                    mtcScore = 84;
+                }
+                else if ((mtcValue >= 444) && (mtcValue <= 446))
+                {
+                    mtcScore = 83;
+                }
+                else if ((mtcValue >= 447) && (mtcValue <= 448))
+                {
+                    mtcScore = 82;
+                }
+                else if ((mtcValue >= 449) && (mtcValue <= 452))
+                {
+                    mtcScore = 81;
+                }
+                else if ((mtcValue >= 453) && (mtcValue <= 455))
+                {
+                    mtcScore = 80;
+                }
+                else if ((mtcValue >= 456) && (mtcValue <= 458))
+                {
+                    mtcScore = 79;
+                }
+                else if ((mtcValue >= 459) && (mtcValue <= 501))
+                {
+                    mtcScore = 78;
+                }
+                else if ((mtcValue >= 502) && (mtcValue <= 504))
+                {
+                    mtcScore = 77;
+                }
+                else if ((mtcValue >= 505) && (mtcValue <= 507))
+                {
+                    mtcScore = 76;
+                }
+                else if ((mtcValue >= 508) && (mtcValue <= 510))
+                {
+                    mtcScore = 75;
+                }
+                else if ((mtcValue >= 511) && (mtcValue <= 513))
+                {
+                    mtcScore = 74;
+                }
+                else if ((mtcValue >= 514) && (mtcValue <= 516))
+                {
+                    mtcScore = 73;
+                }
+                else if ((mtcValue >= 517) && (mtcValue <= 519))
+                {
+                    mtcScore = 72;
+                }
+                else if ((mtcValue >= 520) && (mtcValue <= 522))
+                {
+                    mtcScore = 71;
+                }
+                else if ((mtcValue >= 523) && (mtcValue <= 524))
+                {
+                    mtcScore = 70;
+                }
+                else if ((mtcValue >= 525) && (mtcValue <= 527))
+                {
+                    mtcScore = 69;
+                }
+                else if ((mtcValue >= 528) && (mtcValue <= 530))
+                {
+                    mtcScore = 68;
+                }
+                else if ((mtcValue >= 531) && (mtcValue <= 533))
+                {
+                    mtcScore = 67;
+                }
+                else if ((mtcValue >= 534) && (mtcValue <= 536))
+                {
+                    mtcScore = 66;
+                }
+                else if ((mtcValue >= 537) && (mtcValue <= 539))
+                {
+                    mtcScore = 65;
+                }
+                else if ((mtcValue >= 540) && (mtcValue <= 542))
+                {
+                    mtcScore = 64;
+                }
+                else if ((mtcValue >= 543) && (mtcValue <= 545))
+                {
+                    mtcScore = 63;
+                }
+                else if ((mtcValue >= 546) && (mtcValue <= 548))
+                {
+                    mtcScore = 62;
+                }
+                else if ((mtcValue >= 549) && (mtcValue <= 551))
+                {
+                    mtcScore = 61;
+                }
+                else if (mtcValue == 552)
+                {
+                    mtcScore = 60;
+                }
+                else if (mtcValue >= 553)
+                {
+                    mtcScore = 0;
+                }
+                [mtc resignFirstResponder];
+                
+                //Calculate ammo can lift:
+                if (amoValue >= 41)
+                {
+                    amoScore = 100;
+                }
+                else if (amoValue == 40)
+                {
+                    amoScore = 99;
+                }
+                else if (amoValue == 39)
+                {
+                    amoScore = 98;
+                }
+                else if (amoValue == 38)
+                {
+                    amoScore = 97;
+                }
+                else if (amoValue == 37)
+                {
+                    amoScore = 96;
+                }
+                else if (amoValue == 36)
+                {
+                    amoScore = 95;
+                }
+                else if (amoValue == 35)
+                {
+                    amoScore = 94;
+                }
+                else if (amoValue == 34)
+                {
+                    amoScore = 93;
+                }
+                else if (amoValue == 33)
+                {
+                    amoScore = 92;
+                }
+                else if (amoValue == 32)
+                {
+                    amoScore = 91;
+                }
+                else if (amoValue == 31)
+                {
+                    amoScore = 90;
+                }
+                else if (amoValue == 30)
+                {
+                    amoScore = 89;
+                }
+                else if (amoValue == 29)
+                {
+                    amoScore = 88;
+                }
+                else if (amoValue == 28)
+                {
+                    amoScore = 86;
+                }
+                else if (amoValue == 27)
+                {
+                    amoScore = 85;
+                }
+                else if (amoValue == 26)
+                {
+                    amoScore = 84;
+                }
+                else if (amoValue == 25)
+                {
+                    amoScore = 83;
+                }
+                else if (amoValue == 24)
+                {
+                    amoScore = 81;
+                }
+                else if (amoValue == 23)
+                {
+                    amoScore = 80;
+                }
+                else if (amoValue == 22)
+                {
+                    amoScore = 79;
+                }
+                else if (amoValue == 21)
+                {
+                    amoScore = 78;
+                }
+                else if (amoValue == 20)
+                {
+                    amoScore = 76;
+                }
+                else if (amoValue == 19)
+                {
+                    amoScore = 75;
+                }
+                else if (amoValue == 18)
+                {
+                    amoScore = 74;
+                }
+                else if (amoValue == 17)
+                {
+                    amoScore = 73;
+                }
+                else if (amoValue == 16)
+                {
+                    amoScore = 71;
+                }
+                else if (amoValue == 15)
+                {
+                    amoScore = 70;
+                }
+                else if (amoValue == 14)
+                {
+                    amoScore = 69;
+                }
+                else if (amoValue == 13)
+                {
+                    amoScore = 68;
+                }
+                else if (amoValue == 12)
+                {
+                    amoScore = 66;
+                }
+                else if (amoValue == 11)
+                {
+                    amoScore = 65;
+                }
+                else if (amoValue == 10)
+                {
+                    amoScore = 64;
+                }
+                else if (amoValue == 9)
+                {
+                    amoScore = 63;
+                }
+                else if (amoValue == 8)
+                {
+                    amoScore = 62;
+                }
+                else if (amoValue == 7)
+                {
+                    amoScore = 61;
+                }
+                else if (amoValue == 6)
+                {
+                    amoScore = 60;
+                }
+                else if (amoValue <= 5)
+                {
+                    amoScore = 0;
+                }
+                [amo resignFirstResponder];
+                
+                //Calculate MUF:
+                if (mufValue <= 344)
+                {
+                    mufScore = 100;
+                }
+                else if ((mufValue >= 345) && (mufValue <= 350))
+                {
+                    mufScore = 99;
+                }
+                else if ((mufValue >= 351) && (mufValue <= 354))
+                {
+                    mufScore = 98;
+                }
+                else if ((mufValue >= 355) && (mufValue <= 358))
+                {
+                    mufScore = 97;
+                }
+                else if ((mufValue >= 359) && (mufValue <= 403))
+                {
+                    mufScore = 96;
+                }
+                else if ((mufValue >= 404) && (mufValue <= 407))
+                {
+                    mufScore = 95;
+                }
+                else if ((mufValue >= 408) && (mufValue <= 411))
+                {
+                    mufScore = 94;
+                }
+                else if ((mufValue >= 412) && (mufValue <= 415))
+                {
+                    mufScore = 93;
+                }
+                else if ((mufValue >= 416) && (mufValue <= 420))
+                {
+                    mufScore = 92;
+                }
+                else if ((mufValue >= 421) && (mufValue <= 424))
+                {
+                    mufScore = 91;
+                }
+                else if ((mufValue >= 425) && (mufValue <= 428))
+                {
+                    mufScore = 90;
+                }
+                else if ((mufValue >= 429) && (mufValue <= 432))
+                {
+                    mufScore = 89;
+                }
+                else if ((mufValue >= 433) && (mufValue <= 437))
+                {
+                    mufScore = 88;
+                }
+                else if ((mufValue >= 438) && (mufValue <= 441))
+                {
+                    mufScore = 87;
+                }
+                else if ((mufValue >= 442) && (mufValue <= 445))
+                {
+                    mufScore = 86;
+                }
+                else if ((mufValue >= 446) && (mufValue <= 449))
+                {
+                    mufScore = 85;
+                }
+                else if ((mufValue >= 450) && (mufValue <= 454))
+                {
+                    mufScore = 84;
+                }
+                else if ((mufValue >= 455) && (mufValue <= 458))
+                {
+                    mufScore = 83;
+                }
+                else if ((mufValue >= 459) && (mufValue <= 502))
+                {
+                    mufScore = 82;
+                }
+                else if ((mufValue >= 503) && (mufValue <= 506))
+                {
+                    mufScore = 81;
+                }
+                else if ((mufValue >= 507) && (mufValue <= 511))
+                {
+                    mufScore = 80;
+                }
+                else if ((mufValue >= 512) && (mufValue <= 515))
+                {
+                    mufScore = 79;
+                }
+                else if ((mufValue >= 516) && (mufValue <= 519))
+                {
+                    mufScore = 78;
+                }
+                else if ((mufValue >= 520) && (mufValue <= 524))
+                {
+                    mufScore = 77;
+                }
+                else if ((mufValue >= 525) && (mufValue <= 528))
+                {
+                    mufScore = 76;
+                }
+                else if ((mufValue >= 529) && (mufValue <= 532))
+                {
+                    mufScore = 75;
+                }
+                else if ((mufValue >= 533) && (mufValue <= 536))
+                {
+                    mufScore = 74;
+                }
+                else if ((mufValue >= 537) && (mufValue <= 541))
+                {
+                    mufScore = 73;
+                }
+                else if ((mufValue >= 542) && (mufValue <= 545))
+                {
+                    mufScore = 72;
+                }
+                else if ((mufValue >= 546) && (mufValue <= 549))
+                {
+                    mufScore = 71;
+                }
+                else if ((mufValue >= 550) && (mufValue <= 553))
+                {
+                    mufScore = 70;
+                }
+                else if ((mufValue >= 554) && (mufValue <= 558))
+                {
+                    mufScore = 69;
+                }
+                else if ((mufValue >= 559) && (mufValue <= 602))
+                {
+                    mufScore = 68;
+                }
+                else if ((mufValue >= 603) && (mufValue <= 606))
+                {
+                    mufScore = 67;
+                }
+                else if ((mufValue >= 607) && (mufValue <= 610))
+                {
+                    mufScore = 66;
+                }
+                else if ((mufValue >= 611) && (mufValue <= 615))
+                {
+                    mufScore = 65;
+                }
+                else if ((mufValue >= 616) && (mufValue <= 619))
+                {
+                    mufScore = 64;
+                }
+                else if ((mufValue >= 620) && (mufValue <= 623))
+                {
+                    mufScore = 63;
+                }
+                else if ((mufValue >= 624) && (mufValue <= 627))
+                {
+                    mufScore = 62;
+                }
+                else if ((mufValue >= 628) && (mufValue <= 632))
+                {
+                    mufScore = 61;
+                }
+                else if (mufValue == 633)
+                {
+                    mufScore = 60;
+                }
+                else if (mufValue >= 634)
+                {
+                    mufScore = 0;
+                }
+                [muf resignFirstResponder];
+                
+                cftScore = (mtcScore + amoScore + mufScore);
+                NSString *cftScoreString = [NSString stringWithFormat:@"%ld", cftScore];
+                score.text = cftScoreString;
+                
+                //Calculate 1st/2nd/3rd class:
+                if (cftScore >= 270)
+                {
+                    cftclass.text = [NSString stringWithFormat:@"1st Class"];
+                }
+                else if ((cftScore >= 225) && (cftScore <= 269))
+                {
+                    cftclass.text = [NSString stringWithFormat:@"2nd Class"];
+                }
+                else if ((cftScore >= 190) && (cftScore <= 224))
+                {
+                    cftclass.text = [NSString stringWithFormat:@"3rd Class"];
+                }
+                else if (cftScore <= 189)
+                {
+                    cftclass.text = [NSString stringWithFormat:@"No Class"];
+                }
+                
+                //Calculate Pass/Fail:
+                if ((mtcScore >= 60) && (amoScore >= 60) && (mufScore >= 60))
+                {
+                    if (cftScore >= 190)
+                    {
+                        status.text = [NSString stringWithFormat:@"Pass"];
+                    }
+                    else
+                    {
+                        status.text = [NSString stringWithFormat:@"Fail"];
+                    }
+                }
+                else if ((mtcScore <=59) || (amoScore <=59) || (mufScore <=59))
+                {
+                    status.text = [NSString stringWithFormat:@"Fail"];
+                }
+                
+            }
+            [age resignFirstResponder];
+        }
+/////////if at high altitude:
+        else if (altitude.selectedSegmentIndex == 1)
+        {
+            //Convert age string to integer:
+            NSString *ageText = age.text;
+            NSInteger ageValue = [[ageText stringByReplacingOccurrencesOfString:@" " withString:@" "]intValue];
+            //Convert mtc string to integer:
+            NSString *mtcText = mtc.text;
+            NSInteger mtcValue = [[mtcText stringByReplacingOccurrencesOfString:@" " withString:@" "]intValue];
+            //Convert ammo string to integer:
+            NSString *amoText = amo.text;
+            NSInteger amoValue = [[amoText stringByReplacingOccurrencesOfString:@" " withString:@" "]intValue];
+            //Convert muf string to integer:
+            NSString *mufText = muf.text;
+            NSInteger mufValue = [[mufText stringByReplacingOccurrencesOfString:@" " withString:@" "]intValue];
+            //Calculate between ages 17 & 26:
+            if ((ageValue >= 17) && (ageValue <= 26))
+            {
+                //Calculate MTC
+                if (mtcValue <= 329)
+                {
+                    mtcScore = 100;
+                }
+                else if ((mtcValue == 330) || (mtcValue == 331))
+                {
+                    mtcScore = 99;
+                }
+                else if ((mtcValue >= 332) && (mtcValue <= 334))
+                {
+                    mtcScore = 98;
+                }
+                else if ((mtcValue >= 335) && (mtcValue <= 337))
+                {
+                    mtcScore = 97;
+                }
+                else if ((mtcValue >= 338) && (mtcValue <= 341))
+                {
+                    mtcScore = 96;
+                }
+                else if ((mtcValue >= 342) && (mtcValue <= 344))
+                {
+                    mtcScore = 95;
+                }
+                else if ((mtcValue >= 345) && (mtcValue <= 347))
+                {
+                    mtcScore = 94;
+                }
+                else if ((mtcValue >= 348) && (mtcValue <= 350))
+                {
+                    mtcScore = 93;
+                }
+                else if ((mtcValue >= 351) && (mtcValue <= 353))
+                {
+                    mtcScore = 92;
+                }
+                else if ((mtcValue >= 354) && (mtcValue <= 356))
+                {
+                    mtcScore = 91;
+                }
+                else if ((mtcValue >= 357) && (mtcValue <= 400))
+                {
+                    mtcScore = 90;
+                }
+                else if ((mtcValue >= 401) && (mtcValue <= 403))
+                {
+                    mtcScore = 89;
+                }
+                else if ((mtcValue >= 404) && (mtcValue <= 406))
+                {
+                    mtcScore = 88;
+                }
+                else if ((mtcValue >= 407) && (mtcValue <= 409))
+                {
+                    mtcScore = 87;
+                }
+                else if ((mtcValue >= 410) && (mtcValue <= 412))
+                {
+                    mtcScore = 86;
+                }
+                else if ((mtcValue >= 413) && (mtcValue <= 416))
+                {
+                    mtcScore = 85;
+                }
+                else if ((mtcValue >= 417) && (mtcValue <= 419))
+                {
+                    mtcScore = 84;
+                }
+                else if ((mtcValue >= 420) && (mtcValue <= 422))
+                {
+                    mtcScore = 83;
+                }
+                else if ((mtcValue >= 423) && (mtcValue <= 425))
+                {
+                    mtcScore = 82;
+                }
+                else if ((mtcValue >= 426) && (mtcValue <= 428))
+                {
+                    mtcScore = 81;
+                }
+                else if ((mtcValue >= 429) && (mtcValue <= 431))
+                {
+                    mtcScore = 80;
+                }
+                else if ((mtcValue >= 432) && (mtcValue <= 435))
+                {
+                    mtcScore = 79;
+                }
+                else if ((mtcValue >= 436) && (mtcValue <= 438))
+                {
+                    mtcScore = 78;
+                }
+                else if ((mtcValue >= 439) && (mtcValue <= 441))
+                {
+                    mtcScore = 77;
+                }
+                else if ((mtcValue >= 442) && (mtcValue <= 444))
+                {
+                    mtcScore = 76;
+                }
+                else if ((mtcValue >= 445) && (mtcValue <= 447))
+                {
+                    mtcScore = 75;
+                }
+                else if ((mtcValue >= 448) && (mtcValue <= 450))
+                {
+                    mtcScore = 74;
+                }
+                else if ((mtcValue >= 451) && (mtcValue <= 454))
+                {
+                    mtcScore = 73;
+                }
+                else if ((mtcValue >= 455) && (mtcValue <= 457))
+                {
+                    mtcScore = 72;
+                }
+                else if ((mtcValue >= 458) && (mtcValue <= 500))
+                {
+                    mtcScore = 71;
+                }
+                else if ((mtcValue >= 501) && (mtcValue <= 503))
+                {
+                    mtcScore = 70;
+                }
+                else if ((mtcValue >= 504) && (mtcValue <= 506))
+                {
+                    mtcScore = 69;
+                }
+                else if ((mtcValue >= 507) && (mtcValue <= 510))
+                {
+                    mtcScore = 68;
+                }
+                else if ((mtcValue >= 511) && (mtcValue <= 513))
+                {
+                    mtcScore = 67;
+                }
+                else if ((mtcValue >= 514) && (mtcValue <= 516))
+                {
+                    mtcScore = 66;
+                }
+                else if ((mtcValue >= 517) && (mtcValue <= 519))
+                {
+                    mtcScore = 65;
+                }
+                else if ((mtcValue >= 520) && (mtcValue <= 522))
+                {
+                    mtcScore = 64;
+                }
+                else if ((mtcValue >= 523) && (mtcValue <= 525))
+                {
+                    mtcScore = 63;
+                }
+                else if ((mtcValue >= 526) && (mtcValue <= 529))
+                {
+                    mtcScore = 62;
+                }
+                else if ((mtcValue >= 530) && (mtcValue <= 532))
+                {
+                    mtcScore = 61;
+                }
+                else if (mtcValue == 533)
+                {
+                    mtcScore = 60;
+                }
+                else if (mtcValue >= 534)
+                {
+                    mtcScore = 0;
+                }
+                [mtc resignFirstResponder];
+                
+                //Calculate ammo can lift:
+                if (amoValue >= 60)
+                {
+                    amoScore = 100;
+                }
+                else if (amoValue == 59)
+                {
+                    amoScore = 99;
+                }
+                else if (amoValue == 58)
+                {
+                    amoScore = 98;
+                }
+                else if (amoValue == 57)
+                {
+                    amoScore = 97;
+                }
+                else if (amoValue == 56)
+                {
+                    amoScore = 96;
+                }
+                else if (amoValue == 55)
+                {
+                    amoScore = 95;
+                }
+                else if (amoValue == 54)
+                {
+                    amoScore = 94;
+                }
+                else if ((amoValue == 53) || (amoValue == 52))
+                {
+                    amoScore = 93;
+                }
+                else if (amoValue == 51)
+                {
+                    amoScore = 92;
+                }
+                else if (amoValue == 50)
+                {
+                    amoScore = 91;
+                }
+                else if (amoValue == 49)
+                {
+                    amoScore = 90;
+                }
+                else if (amoValue == 48)
+                {
+                    amoScore = 89;
+                }
+                else if (amoValue == 47)
+                {
+                    amoScore = 88;
+                }
+                else if (amoValue == 46)
+                {
+                    amoScore = 87;
+                }
+                else if (amoValue == 45)
+                {
+                    amoScore = 86;
+                }
+                else if (amoValue == 44)
+                {
+                    amoScore = 85;
+                }
+                else if (amoValue == 43)
+                {
+                    amoScore = 84;
+                }
+                else if (amoValue == 42)
+                {
+                    amoScore = 83;
+                }
+                else if (amoValue == 41)
+                {
+                    amoScore = 82;
+                }
+                else if (amoValue == 40)
+                {
+                    amoScore = 81;
+                }
+                else if ((amoValue == 39) || (amoValue == 38))
+                {
+                    amoScore = 80;
+                }
+                else if (amoValue == 37)
+                {
+                    amoScore = 79;
+                }
+                else if (amoValue == 36)
+                {
+                    amoScore = 78;
+                }
+                else if ((amoValue == 35) || (amoValue == 57))
+                {
+                    amoScore = 77;
+                }
+                else if (amoValue == 34)
+                {
+                    amoScore = 76;
+                }
+                else if (amoValue == 33)
+                {
+                    amoScore = 75;
+                }
+                else if (amoValue == 32)
+                {
+                    amoScore = 74;
+                }
+                else if (amoValue == 31)
+                {
+                    amoScore = 73;
+                }
+                else if (amoValue == 30)
+                {
+                    amoScore = 72;
+                }
+                else if (amoValue == 29)
+                {
+                    amoScore = 71;
+                }
+                else if (amoValue == 28)
+                {
+                    amoScore = 70;
+                }
+                else if (amoValue == 27)
+                {
+                    amoScore = 69;
+                }
+                else if (amoValue == 26)
+                {
+                    amoScore = 68;
+                }
+                else if ((amoValue == 25) || (amoValue == 24))
+                {
+                    amoScore = 67;
+                }
+                else if (amoValue == 23)
+                {
+                    amoScore = 66;
+                }
+                else if (amoValue == 22)
+                {
+                    amoScore = 65;
+                }
+                else if (amoValue == 21)
+                {
+                    amoScore = 64;
+                }
+                else if (amoValue == 20)
+                {
+                    amoScore = 63;
+                }
+                else if (amoValue == 19)
+                {
+                    amoScore = 62;
+                }
+                else if (amoValue == 18)
+                {
+                    amoScore = 61;
+                }
+                else if (amoValue == 17)
+                {
+                    amoScore = 60;
+                }
+                else if (amoValue <= 16)
+                {
+                    amoScore = 0;
+                }
+                [amo resignFirstResponder];
+                
+                //Calculate MUF:
+                if (mufValue <= 310)
+                {
+                    mufScore = 100;
+                }
+                else if ((mufValue >= 311) && (mufValue <= 314))
+                {
+                    mufScore = 99;
+                }
+                else if ((mufValue >= 315) && (mufValue <= 318))
+                {
+                    mufScore = 98;
+                }
+                else if ((mufValue >= 319) && (mufValue <= 323))
+                {
+                    mufScore = 97;
+                }
+                else if ((mufValue >= 324) && (mufValue <= 327))
+                {
+                    mufScore = 96;
+                }
+                else if ((mufValue >= 328) && (mufValue <= 332))
+                {
+                    mufScore = 95;
+                }
+                else if ((mufValue >= 333) && (mufValue <= 337))
+                {
+                    mufScore = 94;
+                }
+                else if ((mufValue >= 338) && (mufValue <= 341))
+                {
+                    mufScore = 93;
+                }
+                else if ((mufValue >= 342) && (mufValue <= 346))
+                {
+                    mufScore = 92;
+                }
+                else if ((mufValue >= 347) && (mufValue <= 350))
+                {
+                    mufScore = 91;
+                }
+                else if ((mufValue >= 351) && (mufValue <= 355))
+                {
+                    mufScore = 90;
+                }
+                else if ((mufValue >= 356) && (mufValue <= 359))
+                {
+                    mufScore = 89;
+                }
+                else if ((mufValue >= 400) && (mufValue <= 404))
+                {
+                    mufScore = 88;
+                }
+                else if ((mufValue >= 405) && (mufValue <= 409))
+                {
+                    mufScore = 87;
+                }
+                else if ((mufValue >= 410) && (mufValue <= 413))
+                {
+                    mufScore = 86;
+                }
+                else if ((mufValue >= 414) && (mufValue <= 418))
+                {
+                    mufScore = 85;
+                }
+                else if ((mufValue >= 419) && (mufValue <= 422))
+                {
+                    mufScore = 84;
+                }
+                else if ((mufValue >= 423) && (mufValue <= 427))
+                {
+                    mufScore = 83;
+                }
+                else if ((mufValue >= 428) && (mufValue <= 431))
+                {
+                    mufScore = 82;
+                }
+                else if ((mufValue >= 432) && (mufValue <= 436))
+                {
+                    mufScore = 81;
+                }
+                else if ((mufValue >= 437) && (mufValue <= 441))
+                {
+                    mufScore = 80;
+                }
+                else if ((mufValue >= 442) && (mufValue <= 445))
+                {
+                    mufScore = 79;
+                }
+                else if ((mufValue >= 446) && (mufValue <= 450))
+                {
+                    mufScore = 78;
+                }
+                else if ((mufValue >= 451) && (mufValue <= 454))
+                {
+                    mufScore = 77;
+                }
+                else if ((mufValue >= 455) && (mufValue <= 459))
+                {
+                    mufScore = 76;
+                }
+                else if ((mufValue >= 500) && (mufValue <= 503))
+                {
+                    mufScore = 75;
+                }
+                else if ((mufValue >= 504) && (mufValue <= 508))
+                {
+                    mufScore = 74;
+                }
+                else if ((mufValue >= 509) && (mufValue <= 513))
+                {
+                    mufScore = 73;
+                }
+                else if ((mufValue >= 514) && (mufValue <= 517))
+                {
+                    mufScore = 72;
+                }
+                else if ((mufValue >= 518) && (mufValue <= 522))
+                {
+                    mufScore = 71;
+                }
+                else if ((mufValue >= 523) && (mufValue <= 526))
+                {
+                    mufScore = 70;
+                }
+                else if ((mufValue >= 527) && (mufValue <= 531))
+                {
+                    mufScore = 69;
+                }
+                else if ((mufValue >= 532) && (mufValue <= 535))
+                {
+                    mufScore = 68;
+                }
+                else if ((mufValue >= 536) && (mufValue <= 540))
+                {
+                    mufScore = 67;
+                }
+                else if ((mufValue >= 541) && (mufValue <= 544))
+                {
+                    mufScore = 66;
+                }
+                else if ((mufValue >= 545) && (mufValue <= 549))
+                {
+                    mufScore = 65;
+                }
+                else if ((mufValue >= 550) && (mufValue <= 554))
+                {
+                    mufScore = 64;
+                }
+                else if ((mufValue >= 555) && (mufValue <= 558))
+                {
+                    mufScore = 63;
+                }
+                else if ((mufValue >= 559) && (mufValue <= 603))
+                {
+                    mufScore = 62;
+                }
+                else if ((mufValue >= 604) && (mufValue <= 607))
+                {
+                    mufScore = 61;
+                }
+                else if (mufValue == 608)
+                {
+                    mufScore = 60;
+                }
+                else if (mufValue >= 609)
+                {
+                    mufScore = 0;
+                }
+                [muf resignFirstResponder];
+                
+                cftScore = (mtcScore + amoScore + mufScore);
+                NSString *cftScoreString = [NSString stringWithFormat:@"%ld", cftScore];
+                score.text = cftScoreString;
+                
+                //Calculate 1st/2nd/3rd class:
+                if (cftScore >= 270)
+                {
+                    cftclass.text = [NSString stringWithFormat:@"1st Class"];
+                }
+                else if ((cftScore >= 225) && (cftScore <= 269))
+                {
+                    cftclass.text = [NSString stringWithFormat:@"2nd Class"];
+                }
+                else if ((cftScore >= 190) && (cftScore <= 224))
+                {
+                    cftclass.text = [NSString stringWithFormat:@"3rd Class"];
+                }
+                else if (cftScore <= 189)
+                {
+                    cftclass.text = [NSString stringWithFormat:@"No Class"];
+                }
+                
+                //Calculate Pass/Fail:
+                if ((mtcScore >= 60) && (amoScore >= 60) && (mufScore >= 60))
+                {
+                    if (cftScore >= 190)
+                    {
+                        status.text = [NSString stringWithFormat:@"Pass"];
+                    }
+                    else
+                    {
+                        status.text = [NSString stringWithFormat:@"Fail"];
+                    }
+                }
+                else if ((mtcScore <=59) || (amoScore <=59) || (mufScore <=59))
+                {
+                    status.text = [NSString stringWithFormat:@"Fail"];
+                }
+            }
+            
+            //Calculate between ages 27 & 39:
+            if ((ageValue >= 27) && (ageValue <= 39))
+            {
+                //Calculate MTC:
+                if (mtcValue <= 336)
+                {
+                    mtcScore = 100;
+                }
+                else if ((mtcValue == 337) || (mtcValue == 338))
+                {
+                    mtcScore = 99;
+                }
+                else if ((mtcValue >= 339) && (mtcValue <= 341))
+                {
+                    mtcScore = 98;
+                }
+                else if ((mtcValue >= 342) && (mtcValue <= 344))
+                {
+                    mtcScore = 97;
+                }
+                else if ((mtcValue >= 345) && (mtcValue <= 347))
+                {
+                    mtcScore = 96;
+                }
+                else if ((mtcValue >= 348) && (mtcValue <= 350))
+                {
+                    mtcScore = 95;
+                }
+                else if ((mtcValue >= 351) && (mtcValue <= 353))
+                {
+                    mtcScore = 94;
+                }
+                else if ((mtcValue >= 354) && (mtcValue <= 356))
+                {
+                    mtcScore = 93;
+                }
+                else if ((mtcValue >= 357) && (mtcValue <= 359))
+                {
+                    mtcScore = 92;
+                }
+                else if ((mtcValue >= 400) && (mtcValue <= 402))
+                {
+                    mtcScore = 91;
+                }
+                else if ((mtcValue >= 403) && (mtcValue <= 405))
+                {
+                    mtcScore = 90;
+                }
+                else if ((mtcValue >= 406) && (mtcValue <= 408))
+                {
+                    mtcScore = 89;
+                }
+                else if ((mtcValue >= 409) && (mtcValue <= 411))
+                {
+                    mtcScore = 88;
+                }
+                else if ((mtcValue >= 412) && (mtcValue <= 414))
+                {
+                    mtcScore = 87;
+                }
+                else if ((mtcValue >= 415) && (mtcValue <= 417))
+                {
+                    mtcScore = 86;
+                }
+                else if ((mtcValue >= 418) && (mtcValue <= 420))
+                {
+                    mtcScore = 85;
+                }
+                else if ((mtcValue >= 421) && (mtcValue <= 423))
+                {
+                    mtcScore = 84;
+                }
+                else if ((mtcValue >= 424) && (mtcValue <= 427))
+                {
+                    mtcScore = 83;
+                }
+                else if ((mtcValue >= 428) && (mtcValue <= 430))
+                {
+                    mtcScore = 82;
+                }
+                else if ((mtcValue >= 431) && (mtcValue <= 433))
+                {
+                    mtcScore = 81;
+                }
+                else if ((mtcValue >= 434) && (mtcValue <= 436))
+                {
+                    mtcScore = 80;
+                }
+                else if ((mtcValue >= 437) && (mtcValue <= 439))
+                {
+                    mtcScore = 79;
+                }
+                else if ((mtcValue >= 440) && (mtcValue <= 442))
+                {
+                    mtcScore = 78;
+                }
+                else if ((mtcValue >= 443) && (mtcValue <= 445))
+                {
+                    mtcScore = 77;
+                }
+                else if ((mtcValue >= 446) && (mtcValue <= 448))
+                {
+                    mtcScore = 76;
+                }
+                else if ((mtcValue >= 449) && (mtcValue <= 451))
+                {
+                    mtcScore = 75;
+                }
+                else if ((mtcValue >= 452) && (mtcValue <= 454))
+                {
+                    mtcScore = 74;
+                }
+                else if ((mtcValue >= 455) && (mtcValue <= 457))
+                {
+                    mtcScore = 73;
+                }
+                else if ((mtcValue >= 458) && (mtcValue <= 500))
+                {
+                    mtcScore = 72;
+                }
+                else if ((mtcValue >= 501) && (mtcValue <= 503))
+                {
+                    mtcScore = 71;
+                }
+                else if ((mtcValue >= 504) && (mtcValue <= 506))
+                {
+                    mtcScore = 70;
+                }
+                else if ((mtcValue >= 507) && (mtcValue <= 509))
+                {
+                    mtcScore = 69;
+                }
+                else if ((mtcValue >= 510) && (mtcValue <= 512))
+                {
+                    mtcScore = 68;
+                }
+                else if ((mtcValue >= 513) && (mtcValue <= 515))
+                {
+                    mtcScore = 67;
+                }
+                else if ((mtcValue >= 516) && (mtcValue <= 518))
+                {
+                    mtcScore = 66;
+                }
+                else if ((mtcValue >= 519) && (mtcValue <= 521))
+                {
+                    mtcScore = 65;
+                }
+                else if ((mtcValue >= 522) && (mtcValue <= 524))
+                {
+                    mtcScore = 64;
+                }
+                else if ((mtcValue >= 525) && (mtcValue <= 527))
+                {
+                    mtcScore = 63;
+                }
+                else if ((mtcValue >= 528) && (mtcValue <= 530))
+                {
+                    mtcScore = 62;
+                }
+                else if ((mtcValue >= 531) && (mtcValue <= 533))
+                {
+                    mtcScore = 61;
+                }
+                else if (mtcValue == 534)
+                {
+                    mtcScore = 60;
+                }
+                else if (mtcValue >= 535)
+                {
+                    mtcScore = 0;
+                }
+                [mtc resignFirstResponder];
+                
+                //Calculate ammo can lift:
+                if (amoValue >= 63)
+                {
+                    amoScore = 100;
+                }
+                else if (amoValue == 62)
+                {
+                    amoScore = 99;
+                }
+                else if ((amoValue == 61) || (amoValue == 60))
+                {
+                    amoScore = 98;
+                }
+                else if (amoValue == 59)
+                {
+                    amoScore = 97;
+                }
+                else if (amoValue == 58)
+                {
+                    amoScore = 96;
+                }
+                else if (amoValue == 57)
+                {
+                    amoScore = 95;
+                }
+                else if ((amoValue == 56) || (amoValue == 55))
+                {
+                    amoScore = 94;
+                }
+                else if (amoValue == 54)
+                {
+                    amoScore = 93;
+                }
+                else if (amoValue == 53)
+                {
+                    amoScore = 92;
+                }
+                else if (amoValue == 52)
+                {
+                    amoScore = 91;
+                }
+                else if ((amoValue == 51) || (amoValue == 50))
+                {
+                    amoScore = 90;
+                }
+                else if (amoValue == 49)
+                {
+                    amoScore = 89;
+                }
+                else if (amoValue == 48)
+                {
+                    amoScore = 88;
+                }
+                else if (amoValue == 47)
+                {
+                    amoScore = 87;
+                }
+                else if ((amoValue == 46) || (amoValue == 45))
+                {
+                    amoScore = 86;
+                }
+                else if (amoValue == 44)
+                {
+                    amoScore = 85;
+                }
+                else if (amoValue == 43)
+                {
+                    amoScore = 84;
+                }
+                else if (amoValue == 42)
+                {
+                    amoScore = 83;
+                }
+                else if ((amoValue == 41) || (amoValue == 40))
+                {
+                    amoScore = 82;
+                }
+                else if (amoValue == 39)
+                {
+                    amoScore = 81;
+                }
+                else if (amoValue == 38)
+                {
+                    amoScore = 80;
+                }
+                else if (amoValue == 37)
+                {
+                    amoScore = 79;
+                }
+                else if ((amoValue == 36) || (amoValue == 35))
+                {
+                    amoScore = 78;
+                }
+                else if (amoValue == 34)
+                {
+                    amoScore = 77;
+                }
+                else if (amoValue == 33)
+                {
+                    amoScore = 76;
+                }
+                else if (amoValue == 32)
+                {
+                    amoScore = 75;
+                }
+                else if ((amoValue == 31) || (amoValue == 30))
+                {
+                    amoScore = 74;
+                }
+                else if (amoValue == 29)
+                {
+                    amoScore = 73;
+                }
+                else if (amoValue == 28)
+                {
+                    amoScore = 72;
+                }
+                else if (amoValue == 27)
+                {
+                    amoScore = 71;
+                }
+                else if ((amoValue == 26) || (amoValue == 25))
+                {
+                    amoScore = 70;
+                }
+                else if (amoValue == 24)
+                {
+                    amoScore = 69;
+                }
+                else if (amoValue == 23)
+                {
+                    amoScore = 68;
+                }
+                else if (amoValue == 22)
+                {
+                    amoScore = 67;
+                }
+                else if ((amoValue == 21) || (amoValue == 20))
+                {
+                    amoScore = 66;
+                }
+                else if (amoValue == 19)
+                {
+                    amoScore = 65;
+                }
+                else if (amoValue == 18)
+                {
+                    amoScore = 64;
+                }
+                else if (amoValue == 17)
+                {
+                    amoScore = 63;
+                }
+                else if ((amoValue == 16) || (amoValue == 15))
+                {
+                    amoScore = 62;
+                }
+                else if (amoValue == 14)
+                {
+                    amoScore = 61;
+                }
+                else if (amoValue == 13)
+                {
+                    amoScore = 60;
+                }
+                else if (amoValue <= 12)
+                {
+                    amoScore = 0;
+                }
+                [amo resignFirstResponder];
+                
+                //Calculate MUF:
+                if (mufValue <= 316)
+                {
+                    mufScore = 100;
+                }
+                else if ((mufValue >= 317) && (mufValue <= 320))
+                {
+                    mufScore = 99;
+                }
+                else if ((mufValue >= 321) && (mufValue <= 324))
+                {
+                    mufScore = 98;
+                }
+                else if ((mufValue >= 325) && (mufValue <= 329))
+                {
+                    mufScore = 97;
+                }
+                else if ((mufValue >= 330) && (mufValue <= 333))
+                {
+                    mufScore = 96;
+                }
+                else if ((mufValue >= 334) && (mufValue <= 338))
+                {
+                    mufScore = 95;
+                }
+                else if ((mufValue >= 339) && (mufValue <= 342))
+                {
+                    mufScore = 94;
+                }
+                else if ((mufValue >= 343) && (mufValue <= 347))
+                {
+                    mufScore = 93;
+                }
+                else if ((mufValue >= 348) && (mufValue <= 351))
+                {
+                    mufScore = 92;
+                }
+                else if ((mufValue >= 352) && (mufValue <= 356))
+                {
+                    mufScore = 91;
+                }
+                else if ((mufValue >= 357) && (mufValue <= 400))
+                {
+                    mufScore = 90;
+                }
+                else if ((mufValue >= 401) && (mufValue <= 405))
+                {
+                    mufScore = 89;
+                }
+                else if ((mufValue >= 406) && (mufValue <= 410))
+                {
+                    mufScore = 88;
+                }
+                else if ((mufValue >= 411) && (mufValue <= 414))
+                {
+                    mufScore = 87;
+                }
+                else if ((mufValue >= 415) && (mufValue <= 419))
+                {
+                    mufScore = 86;
+                }
+                else if ((mufValue >= 420) && (mufValue <= 423))
+                {
+                    mufScore = 85;
+                }
+                else if ((mufValue >= 424) && (mufValue <= 428))
+                {
+                    mufScore = 84;
+                }
+                else if ((mufValue >= 429) && (mufValue <= 432))
+                {
+                    mufScore = 83;
+                }
+                else if ((mufValue >= 433) && (mufValue <= 437))
+                {
+                    mufScore = 82;
+                }
+                else if ((mufValue >= 438) && (mufValue <= 441))
+                {
+                    mufScore = 81;
+                }
+                else if ((mufValue >= 442) && (mufValue <= 446))
+                {
+                    mufScore = 80;
+                }
+                else if ((mufValue >= 447) && (mufValue <= 450))
+                {
+                    mufScore = 79;
+                }
+                else if ((mufValue >= 451) && (mufValue <= 455))
+                {
+                    mufScore = 78;
+                }
+                else if ((mufValue >= 456) && (mufValue <= 459))
+                {
+                    mufScore = 77;
+                }
+                else if ((mufValue >= 500) && (mufValue <= 504))
+                {
+                    mufScore = 76;
+                }
+                else if ((mufValue >= 505) && (mufValue <= 508))
+                {
+                    mufScore = 75;
+                }
+                else if ((mufValue >= 509) && (mufValue <= 513))
+                {
+                    mufScore = 74;
+                }
+                else if ((mufValue >= 514) && (mufValue <= 517))
+                {
+                    mufScore = 73;
+                }
+                else if ((mufValue >= 518) && (mufValue <= 522))
+                {
+                    mufScore = 72;
+                }
+                else if ((mufValue >= 523) && (mufValue <= 526))
+                {
+                    mufScore = 71;
+                }
+                else if ((mufValue >= 527) && (mufValue <= 531))
+                {
+                    mufScore = 70;
+                }
+                else if ((mufValue >= 532) && (mufValue <= 536))
+                {
+                    mufScore = 69;
+                }
+                else if ((mufValue >= 537) && (mufValue <= 540))
+                {
+                    mufScore = 68;
+                }
+                else if ((mufValue >= 541) && (mufValue <= 545))
+                {
+                    mufScore = 67;
+                }
+                else if ((mufValue >= 546) && (mufValue <= 549))
+                {
+                    mufScore = 66;
+                }
+                else if ((mufValue >= 550) && (mufValue <= 554))
+                {
+                    mufScore = 65;
+                }
+                else if ((mufValue >= 555) && (mufValue <= 558))
+                {
+                    mufScore = 64;
+                }
+                else if ((mufValue >= 559) && (mufValue <= 603))
+                {
+                    mufScore = 63;
+                }
+                else if ((mufValue >= 604) && (mufValue <= 607))
+                {
+                    mufScore = 62;
+                }
+                else if ((mufValue >= 608) && (mufValue <= 612))
+                {
+                    mufScore = 61;
+                }
+                else if (mufValue == 613)
+                {
+                    mufScore = 60;
+                }
+                else if (mufValue >= 614)
+                {
+                    mufScore = 0;
+                }
+                [muf resignFirstResponder];
+                
+                cftScore = (mtcScore + amoScore + mufScore);
+                NSString *cftScoreString = [NSString stringWithFormat:@"%ld", cftScore];
+                score.text = cftScoreString;
+                
+                //Calculate 1st/2nd/3rd class:
+                if (cftScore >= 270)
+                {
+                    cftclass.text = [NSString stringWithFormat:@"1st Class"];
+                }
+                else if ((cftScore >= 225) && (cftScore <= 269))
+                {
+                    cftclass.text = [NSString stringWithFormat:@"2nd Class"];
+                }
+                else if ((cftScore >= 190) && (cftScore <= 224))
+                {
+                    cftclass.text = [NSString stringWithFormat:@"3rd Class"];
+                }
+                else if (cftScore <= 189)
+                {
+                    cftclass.text = [NSString stringWithFormat:@"No Class"];
+                }
+                
+                //Calculate Pass/Fail:
+                if ((mtcScore >= 60) && (amoScore >= 60) && (mufScore >= 60))
+                {
+                    if (cftScore >= 190)
+                    {
+                        status.text = [NSString stringWithFormat:@"Pass"];
+                    }
+                    else
+                    {
+                        status.text = [NSString stringWithFormat:@"Fail"];
+                    }
+                }
+                else if ((mtcScore <=59) || (amoScore <=59) || (mufScore <=59))
+                {
+                    status.text = [NSString stringWithFormat:@"Fail"];
+                }
+                
+            }
+            
+            //Calculate between ages 40 & 45:
+            if ((ageValue >= 40) && (ageValue <= 45))
+            {
+                //Calculate MTC:
+                if (mtcValue <= 355)
+                {
+                    mtcScore = 100;
+                }
+                else if ((mtcValue == 356) || (mtcValue == 357))
+                {
+                    mtcScore = 99;
+                }
+                else if ((mtcValue >= 358) && (mtcValue <= 400))
+                {
+                    mtcScore = 98;
+                }
+                else if ((mtcValue >= 401) && (mtcValue <= 402))
+                {
+                    mtcScore = 97;
+                }
+                else if ((mtcValue >= 403) && (mtcValue <= 405))
+                {
+                    mtcScore = 96;
+                }
+                else if ((mtcValue >= 406) && (mtcValue <= 408))
+                {
+                    mtcScore = 95;
+                }
+                else if ((mtcValue >= 409) && (mtcValue <= 410))
+                {
+                    mtcScore = 94;
+                }
+                else if ((mtcValue >= 411) && (mtcValue <= 413))
+                {
+                    mtcScore = 93;
+                }
+                else if ((mtcValue >= 414) && (mtcValue <= 416))
+                {
+                    mtcScore = 92;
+                }
+                else if ((mtcValue >= 417) && (mtcValue <= 418))
+                {
+                    mtcScore = 91;
+                }
+                else if ((mtcValue >= 419) && (mtcValue <= 421))
+                {
+                    mtcScore = 90;
+                }
+                else if ((mtcValue >= 422) && (mtcValue <= 424))
+                {
+                    mtcScore = 89;
+                }
+                else if ((mtcValue >= 425) && (mtcValue <= 427))
+                {
+                    mtcScore = 88;
+                }
+                else if ((mtcValue >= 428) && (mtcValue <= 429))
+                {
+                    mtcScore = 87;
+                }
+                else if ((mtcValue >= 430) && (mtcValue <= 432))
+                {
+                    mtcScore = 86;
+                }
+                else if ((mtcValue >= 433) && (mtcValue <= 435))
+                {
+                    mtcScore = 85;
+                }
+                else if ((mtcValue >= 436) && (mtcValue <= 437))
+                {
+                    mtcScore = 84;
+                }
+                else if ((mtcValue >= 438) && (mtcValue <= 440))
+                {
+                    mtcScore = 83;
+                }
+                else if ((mtcValue >= 441) && (mtcValue <= 443))
+                {
+                    mtcScore = 82;
+                }
+                else if ((mtcValue >= 444) && (mtcValue <= 445))
+                {
+                    mtcScore = 81;
+                }
+                else if ((mtcValue >= 446) && (mtcValue <= 448))
+                {
+                    mtcScore = 80;
+                }
+                else if ((mtcValue >= 449) && (mtcValue <= 451))
+                {
+                    mtcScore = 79;
+                }
+                else if ((mtcValue >= 452) && (mtcValue <= 454))
+                {
+                    mtcScore = 78;
+                }
+                else if ((mtcValue >= 455) && (mtcValue <= 456))
+                {
+                    mtcScore = 77;
+                }
+                else if ((mtcValue >= 457) && (mtcValue <= 459))
+                {
+                    mtcScore = 76;
+                }
+                else if ((mtcValue >= 500) && (mtcValue <= 502))
+                {
+                    mtcScore = 75;
+                }
+                else if ((mtcValue >= 503) && (mtcValue <= 504))
+                {
+                    mtcScore = 74;
+                }
+                else if ((mtcValue >= 505) && (mtcValue <= 507))
+                {
+                    mtcScore = 73;
+                }
+                else if ((mtcValue >= 508) && (mtcValue <= 510))
+                {
+                    mtcScore = 72;
+                }
+                else if ((mtcValue >= 511) && (mtcValue <= 513))
+                {
+                    mtcScore = 71;
+                }
+                else if ((mtcValue >= 514) && (mtcValue <= 515))
+                {
+                    mtcScore = 70;
+                }
+                else if ((mtcValue >= 516) && (mtcValue <= 518))
+                {
+                    mtcScore = 69;
+                }
+                else if ((mtcValue >= 519) && (mtcValue <= 521))
+                {
+                    mtcScore = 68;
+                }
+                else if ((mtcValue >= 522) && (mtcValue <= 523))
+                {
+                    mtcScore = 67;
+                }
+                else if ((mtcValue >= 524) && (mtcValue <= 526))
+                {
+                    mtcScore = 66;
+                }
+                else if ((mtcValue >= 527) && (mtcValue <= 529))
+                {
+                    mtcScore = 65;
+                }
+                else if ((mtcValue >= 530) && (mtcValue <= 531))
+                {
+                    mtcScore = 64;
+                }
+                else if ((mtcValue >= 532) && (mtcValue <= 534))
+                {
+                    mtcScore = 63;
+                }
+                else if ((mtcValue >= 535) && (mtcValue <= 537))
+                {
+                    mtcScore = 62;
+                }
+                else if ((mtcValue >= 538) && (mtcValue <= 540))
+                {
+                    mtcScore = 61;
+                }
+                else if (mtcValue == 541)
+                {
+                    mtcScore = 60;
+                }
+                else if (mtcValue >= 542)
+                {
+                    mtcScore = 0;
+                }
+                [mtc resignFirstResponder];
+                
+                //Calculate ammo can lift:
+                if (amoValue >= 45)
+                {
+                    amoScore = 100;
+                }
+                else if (amoValue == 44)
+                {
+                    amoScore = 99;
+                }
+                else if (amoValue == 43)
+                {
+                    amoScore = 98;
+                }
+                else if (amoValue == 42)
+                {
+                    amoScore = 97;
+                }
+                else if (amoValue == 41)
+                {
+                    amoScore = 96;
+                }
+                else if (amoValue == 40)
+                {
+                    amoScore = 95;
+                }
+                else if (amoValue == 39)
+                {
+                    amoScore = 94;
+                }
+                else if (amoValue == 38)
+                {
+                    amoScore = 93;
+                }
+                else if (amoValue == 37)
+                {
+                    amoScore = 92;
+                }
+                else if (amoValue == 36)
+                {
+                    amoScore = 91;
+                }
+                else if (amoValue == 35)
+                {
+                    amoScore = 90;
+                }
+                else if (amoValue == 34)
+                {
+                    amoScore = 89;
+                }
+                else if (amoValue == 33)
+                {
+                    amoScore = 88;
+                }
+                else if (amoValue == 32)
+                {
+                    amoScore = 87;
+                }
+                else if (amoValue == 31)
+                {
+                    amoScore = 86;
+                }
+                else if (amoValue == 30)
+                {
+                    amoScore = 85;
+                }
+                else if (amoValue == 29)
+                {
+                    amoScore = 84;
+                }
+                else if (amoValue == 28)
+                {
+                    amoScore = 83;
+                }
+                else if (amoValue == 27)
+                {
+                    amoScore = 82;
+                }
+                else if (amoValue == 26)
+                {
+                    amoScore = 81;
+                }
+                else if (amoValue == 25)
+                {
+                    amoScore = 80;
+                }
+                else if (amoValue == 24)
+                {
+                    amoScore = 79;
+                }
+                else if (amoValue == 23)
+                {
+                    amoScore = 78;
+                }
+                else if (amoValue == 22)
+                {
+                    amoScore = 77;
+                }
+                else if (amoValue == 21)
+                {
+                    amoScore = 76;
+                }
+                else if (amoValue == 20)
+                {
+                    amoScore = 75;
+                }
+                else if (amoValue == 19)
+                {
+                    amoScore = 74;
+                }
+                else if (amoValue == 18)
+                {
+                    amoScore = 73;
+                }
+                else if (amoValue == 17)
+                {
+                    amoScore = 72;
+                }
+                else if (amoValue == 16)
+                {
+                    amoScore = 71;
+                }
+                else if (amoValue == 15)
+                {
+                    amoScore = 70;
+                }
+                else if (amoValue == 14)
+                {
+                    amoScore = 69;
+                }
+                else if (amoValue == 13)
+                {
+                    amoScore = 68;
+                }
+                else if (amoValue == 12)
+                {
+                    amoScore = 66;
+                }
+                else if (amoValue == 11)
+                {
+                    amoScore = 65;
+                }
+                else if (amoValue == 10)
+                {
+                    amoScore = 64;
+                }
+                else if (amoValue == 9)
+                {
+                    amoScore = 63;
+                }
+                else if (amoValue == 8)
+                {
+                    amoScore = 61;
+                }
+                else if (amoValue == 7)
+                {
+                    amoScore = 60;
+                }
+                else if (amoValue <= 6)
+                {
+                    amoScore = 0;
+                }
+                [amo resignFirstResponder];
+                
+                //Calculate MUF:
+                if (mufValue <= 330)
+                {
+                    mufScore = 100;
+                }
+                else if ((mufValue >= 331) && (mufValue <= 337))
+                {
+                    mufScore = 99;
+                }
+                else if ((mufValue >= 338) && (mufValue <= 341))
+                {
+                    mufScore = 98;
+                }
+                else if ((mufValue >= 342) && (mufValue <= 346))
+                {
+                    mufScore = 97;
+                }
+                else if ((mufValue >= 347) && (mufValue <= 351))
+                {
+                    mufScore = 96;
+                }
+                else if ((mufValue >= 352) && (mufValue <= 355))
+                {
+                    mufScore = 95;
+                }
+                else if ((mufValue >= 356) && (mufValue <= 400))
+                {
+                    mufScore = 94;
+                }
+                else if ((mufValue >= 401) && (mufValue <= 405))
+                {
+                    mufScore = 93;
+                }
+                else if ((mufValue >= 406) && (mufValue <= 410))
+                {
+                    mufScore = 92;
+                }
+                else if ((mufValue >= 411) && (mufValue <= 414))
+                {
+                    mufScore = 91;
+                }
+                else if ((mufValue >= 415) && (mufValue <= 419))
+                {
+                    mufScore = 90;
+                }
+                else if ((mufValue >= 420) && (mufValue <= 424))
+                {
+                    mufScore = 89;
+                }
+                else if ((mufValue >= 425) && (mufValue <= 428))
+                {
+                    mufScore = 88;
+                }
+                else if ((mufValue >= 428) && (mufValue <= 433))
+                {
+                    mufScore = 87;
+                }
+                else if ((mufValue >= 434) && (mufValue <= 438))
+                {
+                    mufScore = 86;
+                }
+                else if ((mufValue >= 439) && (mufValue <= 443))
+                {
+                    mufScore = 85;
+                }
+                else if ((mufValue >= 444) && (mufValue <= 447))
+                {
+                    mufScore = 84;
+                }
+                else if ((mufValue >= 448) && (mufValue <= 452))
+                {
+                    mufScore = 83;
+                }
+                else if ((mufValue >= 453) && (mufValue <= 457))
+                {
+                    mufScore = 82;
+                }
+                else if ((mufValue >= 458) && (mufValue <= 501))
+                {
+                    mufScore = 81;
+                }
+                else if ((mufValue >= 502) && (mufValue <= 506))
+                {
+                    mufScore = 80;
+                }
+                else if ((mufValue >= 507) && (mufValue <= 511))
+                {
+                    mufScore = 79;
+                }
+                else if ((mufValue >= 512) && (mufValue <= 516))
+                {
+                    mufScore = 78;
+                }
+                else if ((mufValue >= 517) && (mufValue <= 520))
+                {
+                    mufScore = 77;
+                }
+                else if ((mufValue >= 521) && (mufValue <= 525))
+                {
+                    mufScore = 76;
+                }
+                else if ((mufValue >= 526) && (mufValue <= 530))
+                {
+                    mufScore = 75;
+                }
+                else if ((mufValue >= 531) && (mufValue <= 534))
+                {
+                    mufScore = 74;
+                }
+                else if ((mufValue >= 535) && (mufValue <= 539))
+                {
+                    mufScore = 73;
+                }
+                else if ((mufValue >= 540) && (mufValue <= 544))
+                {
+                    mufScore = 72;
+                }
+                else if ((mufValue >= 545) && (mufValue <= 549))
+                {
+                    mufScore = 71;
+                }
+                else if ((mufValue >= 550) && (mufValue <= 553))
+                {
+                    mufScore = 70;
+                }
+                else if ((mufValue >= 554) && (mufValue <= 558))
+                {
+                    mufScore = 69;
+                }
+                else if ((mufValue >= 559) && (mufValue <= 603))
+                {
+                    mufScore = 68;
+                }
+                else if ((mufValue >= 604) && (mufValue <= 607))
+                {
+                    mufScore = 67;
+                }
+                else if ((mufValue >= 608) && (mufValue <= 612))
+                {
+                    mufScore = 66;
+                }
+                else if ((mufValue >= 613) && (mufValue <= 617))
+                {
+                    mufScore = 65;
+                }
+                else if ((mufValue >= 618) && (mufValue <= 622))
+                {
+                    mufScore = 64;
+                }
+                else if ((mufValue >= 623) && (mufValue <= 626))
+                {
+                    mufScore = 63;
+                }
+                else if ((mufValue >= 627) && (mufValue <= 631))
+                {
+                    mufScore = 62;
+                }
+                else if ((mufValue >= 632) && (mufValue <= 633))
+                {
+                    mufScore = 61;
+                }
+                else if (mufValue == 634)
+                {
+                    mufScore = 60;
+                }
+                else if (mufValue >= 635)
+                {
+                    mufScore = 0;
+                }
+                [muf resignFirstResponder];
+                
+                cftScore = (mtcScore + amoScore + mufScore);
+                NSString *cftScoreString = [NSString stringWithFormat:@"%ld", cftScore];
+                score.text = cftScoreString;
+                
+                //Calculate 1st/2nd/3rd class:
+                if (cftScore >= 270)
+                {
+                    cftclass.text = [NSString stringWithFormat:@"1st Class"];
+                }
+                else if ((cftScore >= 225) && (cftScore <= 269))
+                {
+                    cftclass.text = [NSString stringWithFormat:@"2nd Class"];
+                }
+                else if ((cftScore >= 190) && (cftScore <= 224))
+                {
+                    cftclass.text = [NSString stringWithFormat:@"3rd Class"];
+                }
+                else if (cftScore <= 189)
+                {
+                    cftclass.text = [NSString stringWithFormat:@"No Class"];
+                }
+                
+                //Calculate Pass/Fail:
+                if ((mtcScore >= 60) && (amoScore >= 60) && (mufScore >= 60))
+                {
+                    if (cftScore >= 190)
+                    {
+                        status.text = [NSString stringWithFormat:@"Pass"];
+                    }
+                    else
+                    {
+                        status.text = [NSString stringWithFormat:@"Fail"];
+                    }
+                }
+                else if ((mtcScore <=59) || (amoScore <=59) || (mufScore <=59))
+                {
+                    status.text = [NSString stringWithFormat:@"Fail"];
+                }
+                
+            }
+            
+            //Calculate ages 46+:
+            if (ageValue >= 46)
+            {
+                //Calculate MTC:
+                if (mtcValue <= 401)
+                {
+                    mtcScore = 100;
+                }
+                else if ((mtcValue >= 402) && (mtcValue <= 403))
+                {
+                    mtcScore = 99;
+                }
+                else if ((mtcValue >= 404) && (mtcValue <= 406))
+                {
+                    mtcScore = 98;
+                }
+                else if ((mtcValue >= 407) && (mtcValue <= 409))
+                {
+                    mtcScore = 97;
+                }
+                else if ((mtcValue >= 410) && (mtcValue <= 412))
+                {
+                    mtcScore = 96;
+                }
+                else if ((mtcValue >= 413) && (mtcValue <= 415))
+                {
+                    mtcScore = 95;
+                }
+                else if ((mtcValue >= 416) && (mtcValue <= 418))
+                {
+                    mtcScore = 94;
+                }
+                else if ((mtcValue >= 419) && (mtcValue <= 421))
+                {
+                    mtcScore = 93;
+                }
+                else if ((mtcValue >= 422) && (mtcValue <= 424))
+                {
+                    mtcScore = 92;
+                }
+                else if ((mtcValue >= 425) && (mtcValue <= 427))
+                {
+                    mtcScore = 91;
+                }
+                else if ((mtcValue >= 428) && (mtcValue <= 430))
+                {
+                    mtcScore = 90;
+                }
+                else if ((mtcValue >= 431) && (mtcValue <= 432))
+                {
+                    mtcScore = 89;
+                }
+                else if ((mtcValue >= 433) && (mtcValue <= 435))
+                {
+                    mtcScore = 88;
+                }
+                else if ((mtcValue >= 436) && (mtcValue <= 438))
+                {
+                    mtcScore = 87;
+                }
+                else if ((mtcValue >= 439) && (mtcValue <= 441))
+                {
+                    mtcScore = 86;
+                }
+                else if ((mtcValue >= 442) && (mtcValue <= 444))
+                {
+                    mtcScore = 85;
+                }
+                else if ((mtcValue >= 445) && (mtcValue <= 447))
+                {
+                    mtcScore = 84;
+                }
+                else if ((mtcValue >= 448) && (mtcValue <= 450))
+                {
+                    mtcScore = 83;
+                }
+                else if ((mtcValue >= 451) && (mtcValue <= 453))
+                {
+                    mtcScore = 82;
+                }
+                else if ((mtcValue >= 454) && (mtcValue <= 456))
+                {
+                    mtcScore = 81;
+                }
+                else if ((mtcValue >= 457) && (mtcValue <= 459))
+                {
+                    mtcScore = 80;
+                }
+                else if ((mtcValue >= 500) && (mtcValue <= 502))
+                {
+                    mtcScore = 79;
+                }
+                else if ((mtcValue >= 503) && (mtcValue <= 505))
+                {
+                    mtcScore = 78;
+                }
+                else if ((mtcValue >= 506) && (mtcValue <= 508))
+                {
+                    mtcScore = 77;
+                }
+                else if ((mtcValue >= 509) && (mtcValue <= 511))
+                {
+                    mtcScore = 76;
+                }
+                else if ((mtcValue >= 512) && (mtcValue <= 514))
+                {
+                    mtcScore = 75;
+                }
+                else if ((mtcValue >= 515) && (mtcValue <= 517))
+                {
+                    mtcScore = 74;
+                }
+                else if ((mtcValue >= 518) && (mtcValue <= 520))
+                {
+                    mtcScore = 73;
+                }
+                else if ((mtcValue >= 521) && (mtcValue <= 523))
+                {
+                    mtcScore = 72;
+                }
+                else if ((mtcValue >= 524) && (mtcValue <= 526))
+                {
+                    mtcScore = 71;
+                }
+                else if ((mtcValue >= 527) && (mtcValue <= 529))
+                {
+                    mtcScore = 70;
+                }
+                else if ((mtcValue >= 530) && (mtcValue <= 531))
+                {
+                    mtcScore = 69;
+                }
+                else if ((mtcValue >= 532) && (mtcValue <= 534))
+                {
+                    mtcScore = 68;
+                }
+                else if ((mtcValue >= 535) && (mtcValue <= 537))
+                {
+                    mtcScore = 67;
+                }
+                else if ((mtcValue >= 538) && (mtcValue <= 540))
+                {
+                    mtcScore = 66;
+                }
+                else if ((mtcValue >= 541) && (mtcValue <= 543))
+                {
+                    mtcScore = 65;
+                }
+                else if ((mtcValue >= 544) && (mtcValue <= 546))
+                {
+                    mtcScore = 64;
+                }
+                else if ((mtcValue >= 547) && (mtcValue <= 549))
+                {
+                    mtcScore = 63;
+                }
+                else if ((mtcValue >= 550) && (mtcValue <= 552))
+                {
+                    mtcScore = 62;
+                }
+                else if ((mtcValue >= 553) && (mtcValue <= 555))
+                {
+                    mtcScore = 61;
+                }
+                else if (mtcValue == 556)
+                {
+                    mtcScore = 60;
+                }
+                else if (mtcValue >= 557)
+                {
+                    mtcScore = 0;
+                }
+                [mtc resignFirstResponder];
+                
+                //Calculate ammo can lift:
+                if (amoValue >= 41)
+                {
+                    amoScore = 100;
+                }
+                else if (amoValue == 40)
+                {
+                    amoScore = 99;
+                }
+                else if (amoValue == 39)
+                {
+                    amoScore = 98;
+                }
+                else if (amoValue == 38)
+                {
+                    amoScore = 97;
+                }
+                else if (amoValue == 37)
+                {
+                    amoScore = 96;
+                }
+                else if (amoValue == 36)
+                {
+                    amoScore = 95;
+                }
+                else if (amoValue == 35)
+                {
+                    amoScore = 94;
+                }
+                else if (amoValue == 34)
+                {
+                    amoScore = 93;
+                }
+                else if (amoValue == 33)
+                {
+                    amoScore = 92;
+                }
+                else if (amoValue == 32)
+                {
+                    amoScore = 91;
+                }
+                else if (amoValue == 31)
+                {
+                    amoScore = 90;
+                }
+                else if (amoValue == 30)
+                {
+                    amoScore = 89;
+                }
+                else if (amoValue == 29)
+                {
+                    amoScore = 88;
+                }
+                else if (amoValue == 28)
+                {
+                    amoScore = 86;
+                }
+                else if (amoValue == 27)
+                {
+                    amoScore = 85;
+                }
+                else if (amoValue == 26)
+                {
+                    amoScore = 84;
+                }
+                else if (amoValue == 25)
+                {
+                    amoScore = 83;
+                }
+                else if (amoValue == 24)
+                {
+                    amoScore = 81;
+                }
+                else if (amoValue == 23)
+                {
+                    amoScore = 80;
+                }
+                else if (amoValue == 22)
+                {
+                    amoScore = 79;
+                }
+                else if (amoValue == 21)
+                {
+                    amoScore = 78;
+                }
+                else if (amoValue == 20)
+                {
+                    amoScore = 76;
+                }
+                else if (amoValue == 19)
+                {
+                    amoScore = 75;
+                }
+                else if (amoValue == 18)
+                {
+                    amoScore = 74;
+                }
+                else if (amoValue == 17)
+                {
+                    amoScore = 73;
+                }
+                else if (amoValue == 16)
+                {
+                    amoScore = 71;
+                }
+                else if (amoValue == 15)
+                {
+                    amoScore = 70;
+                }
+                else if (amoValue == 14)
+                {
+                    amoScore = 69;
+                }
+                else if (amoValue == 13)
+                {
+                    amoScore = 68;
+                }
+                else if (amoValue == 12)
+                {
+                    amoScore = 66;
+                }
+                else if (amoValue == 11)
+                {
+                    amoScore = 65;
+                }
+                else if (amoValue == 10)
+                {
+                    amoScore = 64;
+                }
+                else if (amoValue == 9)
+                {
+                    amoScore = 63;
+                }
+                else if (amoValue == 8)
+                {
+                    amoScore = 62;
+                }
+                else if (amoValue == 7)
+                {
+                    amoScore = 61;
+                }
+                else if (amoValue == 6)
+                {
+                    amoScore = 60;
+                }
+                else if (amoValue <= 5)
+                {
+                    amoScore = 0;
+                }
+                [amo resignFirstResponder];
+                
+                //Calculate MUF:
+                if (mufValue <= 352)
+                {
+                    mufScore = 100;
+                }
+                else if ((mufValue >= 353) && (mufValue <= 358))
+                {
+                    mufScore = 99;
+                }
+                else if ((mufValue >= 359) && (mufValue <= 402))
+                {
+                    mufScore = 98;
+                }
+                else if ((mufValue >= 403) && (mufValue <= 406))
+                {
+                    mufScore = 97;
+                }
+                else if ((mufValue >= 407) && (mufValue <= 411))
+                {
+                    mufScore = 96;
+                }
+                else if ((mufValue >= 412) && (mufValue <= 415))
+                {
+                    mufScore = 95;
+                }
+                else if ((mufValue >= 416) && (mufValue <= 419))
+                {
+                    mufScore = 94;
+                }
+                else if ((mufValue >= 420) && (mufValue <= 423))
+                {
+                    mufScore = 93;
+                }
+                else if ((mufValue >= 424) && (mufValue <= 428))
+                {
+                    mufScore = 92;
+                }
+                else if ((mufValue >= 429) && (mufValue <= 432))
+                {
+                    mufScore = 91;
+                }
+                else if ((mufValue >= 433) && (mufValue <= 436))
+                {
+                    mufScore = 90;
+                }
+                else if ((mufValue >= 437) && (mufValue <= 440))
+                {
+                    mufScore = 89;
+                }
+                else if ((mufValue >= 441) && (mufValue <= 445))
+                {
+                    mufScore = 88;
+                }
+                else if ((mufValue >= 446) && (mufValue <= 449))
+                {
+                    mufScore = 87;
+                }
+                else if ((mufValue >= 450) && (mufValue <= 453))
+                {
+                    mufScore = 86;
+                }
+                else if ((mufValue >= 454) && (mufValue <= 457))
+                {
+                    mufScore = 85;
+                }
+                else if ((mufValue >= 458) && (mufValue <= 502))
+                {
+                    mufScore = 84;
+                }
+                else if ((mufValue >= 503) && (mufValue <= 506))
+                {
+                    mufScore = 83;
+                }
+                else if ((mufValue >= 507) && (mufValue <= 510))
+                {
+                    mufScore = 82;
+                }
+                else if ((mufValue >= 511) && (mufValue <= 514))
+                {
+                    mufScore = 81;
+                }
+                else if ((mufValue >= 515) && (mufValue <= 519))
+                {
+                    mufScore = 80;
+                }
+                else if ((mufValue >= 520) && (mufValue <= 523))
+                {
+                    mufScore = 79;
+                }
+                else if ((mufValue >= 524) && (mufValue <= 527))
+                {
+                    mufScore = 78;
+                }
+                else if ((mufValue >= 528) && (mufValue <= 532))
+                {
+                    mufScore = 77;
+                }
+                else if ((mufValue >= 533) && (mufValue <= 536))
+                {
+                    mufScore = 76;
+                }
+                else if ((mufValue >= 537) && (mufValue <= 540))
+                {
+                    mufScore = 75;
+                }
+                else if ((mufValue >= 541) && (mufValue <= 544))
+                {
+                    mufScore = 74;
+                }
+                else if ((mufValue >= 545) && (mufValue <= 549))
+                {
+                    mufScore = 73;
+                }
+                else if ((mufValue >= 550) && (mufValue <= 553))
+                {
+                    mufScore = 72;
+                }
+                else if ((mufValue >= 554) && (mufValue <= 557))
+                {
+                    mufScore = 71;
+                }
+                else if ((mufValue >= 558) && (mufValue <= 601))
+                {
+                    mufScore = 70;
+                }
+                else if ((mufValue >= 602) && (mufValue <= 606))
+                {
+                    mufScore = 69;
+                }
+                else if ((mufValue >= 607) && (mufValue <= 610))
+                {
+                    mufScore = 68;
+                }
+                else if ((mufValue >= 611) && (mufValue <= 614))
+                {
+                    mufScore = 67;
+                }
+                else if ((mufValue >= 615) && (mufValue <= 618))
+                {
+                    mufScore = 66;
+                }
+                else if ((mufValue >= 619) && (mufValue <= 623))
+                {
+                    mufScore = 65;
+                }
+                else if ((mufValue >= 624) && (mufValue <= 627))
+                {
+                    mufScore = 64;
+                }
+                else if ((mufValue >= 628) && (mufValue <= 631))
+                {
+                    mufScore = 63;
+                }
+                else if ((mufValue >= 632) && (mufValue <= 635))
+                {
+                    mufScore = 62;
+                }
+                else if ((mufValue >= 636) && (mufValue <= 640))
+                {
+                    mufScore = 61;
+                }
+                else if (mufValue == 641)
+                {
+                    mufScore = 60;
+                }
+                else if (mufValue >= 642)
+                {
+                    mufScore = 0;
+                }
+                [muf resignFirstResponder];
+                
+                cftScore = (mtcScore + amoScore + mufScore);
+                NSString *cftScoreString = [NSString stringWithFormat:@"%ld", cftScore];
+                score.text = cftScoreString;
+                
+                //Calculate 1st/2nd/3rd class:
+                if (cftScore >= 270)
+                {
+                    cftclass.text = [NSString stringWithFormat:@"1st Class"];
+                }
+                else if ((cftScore >= 225) && (cftScore <= 269))
+                {
+                    cftclass.text = [NSString stringWithFormat:@"2nd Class"];
+                }
+                else if ((cftScore >= 190) && (cftScore <= 224))
+                {
+                    cftclass.text = [NSString stringWithFormat:@"3rd Class"];
+                }
+                else if (cftScore <= 189)
+                {
+                    cftclass.text = [NSString stringWithFormat:@"No Class"];
+                }
+                
+                //Calculate Pass/Fail:
+                if ((mtcScore >= 60) && (amoScore >= 60) && (mufScore >= 60))
+                {
+                    if (cftScore >= 190)
+                    {
+                        status.text = [NSString stringWithFormat:@"Pass"];
+                    }
+                    else
+                    {
+                        status.text = [NSString stringWithFormat:@"Fail"];
+                    }
+                }
+                else if ((mtcScore <=59) || (amoScore <=59) || (mufScore <=59))
+                {
+                    status.text = [NSString stringWithFormat:@"Fail"];
+                }
+                
+            }
+            [age resignFirstResponder];
+        }
+    }
 }
 
 /*
