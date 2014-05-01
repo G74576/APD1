@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CFTViewController : UIViewController
+@interface CFTViewController : UIViewController <UIAlertViewDelegate, UITextFieldDelegate>
 {
     IBOutlet UISegmentedControl *gender;
     IBOutlet UITextField *age;

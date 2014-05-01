@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface PFTViewController : UIViewController
+@interface PFTViewController : UIViewController <UIAlertViewDelegate, UITextFieldDelegate>
 {
     IBOutlet UISegmentedControl *gender;
     IBOutlet UITextField *age;

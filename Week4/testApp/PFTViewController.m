@@ -63,6 +63,30 @@
     // Dispose of any resources that can be recreated.
 }
 
+//Set up next and return key on keyboard to navigate through textfields.
+- (BOOL)textFieldShouldReturn:(UITextField *)textField {
+	if (textField == age)
+    {
+		[textField resignFirstResponder];
+		[pullups becomeFirstResponder];
+	}
+	else if (textField == pullups)
+    {
+		[textField resignFirstResponder];
+		[crunches becomeFirstResponder];
+	}
+	else if (textField == crunches)
+    {
+		[textField resignFirstResponder];
+        [runtime becomeFirstResponder];
+	}
+    else if (textField == runtime)
+    {
+        [textField resignFirstResponder];
+    }
+	return YES;
+}
+
 -(IBAction)genderSegmentedController
 {
     if (gender.selectedSegmentIndex == 0)
@@ -4844,14 +4868,24 @@
 
 -(IBAction)onClear:(id)sender
 {
-    age.text = @"";
-    pullups.text = @"";
-    crunches.text = @"";
-    runtime.text = @"";
-    status.text = @"Pass/Fail";
-    status.textColor = [UIColor blackColor];
-    pftClass.text = @"1st/2nd/3rd";
-    score.text = @"0-300";
+    UIAlertView *clearAlert = [[UIAlertView alloc]initWithTitle:@"Warning!" message:@"Are you sure you want to clear all fields?" delegate:self cancelButtonTitle:@"Cancel" otherButtonTitles:@"OK", nil];
+    
+    [clearAlert show];
+}
+
+-(void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex
+{
+    if (buttonIndex == 1)
+    {
+        age.text = @"";
+        pullups.text = @"";
+        crunches.text = @"";
+        runtime.text = @"";
+        status.text = @"Pass/Fail";
+        status.textColor = [UIColor blackColor];
+        pftClass.text = @"1st/2nd/3rd";
+        score.text = @"0-300";
+    }
 }
 
 /*

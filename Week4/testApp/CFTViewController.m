@@ -61,6 +61,30 @@
     // Dispose of any resources that can be recreated.
 }
 
+//Set up next and return key on keyboard to navigate through textfields.
+- (BOOL)textFieldShouldReturn:(UITextField *)textField {
+	if (textField == age)
+    {
+		[textField resignFirstResponder];
+		[mtc becomeFirstResponder];
+	}
+	else if (textField == mtc)
+    {
+		[textField resignFirstResponder];
+		[amo becomeFirstResponder];
+	}
+	else if (textField == amo)
+    {
+		[textField resignFirstResponder];
+        [muf becomeFirstResponder];
+	}
+    else if (textField == muf)
+    {
+        [textField resignFirstResponder];
+    }
+	return YES;
+}
+
 -(IBAction)onClick:(id)sender
 {
     //If gender is Male:
@@ -9067,16 +9091,26 @@
     [self.view endEditing:YES];
 }
 
--(void)onClear:(id)sender
+-(IBAction)onClear:(id)sender
 {
-    age.text = @"";
-    mtc.text = @"";
-    amo.text = @"";
-    muf.text = @"";
-    status.text = @"Pass/Fail";
-    status.textColor = [UIColor blackColor];
-    cftclass.text = @"1st/2nd/3rd";
-    score.text = @"0-300";
+    UIAlertView *clearAlert = [[UIAlertView alloc]initWithTitle:@"Warning!" message:@"Are you sure you want to clear all fields?" delegate:self cancelButtonTitle:@"Cancel" otherButtonTitles:@"OK", nil];
+    
+    [clearAlert show];
+}
+
+-(void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex
+{
+    if (buttonIndex == 1)
+    {
+        age.text = @"";
+        mtc.text = @"";
+        amo.text = @"";
+        muf.text = @"";
+        status.text = @"Pass/Fail";
+        status.textColor = [UIColor blackColor];
+        cftclass.text = @"1st/2nd/3rd";
+        score.text = @"0-300";
+    }
 }
 
 /*
